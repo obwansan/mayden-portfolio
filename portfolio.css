@@ -38,11 +38,6 @@ body {
     text-align: center; /* How to center inline elements*/
 }
 
-.page-link {
-    height: 60px;
-    width: 60px;
-}
-
 /*.page-links-container-portfolio {*/
     /*!* Vertically and horizontally centre div *!*/
     /*position: absolute;*/

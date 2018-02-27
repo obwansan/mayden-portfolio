@@ -7,6 +7,7 @@ body {
 }
 
 .name {
+    margin-top: 280px;
     text-align: center;
     font-size: 3rem;
     /*border: 1px solid #FFF;*/
@@ -18,10 +19,11 @@ body {
     /*border: 1px solid #FFF;*/
 }
 
-.page-links-container-home {
-    /* Vertically and horizontally centre div */
-    position: absolute;
-    top: 70%;
-    left: 50%;
-    transform: translate(-50%, -50%);
+.icons {
+    margin-top: 70px;
+    text-align: center; /* How to center inline elements*/
+}
+
+#home {
+    width: 80%;
 }
