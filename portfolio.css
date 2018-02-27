@@ -9,10 +9,14 @@ body {
     position: relative;
     float: left;
     width: 25%;
-    height: 200px;
+    height: 250px;
     padding: 10px;
     /*border-radius: 50%;*/
     /*border: 1px solid #FFF;*/
+}
+
+.gallery {
+    overflow: auto;
 }
 
 .portfolio-image {
@@ -29,29 +33,33 @@ body {
     transform: translate(-50%, -50%);
 }
 
-.page-links-container-portfolio {
-    /* Vertically and horizontally centre div */
+.icons {
+    margin-top: 70px;
+    text-align: center; /* How to center inline elements*/
+}
+
+.page-link {
+    height: 60px;
+    width: 60px;
+}
+
+/*.page-links-container-portfolio {*/
+    /*!* Vertically and horizontally centre div *!*/
     /*position: absolute;*/
     /*top: 95%;*/
     /*left: 50%;*/
     /*transform: translate(-50%, -50%);*/
-}
+/*}*/
 
 /****************************
 Media Queries
 /****************************/
 
-@media screen and (max-width: 980px) {
+@media screen and (max-width: 1010px) {
 
     .col-4 {
         width: 33.33%;
     }
 
-    .page-links-container-portfolio {
-        /* Vertically and horizontally centre div */
-        position: absolute;
-        top: 95%;
-        left: 50%;
-        transform: translate(-50%, -50%);
-    }
+
 }
