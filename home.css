@@ -8,14 +8,14 @@ body {
 
 .name {
     text-align: center;
-    border: 1px solid #FFF;
     font-size: 3rem;
+    /*border: 1px solid #FFF;*/
 }
 
 .title {
     text-align: center;
-    border: 1px solid #FFF;
     font-size: 2rem;
+    /*border: 1px solid #FFF;*/
 }
 
 .page-links-container {
@@ -24,7 +24,7 @@ body {
     top: 70%;
     left: 50%;
     transform: translate(-50%, -50%);
-    border: 1px solid #FFF;
+    /*border: 1px solid #FFF;*/
     /*height: 100px;*/
     /*width: 100px;*/
 }
@@ -32,6 +32,6 @@ body {
 .page-link-image {
     height: 50px;
     width: 50px;
-    border: 1px solid #FFF;
-    margin: 5px
+    margin: 5px;
+    /*border: 1px solid #FFF;*/
 }

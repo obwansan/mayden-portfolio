@@ -15,6 +15,11 @@ main {
     padding: 0;
 }
 
+h1 {
+    text-align: center;
+
+}
+
 .outer-container {
     /* Vertically and horizontally centre div */
     width: 1200px;
@@ -26,7 +31,7 @@ main {
     max-width: 100%;
     max-height: 100%;
     overflow: auto;
-    border: 1px solid #FFF;
+    /*border: 1px solid #FFF;*/
 }
 
 .inner-container {
@@ -36,7 +41,7 @@ main {
     top: 50%;
     left: 50%;
     transform: translate(-50%, -50%);
-    border: 1px solid #FFF;
+    /*border: 1px solid #FFF;*/
 }
 
 
