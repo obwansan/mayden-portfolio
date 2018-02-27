@@ -19,7 +19,7 @@ main {
     /* Vertically and horizontally centre div */
     width: 1200px;
     height: 600px;
-    position: absolute;
+    position: relative;
     left: 0; right: 0;
     top: 0; bottom: 0;
     margin: auto;
