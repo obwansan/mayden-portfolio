@@ -25,3 +25,11 @@ body {
 .profile-image {
     border-radius: 50%;
 }
+
+.page-links-container-profile {
+    /* Vertically and horizontally centre div */
+    position: absolute;
+    top: 90%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}

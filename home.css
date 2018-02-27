@@ -18,20 +18,10 @@ body {
     /*border: 1px solid #FFF;*/
 }
 
-.page-links-container {
+.page-links-container-home {
     /* Vertically and horizontally centre div */
     position: absolute;
     top: 70%;
     left: 50%;
     transform: translate(-50%, -50%);
-    /*border: 1px solid #FFF;*/
-    /*height: 100px;*/
-    /*width: 100px;*/
-}
-
-.page-link-image {
-    height: 50px;
-    width: 50px;
-    margin: 5px;
-    /*border: 1px solid #FFF;*/
 }

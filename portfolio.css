@@ -29,3 +29,10 @@ body {
     transform: translate(-50%, -50%);
 }
 
+.page-links-container-portfolio {
+    /* Vertically and horizontally centre div */
+    position: absolute;
+    top: 95%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
