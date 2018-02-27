@@ -21,7 +21,7 @@ main {
 }
 
 .container {
-    /* Centre div */
+    /* Vertically and horizontally centre div */
     width: 600px;
     height: 600px;
     position: absolute;
@@ -31,11 +31,11 @@ main {
     max-width: 100%;
     max-height: 100%;
     overflow: auto;
-    border: 1px solid black;
+    border: 1px solid #FFF;
 }
 
 .text-container {
-    /* Centre div */
+    /* Vertically and horizontally centre div */
     position: absolute;
     top: 50%;
     left: 50%;
@@ -44,12 +44,48 @@ main {
 
 .name {
     text-align: center;
-    border: 1px solid black;
+    border: 1px solid #FFF;
     font-size: 3rem;
 }
 
 .title {
     text-align: center;
-    border: 1px solid black;
+    border: 1px solid #FFF;
     font-size: 2rem;
 }
+
+.page-links-container {
+    /* Vertically and horizontally centre div */
+    position: absolute;
+    top: 70%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    border: 1px solid #FFF;
+    /*height: 100px;*/
+    /*width: 100px;*/
+}
+
+.page-link-image {
+    height: 50px;
+    width: 50px;
+    border: 1px solid #FFF;
+    margin: 5px
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
