@@ -1,0 +1,38 @@
+body {
+    background: #da4453; /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, #89216b, #da4453) fixed; /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, #89216b,     #da4453) fixed; /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    /*Have to put 'fixed' on end of linear-gradient for it to work / fill entire screen*/
+}
+
+.col-4 {
+    position: relative;
+    float: left;
+    width: 25%;
+    height: 200px;
+    padding: 10px;
+    /*border-radius: 50%;*/
+    /*border: 1px solid #FFF;*/
+}
+
+.portfolio-image {
+    height: 175px;
+    width: 175px;
+    border-radius: 20%;
+    margin: 0 auto;
+    background-image: url(images/mayden-logo.png);
+    background-size: contain;
+    /* Vertically and horizontally centre div */
+    position: relative;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.page-links-container-portfolio {
+    /* Vertically and horizontally centre div */
+    position: absolute;
+    top: 95%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}

@@ -1,0 +1,35 @@
+body {
+    background: #11998e;  /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, #11998e, #38ef7d);  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, #11998e, #38ef7d); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+
+}
+
+.col-4 {
+    /*position: relative;*/
+    float: left;
+    width: 33.33%;
+    height: 400px;
+    padding: 50px 30px;
+    /*border: 1px solid #FFF;*/
+}
+
+.col-8 {
+    float: left;
+    width: 66.66%;
+    height: 400px;
+    padding: 50px 10px;
+    /*border: 1px solid #FFF;*/
+}
+
+.profile-image {
+    border-radius: 50%;
+}
+
+.page-links-container-profile {
+    /* Vertically and horizontally centre div */
+    position: absolute;
+    top: 90%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
