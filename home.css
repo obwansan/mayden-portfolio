@@ -10,13 +10,12 @@ body {
     margin-top: 280px;
     text-align: center;
     font-size: 3rem;
-    /*border: 1px solid #FFF;*/
 }
 
 .title {
     text-align: center;
     font-size: 2rem;
-    /*border: 1px solid #FFF;*/
+    margin-top: 5px;
 }
 
 .icons {
