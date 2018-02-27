@@ -1,0 +1,37 @@
+body {
+    /* Visions of grandeur */
+    background: #000046;  /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, #000046, #1CB5E0) fixed;  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, #000046, #1CB5E0) fixed; /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    /*Have to put 'fixed' on end of linear-gradient for it to work / fill entire screen*/
+}
+
+.name {
+    text-align: center;
+    border: 1px solid #FFF;
+    font-size: 3rem;
+}
+
+.title {
+    text-align: center;
+    border: 1px solid #FFF;
+    font-size: 2rem;
+}
+
+.page-links-container {
+    /* Vertically and horizontally centre div */
+    position: absolute;
+    top: 70%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    border: 1px solid #FFF;
+    /*height: 100px;*/
+    /*width: 100px;*/
+}
+
+.page-link-image {
+    height: 50px;
+    width: 50px;
+    border: 1px solid #FFF;
+    margin: 5px
+}
