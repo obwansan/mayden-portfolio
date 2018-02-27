@@ -16,8 +16,8 @@ body {
 }
 
 .portfolio-image {
-    height: 175px;
-    width: 175px;
+    height: 180px;
+    width: 180px;
     border-radius: 20%;
     margin: 0 auto;
     background-image: url(images/mayden-logo.png);
@@ -31,8 +31,27 @@ body {
 
 .page-links-container-portfolio {
     /* Vertically and horizontally centre div */
-    position: absolute;
-    top: 95%;
-    left: 50%;
-    transform: translate(-50%, -50%);
+    /*position: absolute;*/
+    /*top: 95%;*/
+    /*left: 50%;*/
+    /*transform: translate(-50%, -50%);*/
+}
+
+/****************************
+Media Queries
+/****************************/
+
+@media screen and (max-width: 980px) {
+
+    .col-4 {
+        width: 33.33%;
+    }
+
+    .page-links-container-portfolio {
+        /* Vertically and horizontally centre div */
+        position: absolute;
+        top: 95%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+    }
 }
