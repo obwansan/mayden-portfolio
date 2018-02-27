@@ -6,9 +6,22 @@ body {
 }
 
 .col-4 {
-
+    /*position: relative;*/
+    float: left;
+    width: 33.33%;
+    height: 400px;
+    padding: 50px 30px;
+    /*border: 1px solid #FFF;*/
 }
 
 .col-8 {
+    float: left;
+    width: 66.66%;
+    height: 400px;
+    padding: 50px 10px;
+    /*border: 1px solid #FFF;*/
+}
 
+.profile-image {
+    border-radius: 50%;
 }
