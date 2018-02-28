@@ -23,7 +23,7 @@ body {
     width: 225px;
     border-radius: 20%;
     margin: 0 auto;
-    background-image: url(images/mayden-logo.png);
+    /*background-image: url(images/mayden-logo.png);*/
     background-size: contain;
     /* Vertically and horizontally centre div */
     position: relative;
