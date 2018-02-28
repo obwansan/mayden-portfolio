@@ -18,7 +18,7 @@ body {
 .col-8 {
     float: left;
     width: 66.66%;
-    height: 400px;
+    /*height: 400px;*/
     padding: 50px 10px;
     /*border: 1px solid #FFF;*/
 }
@@ -93,6 +93,18 @@ Media Queries
         text-align: center;
     }
 
+    .icons {
+        padding-top: 0;
+    }
+
+}
+
+@media screen and (max-width: 770px) {
+
+    .page-link {
+        margin-top: 45px;
+    }
+
 }
 
 @media screen and (max-width: 770px) {
@@ -102,7 +114,7 @@ Media Queries
     }
 
     .icons {
-        margin-top: 80px;
+        margin-top: 50px;
     }
 
 }
@@ -114,7 +126,41 @@ Media Queries
     }
 
     .icons {
-        margin-top: 100px;
+        margin-top: 50px;
+    }
+
+}
+
+@media screen and (max-width: 580px) {
+
+    .container {
+        height: 1400px;
+        margin-top: 20px;
+    }
+
+    .page-link {
+        margin-top: 10px;
+    }
+
+    .icons {
+        margin-top: 20px;
+        padding-top: 20px;
+    }
+
+}
+
+@media screen and (max-width: 580px) {
+
+    .container {
+        height: 1500px;
+    }
+
+}
+
+@media screen and (max-width: 385px) {
+
+    .container {
+        height: 1600px;
     }
 
 }
