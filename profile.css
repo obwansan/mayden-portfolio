@@ -5,13 +5,14 @@ body {
 
 }
 
+.container {
+    width: 1200px;
+}
+
 .col-4 {
     position: relative;
     float: left;
-    width: 33.33%;
-    height: 400px;
     padding: 50px 30px;
-    /*border: 1px solid #FFF;*/
 }
 
 .col-8 {
@@ -24,13 +25,14 @@ body {
 
 .profile-image {
     border-radius: 50%;
-    height: 220px;
-    width: 220px;
-    margin-top: 13px;
+    height: 250px;
+    width: 250px;
+    margin-top: 20px;
     margin-left: 45px;
 }
 
 .icons {
+    clear: both;
     text-align: center; /* How to center inline elements*/
 }
 
@@ -42,6 +44,36 @@ h3 {
     margin-bottom: 8px;
 }
 
+p {
+    font-size: 1.3rem;
+}
+
 .contact{
     margin: 0;
+}
+
+/****************************
+Media Queries
+/****************************/
+
+@media screen and (max-width: 1190px) {
+
+    .col-4 {
+        float: none;
+        margin: 0 auto;
+    }
+
+    .col-8 {
+        float: none;
+        margin: 0 auto;
+    }
+
+    .container {
+        height: 1100px;
+    }
+
+    h1 {
+        margin-bottom: 0;
+    }
+
 }
