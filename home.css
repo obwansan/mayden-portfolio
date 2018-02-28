@@ -6,6 +6,12 @@ body {
     /*Have to put 'fixed' on end of linear-gradient for it to work / fill entire screen*/
 }
 
+.ie {
+    background: #1c92d2;  /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, #f2fcfe, #1c92d2) fixed;  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, #f2fcfe, #1c92d2) fixed; /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+}
+
 .name {
     margin-top: 300px;
     text-align: center;
@@ -27,12 +33,11 @@ body {
     width: 80%;
 }
 
-
 /****************************
 Media Queries
 /****************************/
 
-@media screen and (max-width: 205px) {
+@media screen and (max-width: 215px) {
 
     .name {
         font-size: 2.25rem;
@@ -40,6 +45,14 @@ Media Queries
 
     .title {
         font-size: 1.25rem;
+    }
+
+}
+
+@media screen and (max-width: 215px) {
+
+    .name {
+        font-size: 2rem;
     }
 
 }

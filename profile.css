@@ -101,13 +101,21 @@ Media Queries
 
 @media screen and (max-width: 770px) {
 
+    .container {
+        height: 1150px;
+    }
+
+    .icons {
+        margin-top: 50px;
+    }
+
     .page-link {
         margin-top: 45px;
     }
 
 }
 
-@media screen and (max-width: 770px) {
+@media screen and (max-width: 688px) {
 
     .container {
         height: 1200px;
@@ -119,23 +127,23 @@ Media Queries
 
 }
 
-@media screen and (max-width: 688px) {
+@media screen and (max-width: 625px) {
 
     .container {
-        height: 1300px;
+        height: 1250px;
     }
 
     .icons {
-        margin-top: 50px;
+        margin-top: 10px;
     }
+
 
 }
 
 @media screen and (max-width: 580px) {
 
     .container {
-        height: 1400px;
-        margin-top: 20px;
+        height: 1300px;
     }
 
     .page-link {
@@ -149,15 +157,23 @@ Media Queries
 
 }
 
-@media screen and (max-width: 580px) {
+@media screen and (max-width: 502px) {
 
     .container {
-        height: 1500px;
+        height: 1350px;
     }
 
 }
 
-@media screen and (max-width: 385px) {
+@media screen and (max-width: 455px) {
+
+    .container {
+        height: 1400px;
+    }
+
+}
+
+@media screen and (max-width: 435px) {
 
     .container {
         height: 1600px;

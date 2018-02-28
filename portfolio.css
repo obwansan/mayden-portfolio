@@ -16,15 +16,16 @@ body {
     overflow: auto;
     width: 1200px;
     margin: 0 auto;
+    /*-ms-overflow-style: -ms-autohiding-scrollbar;*/
 }
 
 .portfolio-image {
-    height: 225px;
-    width: 225px;
+    height: 200px;
+    width: 200px;
     border-radius: 20%;
     margin: 0 auto;
-    /*background-image: url(images/mayden-logo.png);*/
     background-size: contain;
+
     /* Vertically and horizontally centre div */
     position: relative;
     top: 50%;
@@ -37,13 +38,10 @@ body {
     text-align: center; /* How to center inline elements*/
 }
 
-/*.page-links-container-portfolio {*/
-    /*!* Vertically and horizontally centre div *!*/
-    /*position: absolute;*/
-    /*top: 95%;*/
-    /*left: 50%;*/
-    /*transform: translate(-50%, -50%);*/
-/*}*/
+.ie .gallery img {
+    top: 0;
+    left: 0;
+}
 
 /****************************
 Media Queries
