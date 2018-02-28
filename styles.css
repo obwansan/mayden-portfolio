@@ -6,6 +6,7 @@ body {
     margin: 0;
     font-family: 'Josefin Sans', sans-serif;
     color: #FFFFFF;
+    position: relative;
 }
 
 main {
@@ -17,15 +18,15 @@ main {
 
 h1 {
     text-align: center;
-    margin-bottom: 60px;
+    margin-bottom: 50px;
 }
 
 .container {
-    width: 1000px;
+    width: 90%;
     height: 800px;
     position: relative;
     margin: auto;
-    margin-top: 75px;
+    margin-top: 40px;
     overflow: auto;
     overflow-x: hidden; /* Prevents horizontal scrollbar appearing */
     overflow-y: hidden; /* Prevents vertical scrollbar appearing */

@@ -9,19 +9,18 @@ body {
     position: relative;
     float: left;
     width: 25%;
-    height: 250px;
-    padding: 10px;
-    /*border-radius: 50%;*/
-    /*border: 1px solid #FFF;*/
+    height: 225px;
 }
 
 .gallery {
     overflow: auto;
+    width: 1200px;
+    margin: 0 auto;
 }
 
 .portfolio-image {
-    height: 180px;
-    width: 180px;
+    height: 170px;
+    width: 170px;
     border-radius: 20%;
     margin: 0 auto;
     background-image: url(images/mayden-logo.png);
@@ -50,11 +49,74 @@ body {
 Media Queries
 /****************************/
 
-@media screen and (max-width: 1010px) {
+@media screen and (max-width: 1340px) {
 
     .col-4 {
-        width: 33.33%;
+        width: 33.3%;
+        margin-top: 10px;
+        margin: 0 auto;
     }
+
+}
+
+@media screen and (max-width: 1010px) {
+
+    /*.container {*/
+        /*height: 1400px;*/
+    /*}*/
+
+    .col-4 {
+        width: 50%;
+        margin-bottom: 50px;
+    }
+
+    .portfolio-image {
+        height: 225px;
+        width: 225px;
+    }
+
+    .gallery {
+        margin: 0 auto;
+        width: 70%;
+    }
+
+    .icons {
+        margin-top: 30px;
+    }
+}
+
+@media screen and (max-width: 840px) {
+
+    .container {
+        height: 2800px;
+    }
+
+    .col-4 {
+        width: 100%;
+        margin-bottom: 150px;
+        margin-top: 95px;
+    }
+
+    .portfolio-image {
+        height: 400px;
+        width: 400px;
+    }
+
+    .gallery {
+        margin: 0 auto;
+        width: 70%;
+    }
+
+    .icons {
+        margin-top: 30px;
+    }
+
+}
+
+@media screen and (max-width: 580px) {
+
+    .portfolio-image {
 
 
 }
+
