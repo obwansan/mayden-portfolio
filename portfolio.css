@@ -1,38 +1,97 @@
 body {
+    /* uiGradient - Vanusa */
     background: #da4453; /* fallback for old browsers */
     background: -webkit-linear-gradient(to right, #89216b, #da4453) fixed; /* Chrome 10-25, Safari 5.1-6 */
     background: linear-gradient(to right, #89216b,     #da4453) fixed; /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
-    /*Have to put 'fixed' on end of linear-gradient for it to work / fill entire screen*/
 }
 
 .col-4 {
     position: relative;
     float: left;
     width: 25%;
-    height: 200px;
-    padding: 10px;
-    /*border-radius: 50%;*/
-    /*border: 1px solid #FFF;*/
+    height: 300px;
+}
+
+.gallery {
+    overflow: auto;
+    width: 1200px;
+    margin: 0 auto;
 }
 
 .portfolio-image {
-    height: 175px;
-    width: 175px;
+    height: 200px;
+    width: 200px;
     border-radius: 20%;
     margin: 0 auto;
-    background-image: url(images/mayden-logo.png);
     background-size: contain;
+
     /* Vertically and horizontally centre div */
-    position: relative;
+    position: absolute;
     top: 50%;
     left: 50%;
     transform: translate(-50%, -50%);
 }
 
-.page-links-container-portfolio {
-    /* Vertically and horizontally centre div */
-    position: absolute;
-    top: 95%;
-    left: 50%;
-    transform: translate(-50%, -50%);
+.icons {
+    margin-top: 70px;
+    text-align: center;
+}
+
+.ie .gallery img {
+    top: 0;
+    left: 0;
+}
+
+/****************************
+Media Queries
+/****************************/
+
+@media screen and (max-width: 1340px) {
+
+    .col-4 {
+        width: 33.3%;
+        margin-top: 10px;
+        margin: 0 auto;
+    }
+
+}
+
+@media screen and (max-width: 1270px) {
+
+    .col-4 {
+        width: 50%;
+        margin-bottom: 50px;
+    }
+
+    .portfolio-image {
+        height: 225px;
+        width: 225px;
+    }
+
+    .gallery {
+        margin: 0 auto;
+        width: 70%;
+    }
+
+    .icons {
+        margin-top: 30px;
+    }
+
+}
+
+@media screen and (max-width: 990px) {
+
+    .col-4 {
+        width: 100%;
+    }
+
+    .gallery {
+        margin: 0 auto;
+        width: 70%;
+    }
+
+    .icons {
+        margin-top: 30px;
+    }
+
 }
