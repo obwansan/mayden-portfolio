@@ -1,8 +1,8 @@
 body {
+    /* uiGradient - Vanusa */
     background: #da4453; /* fallback for old browsers */
     background: -webkit-linear-gradient(to right, #89216b, #da4453) fixed; /* Chrome 10-25, Safari 5.1-6 */
     background: linear-gradient(to right, #89216b,     #da4453) fixed; /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
-    /*Have to put 'fixed' on end of linear-gradient for it to work / fill entire screen*/
 }
 
 .col-4 {
@@ -16,7 +16,6 @@ body {
     overflow: auto;
     width: 1200px;
     margin: 0 auto;
-    /*-ms-overflow-style: -ms-autohiding-scrollbar;*/
 }
 
 .portfolio-image {
@@ -27,7 +26,7 @@ body {
     background-size: contain;
 
     /* Vertically and horizontally centre div */
-    position: relative;
+    position: absolute;
     top: 50%;
     left: 50%;
     transform: translate(-50%, -50%);
@@ -35,7 +34,7 @@ body {
 
 .icons {
     margin-top: 70px;
-    text-align: center; /* How to center inline elements*/
+    text-align: center;
 }
 
 .ie .gallery img {

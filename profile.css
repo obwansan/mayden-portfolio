@@ -1,8 +1,8 @@
 body {
+    /* uiGradioent - Quepal */
     background: #11998e;  /* fallback for old browsers */
     background: -webkit-linear-gradient(to right, #11998e, #38ef7d);  /* Chrome 10-25, Safari 5.1-6 */
     background: linear-gradient(to right, #11998e, #38ef7d); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
-
 }
 
 .container {
@@ -10,7 +10,6 @@ body {
 }
 
 .col-4 {
-    position: relative;
     float: left;
     padding: 50px 30px;
 }
@@ -18,9 +17,7 @@ body {
 .col-8 {
     float: left;
     width: 66.66%;
-    /*height: 400px;*/
     padding: 50px 10px;
-    /*border: 1px solid #FFF;*/
 }
 
 .profile-image {
@@ -33,7 +30,7 @@ body {
 
 .icons {
     clear: both;
-    text-align: center; /* How to center inline elements*/
+    text-align: center;
     padding-top: 70px;
 }
 
@@ -60,7 +57,6 @@ Media Queries
 @media screen and (max-width: 1190px) {
 
     .container {
-        /*height: 1100px;*/
         width: 80%;
     }
 
@@ -98,85 +94,3 @@ Media Queries
     }
 
 }
-
-/*@media screen and (max-width: 770px) {*/
-
-    /*.container {*/
-        /*height: 1150px;*/
-    /*}*/
-
-    /*.icons {*/
-        /*margin-top: 50px;*/
-    /*}*/
-
-    /*.page-link {*/
-        /*margin-top: 45px;*/
-    /*}*/
-
-/*}*/
-
-/*@media screen and (max-width: 688px) {*/
-
-    /*.container {*/
-        /*height: 1200px;*/
-    /*}*/
-
-    /*.icons {*/
-        /*margin-top: 50px;*/
-    /*}*/
-
-/*}*/
-
-/*@media screen and (max-width: 625px) {*/
-
-    /*.container {*/
-        /*height: 1250px;*/
-    /*}*/
-
-    /*.icons {*/
-        /*margin-top: 10px;*/
-    /*}*/
-
-
-/*}*/
-
-/*@media screen and (max-width: 580px) {*/
-
-    /*.container {*/
-        /*height: 1300px;*/
-    /*}*/
-
-    /*.page-link {*/
-        /*margin-top: 10px;*/
-    /*}*/
-
-    /*.icons {*/
-        /*margin-top: 20px;*/
-        /*padding-top: 20px;*/
-    /*}*/
-
-/*}*/
-
-/*@media screen and (max-width: 502px) {*/
-
-    /*.container {*/
-        /*height: 1350px;*/
-    /*}*/
-
-/*}*/
-
-/*@media screen and (max-width: 455px) {*/
-
-    /*.container {*/
-        /*height: 1400px;*/
-    /*}*/
-
-/*}*/
-
-/*@media screen and (max-width: 435px) {*/
-
-    /*.container {*/
-        /*height: 1600px;*/
-    /*}*/
-
-/*}*/
