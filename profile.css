@@ -60,7 +60,7 @@ Media Queries
 @media screen and (max-width: 1190px) {
 
     .container {
-        height: 1100px;
+        /*height: 1100px;*/
         width: 80%;
     }
 
@@ -99,84 +99,84 @@ Media Queries
 
 }
 
-@media screen and (max-width: 770px) {
+/*@media screen and (max-width: 770px) {*/
 
-    .container {
-        height: 1150px;
-    }
+    /*.container {*/
+        /*height: 1150px;*/
+    /*}*/
 
-    .icons {
-        margin-top: 50px;
-    }
+    /*.icons {*/
+        /*margin-top: 50px;*/
+    /*}*/
 
-    .page-link {
-        margin-top: 45px;
-    }
+    /*.page-link {*/
+        /*margin-top: 45px;*/
+    /*}*/
 
-}
+/*}*/
 
-@media screen and (max-width: 688px) {
+/*@media screen and (max-width: 688px) {*/
 
-    .container {
-        height: 1200px;
-    }
+    /*.container {*/
+        /*height: 1200px;*/
+    /*}*/
 
-    .icons {
-        margin-top: 50px;
-    }
+    /*.icons {*/
+        /*margin-top: 50px;*/
+    /*}*/
 
-}
+/*}*/
 
-@media screen and (max-width: 625px) {
+/*@media screen and (max-width: 625px) {*/
 
-    .container {
-        height: 1250px;
-    }
+    /*.container {*/
+        /*height: 1250px;*/
+    /*}*/
 
-    .icons {
-        margin-top: 10px;
-    }
+    /*.icons {*/
+        /*margin-top: 10px;*/
+    /*}*/
 
 
-}
+/*}*/
 
-@media screen and (max-width: 580px) {
+/*@media screen and (max-width: 580px) {*/
 
-    .container {
-        height: 1300px;
-    }
+    /*.container {*/
+        /*height: 1300px;*/
+    /*}*/
 
-    .page-link {
-        margin-top: 10px;
-    }
+    /*.page-link {*/
+        /*margin-top: 10px;*/
+    /*}*/
 
-    .icons {
-        margin-top: 20px;
-        padding-top: 20px;
-    }
+    /*.icons {*/
+        /*margin-top: 20px;*/
+        /*padding-top: 20px;*/
+    /*}*/
 
-}
+/*}*/
 
-@media screen and (max-width: 502px) {
+/*@media screen and (max-width: 502px) {*/
 
-    .container {
-        height: 1350px;
-    }
+    /*.container {*/
+        /*height: 1350px;*/
+    /*}*/
 
-}
+/*}*/
 
-@media screen and (max-width: 455px) {
+/*@media screen and (max-width: 455px) {*/
 
-    .container {
-        height: 1400px;
-    }
+    /*.container {*/
+        /*height: 1400px;*/
+    /*}*/
 
-}
+/*}*/
 
-@media screen and (max-width: 435px) {
+/*@media screen and (max-width: 435px) {*/
 
-    .container {
-        height: 1600px;
-    }
+    /*.container {*/
+        /*height: 1600px;*/
+    /*}*/
 
-}
+/*}*/

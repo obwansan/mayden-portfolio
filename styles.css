@@ -2,10 +2,6 @@
     box-sizing: border-box;
 }
 
-html {
-    -ms-overflow-style: -ms-autohiding-scrollbar;
-}
-
 body {
     margin: 0;
     font-family: 'Josefin Sans', sans-serif;
@@ -13,27 +9,22 @@ body {
     position: relative;
 }
 
-main {
-    width: 100%;
-    height: 100%;
-    margin: 0;
-    padding: 0;
-}
-
 h1 {
     text-align: center;
+    margin: 100px 0 50px;
+}
+
+.icons {
+    margin-top: 70px;
     margin-bottom: 50px;
+    text-align: center;
 }
 
 .container {
     width: 90%;
-    height: 1000px;
     position: relative;
     margin: auto;
     margin-top: 40px;
-    overflow: auto;
-    overflow-x: hidden; /* Prevents horizontal scrollbar appearing */
-    overflow-y: hidden; /* Prevents vertical scrollbar appearing */
 }
 
 .page-link {

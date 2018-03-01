@@ -55,17 +55,9 @@ Media Queries
         margin: 0 auto;
     }
 
-    .container {
-        height: 1250px;
-    }
-
 }
 
 @media screen and (max-width: 1270px) {
-
-    .container {
-        height: 1750px;
-    }
 
     .col-4 {
         width: 50%;
@@ -89,10 +81,6 @@ Media Queries
 }
 
 @media screen and (max-width: 990px) {
-
-    .container {
-        height: 3100px;
-    }
 
     .col-4 {
         width: 100%;
