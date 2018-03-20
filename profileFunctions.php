@@ -39,9 +39,9 @@ function getEmail() {
     $db = new PDO('mysql:host=127.0.0.1;dbname=portfolio-kevin', 'root');
     $db->setAttribute(PDO::ATTR_DEFAULT_FETCH_MODE, PDO::FETCH_ASSOC);
 
-    $emailQuery = $db->prepare("SELECT `profile`.`text` FROM `profile`;");
+    $emailQuery = $db->prepare("SELECT `profile`.`email` FROM `profile`;");
     $emailQuery->execute();
-    $email = $textQuery->fetch();
+    $email = $emailQuery->fetch();
 //    var_dump($email);
     return $email;
 }
