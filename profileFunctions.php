@@ -11,10 +11,21 @@ function getProfileText() {
     $db = new PDO('mysql:host=127.0.0.1;dbname=portfolio-kevin', 'root');
     $db->setAttribute(PDO::ATTR_DEFAULT_FETCH_MODE, PDO::FETCH_ASSOC);
 
-    $textQuery = $db->prepare("SELECT `profile`.`text` FROM `profile`;");
+    $textQuery = $db->prepare("SELECT * FROM `profile`;");
     $textQuery->execute();
-    $text = $textQuery->fetch();
-    return $text;
+    $textArray = $textQuery->fetchAll();
+    return $textArray;
+}
+
+/**
+ * Outputs profile text to CMS
+ *
+ * @param $text string Outputs profile text
+ *
+ * @return string
+ */
+//function outputProfileText($textArray) {
+//    return $textArray['text'];
 }
 
 /**
@@ -24,8 +35,12 @@ function getProfileText() {
  *
  * @return string
  */
-function outputProfileText($textArray) {
-    return $textArray['text'];
+function outputParagraph(array $array): string{
+    $paragraph = '';
+    foreach ($array as $value) {
+        $paragraph .= '<p>' . $value['text'] . '</p>';
+    }
+    return $paragraph;
 }
 
 /**
@@ -84,4 +99,28 @@ function getPhoto() {
 function outputPhoto($photoArray) {
     return $photoArray['photo'];
 }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 

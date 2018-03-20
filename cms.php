@@ -2,7 +2,6 @@
 
 require_once('profileFunctions.php');
 
-
 ?>
 
 <!DOCTYPE html>
@@ -10,6 +9,7 @@ require_once('profileFunctions.php');
 <head>
     <title>CMS - Kevin O'Brien Portfolio</title>
     <link rel="stylesheet" type="text/css" href="normalize.css">
+    <!-- rand() in php is to fix problem with css file not working. A vagrant / virtualbox issue  -->
     <link rel="stylesheet" type="text/css" href="cms.css?id=<?php echo rand(1000,9999); ?>">
 </head>
 <body>
@@ -25,7 +25,8 @@ require_once('profileFunctions.php');
                 <textarea rows="25" cols="50" name="profileText" id="text">
                     <?php
                     $textArray = getProfileText();
-                    echo outputProfileText($textArray);
+//                    echo outputProfileText($textArray);
+                    echo outputParagraph($textArray);
                     ?>
                 </textarea><br>
 
@@ -34,7 +35,8 @@ require_once('profileFunctions.php');
                     <br>
 
                 <label>Photo:</label>
-                <img src="<?php $photoArray = getPhoto(); echo outputPhoto($photoArray); ?>" alt="photo-of-kevin-obrien" width="100" height="100" id="photo"><br>
+                <img src="/sites/academy-php7/html/portfolio/images/<?php $photoArray = getPhoto(); echo outputPhoto($photoArray); ?>" alt="photo-of-kevin-obrien" width="100" height="100" id="photo"><br>
+
                 <input type="text" name="photoLink" value="<?php $photoArray = getPhoto(); echo outputPhoto($photoArray); ?>"><br>
 
                 <input type="file" value="Change photo"><br>
