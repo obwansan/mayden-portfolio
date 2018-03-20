@@ -30,19 +30,14 @@ require_once('profileFunctions.php');
                 </textarea><br>
 
                 <label>Email:</label>
-                    <input type="email" name="email" value="
-                                                        <?php
-                                                        $emailArray = getEmail();
-                                                        echo outputEmail($emailArray);
-                                                        ?>">
+                    <input type="email" name="email" value="<?php $emailArray = getEmail(); echo outputEmail($emailArray); ?>">
                     <br>
 
-                <input type="image" src="#" alt="photo-of-kevin-obrien" width="100" height="100" id="photo"><br>
-
                 <label>Photo:</label>
-                <input type="text" name="photoLink"><br>
+                <img src="<?php $photoArray = getPhoto(); echo outputPhoto($photoArray); ?>" alt="photo-of-kevin-obrien" width="100" height="100" id="photo"><br>
+                <input type="text" name="photoLink" value="<?php $photoArray = getPhoto(); echo outputPhoto($photoArray); ?>"><br>
 
-                <input type="submit" value="Change photo"><br>
+                <input type="file" value="Change photo"><br>
                 <input type="submit">
             </fieldset>
         </form>

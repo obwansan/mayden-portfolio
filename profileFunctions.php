@@ -5,7 +5,7 @@
  *
  * @param $text string Gets profile text from Db
  *
- * @return Array
+ * @return array
  */
 function getProfileText() {
     $db = new PDO('mysql:host=127.0.0.1;dbname=portfolio-kevin', 'root');
@@ -22,7 +22,7 @@ function getProfileText() {
  *
  * @param $text string Outputs profile text
  *
- * @return String
+ * @return string
  */
 function outputProfileText($textArray) {
     return $textArray['text'];
@@ -33,7 +33,7 @@ function outputProfileText($textArray) {
  *
  * @param $email string Gets profile email from Db
  *
- * @return Array
+ * @return array
  */
 function getEmail() {
     $db = new PDO('mysql:host=127.0.0.1;dbname=portfolio-kevin', 'root');
@@ -51,8 +51,37 @@ function getEmail() {
  *
  * @param $email string Outputs profile email
  *
- * @return String
+ * @return string
  */
 function outputEmail($emailArray) {
     return $emailArray['email'];
 }
+
+/**
+ * Gets photo from Db
+ *
+ * @param $photo string Gets photo from Db
+ *
+ * @return array
+ */
+function getPhoto() {
+    $db = new PDO('mysql:host=127.0.0.1;dbname=portfolio-kevin', 'root');
+    $db->setAttribute(PDO::ATTR_DEFAULT_FETCH_MODE, PDO::FETCH_ASSOC);
+
+    $photoQuery = $db->prepare("SELECT `profile`.`photo` FROM `profile`;");
+    $photoQuery->execute();
+    $photo = $photoQuery->fetch();
+    return $photo;
+}
+
+/**
+ * Outputs profile photo
+ *
+ * @param $photo string Outputs profile photo
+ *
+ * @return string
+ */
+function outputPhoto($photoArray) {
+    return $photoArray['photo'];
+}
+
