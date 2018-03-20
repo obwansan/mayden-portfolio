@@ -21,17 +21,21 @@ require_once('profileFunctions.php');
             <fieldset>
                 <legend>Edit Profile Content</legend>
 
-                <label for="text">Profile text paragraph 1:</label><br>
-                <textarea name="profileText" id="text">
+                <label for="text">Profile text:</label><br>
+                <textarea rows="25" cols="50" name="profileText" id="text">
                     <?php
-                    $result = getProfileText();
-                    echo outputProfileText($result);
-
+                    $textArray = getProfileText();
+                    echo outputProfileText($textArray);
                     ?>
                 </textarea><br>
 
                 <label>Email:</label>
-                    <input type="email" name="email"><br>
+                    <input type="email" name="email" value="
+                                                        <?php
+                                                        $emailArray = getEmail();
+                                                        echo outputEmail($emailArray);
+                                                        ?>">
+                    <br>
 
                 <input type="image" src="#" alt="photo-of-kevin-obrien" width="100" height="100" id="photo"><br>
 
