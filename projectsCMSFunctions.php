@@ -26,8 +26,3 @@ function selectProjectLink () {
     $link = $linkQuery->fetchAll();
 
 }
-
-
-
-
-

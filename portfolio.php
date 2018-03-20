@@ -20,7 +20,7 @@
         <h1>Portfolio</h1>
         <div class="gallery">
             <div class="grid-column">
-                <a href="<?php echo $link[0]['link'] "><img src="<?php echo $image[0]['image'] ?>" class="portfolio-image"></a>
+                <a href="<?php echo $link[0]['link']?>"><img src="<?php echo $image[0]['image'] ?>" class="portfolio-image"></a>
             </div>
             <div class="grid-column">
                 <a href="#"><img class="portfolio-image" src="images/pilot-shop.png"></a>
