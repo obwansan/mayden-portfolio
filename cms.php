@@ -5,6 +5,12 @@ require_once 'profileFunctions.php';
 $db = new PDO('mysql:host=127.0.0.1;dbname=portfolio-kevin', 'root');
 $db->setAttribute(PDO::ATTR_DEFAULT_FETCH_MODE, PDO::FETCH_ASSOC);
 
+// Redirect back to CMS page after clicking submit
+if ($_POST) {
+    header('Location: cms.php');
+    exit;
+}
+
 ?>
 
 <!DOCTYPE html>

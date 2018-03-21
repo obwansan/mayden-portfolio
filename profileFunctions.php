@@ -54,15 +54,27 @@ function outputEmail($emailArray) {
     return $emailArray['email'];
 }
 
-
-/***********************************************
+/**************************************************
  * Functions to push modifed content from CMS to Db
- ***********************************************/
+ **************************************************/
 
-function updateProfileText() {
-    $profileText = $db->prepare("UPDATE profile SET ;");
-    $profileText->execute();
+
+function updateProfileText($db, $profileText) {
+    $query = $db->prepare("UPDATE `profile` SET `text` = :profileText WHERE `id` = 1;");
+    $query->bindParam(':profileText', $profileText);
+    $query->execute();
 }
+
+$profileText = $_POST['profileText'];
+
+if($profileText != NULL) {
+    $db = new PDO('mysql:host=127.0.0.1;dbname=portfolio-kevin', 'root');
+    $db->setAttribute(PDO::ATTR_DEFAULT_FETCH_MODE, PDO::FETCH_ASSOC);
+    updateProfileText($db, $profileText);
+}
+
+
+
 
 
 
