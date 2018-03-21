@@ -35,7 +35,6 @@ function outputProfileText(array $array): string{
     return $paragraph;
 }
 
-
 /**
  * Outputs profile text to profile page
  *
@@ -62,10 +61,9 @@ function getEmail() {
     $db = new PDO('mysql:host=127.0.0.1;dbname=portfolio-kevin', 'root');
     $db->setAttribute(PDO::ATTR_DEFAULT_FETCH_MODE, PDO::FETCH_ASSOC);
 
-    $emailQuery = $db->prepare("SELECT `profile`.`email` FROM `profile`;");
+    $emailQuery = $db->prepare("SELECT `email` FROM `contact`;");
     $emailQuery->execute();
     $email = $emailQuery->fetch();
-//    var_dump($email);
     return $email;
 }
 
@@ -91,10 +89,10 @@ function getPhoto() {
     $db = new PDO('mysql:host=127.0.0.1;dbname=portfolio-kevin', 'root');
     $db->setAttribute(PDO::ATTR_DEFAULT_FETCH_MODE, PDO::FETCH_ASSOC);
 
-    $photoQuery = $db->prepare("SELECT `profile`.`photo` FROM `profile`;");
+    $photoQuery = $db->prepare("SELECT image FROM images WHERE image LIKE '%profile%';");
     $photoQuery->execute();
-    $photo = $photoQuery->fetch();
-    return $photo;
+    $photoArray = $photoQuery->fetch();
+    return $photoArray;
 }
 
 /**
@@ -105,7 +103,7 @@ function getPhoto() {
  * @return string
  */
 function outputPhoto($photoArray) {
-    return $photoArray['photo'];
+    return $photoArray['image'];
 }
 
 

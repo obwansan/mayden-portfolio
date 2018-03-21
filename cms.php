@@ -34,9 +34,10 @@ require_once 'profileFunctions.php';
                     <br>
 
                 <label>Photo:</label>
-                <img src="/sites/academy-php7/html/portfolio/images/<?php $photoArray = getPhoto(); echo outputPhoto($photoArray); ?>" alt="photo-of-kevin-obrien" width="100" height="100" id="photo"><br>
-
                 <input type="text" name="photoLink" value="<?php $photoArray = getPhoto(); echo outputPhoto($photoArray); ?>"><br>
+
+                <label>Alt-text:</label>
+                <input type="text" name="photoAltTxt" value="<?php $photoArray = getPhoto(); echo outputPhoto($photoArray); ?>"><br>
 
                 <input type="file" value="Change photo"><br>
                 <input type="submit">
