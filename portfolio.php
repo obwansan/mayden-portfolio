@@ -1,8 +1,4 @@
-<?php
 
-
-
-?>
 
 <!DOCTYPE html>
 <html lang="en">
@@ -20,7 +16,7 @@
         <h1>Portfolio</h1>
         <div class="gallery">
             <div class="grid-column">
-                <a href="<?php echo $link[0]['link']?>"><img src="<?php echo $image[0]['image'] ?>" class="portfolio-image"></a>
+                <a href=""><img src="" class="portfolio-image"></a>
             </div>
             <div class="grid-column">
                 <a href="#"><img class="portfolio-image" src="images/pilot-shop.png"></a>
@@ -45,8 +41,8 @@
             </div>
         </div>
         <div class="icons">
-            <a href="index.html"><img class="page-link" src="images/home-icon-1.png"></a>
-            <a href="profile.html"><img class="page-link" src="images/profile-icon-1.png"></a>
+            <a href="index.php"><img class="page-link" src="images/home-icon-1.png"></a>
+            <a href="profile.php"><img class="page-link" src="images/profile-icon-1.png"></a>
         </div>
     </div>
 </body>

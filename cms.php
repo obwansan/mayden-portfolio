@@ -1,6 +1,6 @@
 <?php
 
-require_once('profileFunctions.php');
+require_once 'profileFunctions.php';
 
 ?>
 
@@ -10,7 +10,7 @@ require_once('profileFunctions.php');
     <title>CMS - Kevin O'Brien Portfolio</title>
     <link rel="stylesheet" type="text/css" href="normalize.css">
     <!-- rand() in php is to fix problem with css file not working. A vagrant / virtualbox issue  -->
-    <link rel="stylesheet" type="text/css" href="cms.css?id=<?php echo rand(1000,9999); ?>">
+    <link rel="stylesheet" type="text/css" href="cms.css">
 </head>
 <body>
     <div class="container">
@@ -24,9 +24,8 @@ require_once('profileFunctions.php');
                 <label for="text">Profile text:</label><br>
                 <textarea rows="25" cols="50" name="profileText" id="text">
                     <?php
-                    $textArray = getProfileText();
-//                    echo outputProfileText($textArray);
-                    echo outputParagraph($textArray);
+                        $textArray = getProfileText();
+                        echo outputProfileText($textArray);
                     ?>
                 </textarea><br>
 
@@ -60,10 +59,6 @@ require_once('profileFunctions.php');
 
             </fieldset>
         </form>
-
-
     </div>
-
-
 </body>
 </html>

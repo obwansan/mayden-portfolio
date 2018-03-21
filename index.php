@@ -17,7 +17,7 @@
             <div class="title">Web Developer</div>
         </div>
         <div class="icons">
-            <a href="profile.html"><img class="page-link" src="images/profile-icon-1.png"></a>
+            <a href="profile.php"><img class="page-link" src="images/profile-icon-1.png"></a>
             <a href="portfolio.php"><img class="page-link" src="images/portfolio-icon-1.png"></a>
         </div>
     </div>

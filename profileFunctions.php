@@ -11,7 +11,7 @@ function getProfileText() {
     $db = new PDO('mysql:host=127.0.0.1;dbname=portfolio-kevin', 'root');
     $db->setAttribute(PDO::ATTR_DEFAULT_FETCH_MODE, PDO::FETCH_ASSOC);
 
-    $textQuery = $db->prepare("SELECT * FROM `profile`;");
+    $textQuery = $db->prepare("SELECT `text` FROM `profile`;");
     $textQuery->execute();
     $textArray = $textQuery->fetchAll();
     return $textArray;
@@ -26,10 +26,18 @@ function getProfileText() {
  */
 //function outputProfileText($textArray) {
 //    return $textArray['text'];
+//}
+function outputProfileText(array $array): string{
+    $paragraph = '';
+    foreach ($array as $value) {
+        $paragraph .= $value['text'];
+    }
+    return $paragraph;
 }
 
+
 /**
- * Outputs profile text
+ * Outputs profile text to profile page
  *
  * @param $text string Outputs profile text
  *

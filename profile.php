@@ -37,7 +37,7 @@
             <p class="contact">Email: kob123@hotmail.co.uk</p>
         </div>
         <div class="icons">
-            <a href="index.html"><img class="page-link" src="images/home-icon-1.png"></a>
+            <a href="index.php"><img class="page-link" src="images/home-icon-1.png"></a>
             <a href="portfolio.php"><img class="page-link" src="images/portfolio-icon-1.png"></a>
         </div>
     </div>
