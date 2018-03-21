@@ -54,56 +54,6 @@ function outputEmail($emailArray) {
     return $emailArray['email'];
 }
 
-/**
- * Gets photo from Db
- *
- * @param $photo string Gets photo from Db
- *
- * @return array
- */
-function getPhoto($db) {
-    $photoQuery = $db->prepare("SELECT image FROM images WHERE image LIKE '%profile%';");
-    $photoQuery->execute();
-    $photoArray = $photoQuery->fetch();
-    return $photoArray;
-}
-
-/**
- * Outputs profile photo
- *
- * @param $photo string Outputs profile photo
- *
- * @return string
- */
-function outputPhoto($photoArray) {
-    return $photoArray['image'];
-}
-
-/**
- * Gets alt-text from Db
- *
- * @param $altTextArray Gets alt-text from Db
- *
- * @return array
- */
-function getAltText($db) {
-    $altTxtQuery = $db->prepare("SELECT altText FROM images WHERE altText LIKE '%kevin%';");
-    $altTxtQuery->execute();
-    $altTxtArray = $altTxtQuery->fetch();
-    return $altTxtArray;
-}
-
-/**
- * Outputs alt-text
- *
- * @param $altTxt string Outputs alt-text
- *
- * @return string
- */
-function outputAltTxt($altTxtArray) {
-    return $altTxtArray['altText'];
-}
-
 /***********************************************
  * Functions to push modifed content from CMS to Db
  ***********************************************/
