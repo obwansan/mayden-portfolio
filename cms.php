@@ -25,11 +25,7 @@ $db->setAttribute(PDO::ATTR_DEFAULT_FETCH_MODE, PDO::FETCH_ASSOC);
                 <legend>Edit Profile Content</legend>
 
                 <label for="text">Profile text:</label><br>
-                <textarea rows="25" cols="50" name="profileText" id="text">
-                    <?php
-                        $textArray = getProfileText($db);
-                        echo outputProfileText($textArray);
-                    ?>
+                <textarea rows="20" cols="50" name="profileText" id="text"><?php $textArray = getProfileText($db); echo outputProfileText($textArray); ?>
                 </textarea><br>
 
                 <label>Email:</label>

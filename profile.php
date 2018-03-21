@@ -30,7 +30,12 @@ $db->setAttribute(PDO::ATTR_DEFAULT_FETCH_MODE, PDO::FETCH_ASSOC);
                 echo outputParagraph($textArray);
                 ?>
             </p>
-            <p class="contact">Email: kob123@hotmail.co.uk</p>
+            <p class="contact">Email:
+                <?php
+                $emailArray = getEmail($db);
+                echo outputEmail($emailArray);
+                ?>
+            </p>
         </div>
         <div class="icons">
             <a href="index.php"><img class="page-link" src="images/home-icon-1.png"></a>

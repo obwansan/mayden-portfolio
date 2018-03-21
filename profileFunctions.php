@@ -21,9 +21,6 @@ function getProfileText($db) {
  *
  * @return string
  */
-//function outputProfileText($textArray) {
-//    return $textArray['text'];
-//}
 function outputProfileText(array $array): string{
     $paragraph = '';
     foreach ($array as $value) {
@@ -57,8 +54,8 @@ function outputParagraph(array $array): string{
 function getEmail($db) {
     $emailQuery = $db->prepare("SELECT `email` FROM `contact`;");
     $emailQuery->execute();
-    $email = $emailQuery->fetch();
-    return $email;
+    $emailArray = $emailQuery->fetch();
+    return $emailArray;
 }
 
 /**
@@ -69,6 +66,7 @@ function getEmail($db) {
  * @return string
  */
 function outputEmail($emailArray) {
+//    var_dump($emailArray);
     return $emailArray['email'];
 }
 
