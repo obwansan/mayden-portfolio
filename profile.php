@@ -21,13 +21,13 @@ $db->setAttribute(PDO::ATTR_DEFAULT_FETCH_MODE, PDO::FETCH_ASSOC);
     <div class="container">
         <h1>Profile</h1>
         <div class="col-4">
-            <img class="profile-image" src="images/monkey-avatar.png">
+            <img class="profile-image" src="images/profile-photo.png">
         </div>
         <div class="col-8">
             <p>
                 <?php
                 $textArray = getProfileText($db);
-                echo outputParagraph($textArray);
+                echo outputProfileText($textArray);
                 ?>
             </p>
             <p class="contact">Email:

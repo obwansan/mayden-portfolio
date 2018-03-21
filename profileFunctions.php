@@ -14,7 +14,7 @@
 function getProfileText($db) {
     $textQuery = $db->prepare("SELECT `text` FROM `profile`;");
     $textQuery->execute();
-    $textArray = $textQuery->fetchAll();
+    $textArray = $textQuery->fetch();
     return $textArray;
 }
 
@@ -54,11 +54,10 @@ function outputEmail($emailArray) {
     return $emailArray['email'];
 }
 
+
 /***********************************************
  * Functions to push modifed content from CMS to Db
  ***********************************************/
-
-var_dump($_POST);
 
 function updateProfileText() {
     $profileText = $db->prepare("UPDATE profile SET ;");
