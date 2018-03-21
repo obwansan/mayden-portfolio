@@ -54,7 +54,7 @@ function outputParagraph(array $array): string{
  *
  * @return array
  */
-function getEmail() {
+function getEmail($db) {
     $emailQuery = $db->prepare("SELECT `email` FROM `contact`;");
     $emailQuery->execute();
     $email = $emailQuery->fetch();
@@ -79,7 +79,7 @@ function outputEmail($emailArray) {
  *
  * @return array
  */
-function getPhoto() {
+function getPhoto($db) {
     $photoQuery = $db->prepare("SELECT image FROM images WHERE image LIKE '%profile%';");
     $photoQuery->execute();
     $photoArray = $photoQuery->fetch();
@@ -104,7 +104,7 @@ function outputPhoto($photoArray) {
  *
  * @return array
  */
-function getAltText() {
+function getAltText($db) {
     $altTxtQuery = $db->prepare("SELECT altText FROM images WHERE altText LIKE '%kevin%';");
     $altTxtQuery->execute();
     $altTxtArray = $altTxtQuery->fetch();
@@ -121,26 +121,4 @@ function getAltText() {
 function outputAltTxt($altTxtArray) {
     return $altTxtArray['altText'];
 }
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 

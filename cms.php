@@ -36,13 +36,6 @@ $db->setAttribute(PDO::ATTR_DEFAULT_FETCH_MODE, PDO::FETCH_ASSOC);
                     <input type="email" name="email" value="<?php $emailArray = getEmail($db); echo outputEmail($emailArray); ?>">
                     <br>
 
-                <label>Photo:</label>
-                <input type="text" name="photoLink" value="<?php $photoArray = getPhoto($db); echo outputPhoto($photoArray); ?>"><br>
-
-                <label>Alt-text:</label>
-                <input type="text" name="altText" value="<?php $altTxtArray = getAltText($db); echo outputAltTxt($altTxtArray); ?>"><br>
-
-                <input type="file" value="Change photo"><br>
                 <input type="submit">
             </fieldset>
         </form>
