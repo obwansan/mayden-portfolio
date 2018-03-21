@@ -1,5 +1,9 @@
 <?php
 
+/***********************************************
+ * Functions to pull content from Db to CMS page
+ ***********************************************/
+
 /**
  * Gets profile text from Db
  *
@@ -15,33 +19,14 @@ function getProfileText($db) {
 }
 
 /**
- * Outputs profile text to CMS
+ * Outputs profile text
  *
  * @param $text string Outputs profile text
  *
  * @return string
  */
-function outputProfileText(array $array): string{
-    $paragraph = '';
-    foreach ($array as $value) {
-        $paragraph .= $value['text'];
-    }
-    return $paragraph;
-}
-
-/**
- * Outputs profile text to profile page
- *
- * @param $text string Outputs profile text
- *
- * @return string
- */
-function outputParagraph(array $array): string{
-    $paragraph = '';
-    foreach ($array as $value) {
-        $paragraph .= '<p>' . $value['text'] . '</p>';
-    }
-    return $paragraph;
+function outputProfileText($textArray) {
+    return $textArray['text'];
 }
 
 /**
@@ -66,7 +51,6 @@ function getEmail($db) {
  * @return string
  */
 function outputEmail($emailArray) {
-//    var_dump($emailArray);
     return $emailArray['email'];
 }
 
@@ -119,4 +103,32 @@ function getAltText($db) {
 function outputAltTxt($altTxtArray) {
     return $altTxtArray['altText'];
 }
+
+/***********************************************
+ * Functions to push modifed content from CMS to Db
+ ***********************************************/
+
+var_dump($_POST);
+
+function updateProfileText() {
+    $profileText = $db->prepare("UPDATE profile SET ;");
+    $profileText->execute();
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
