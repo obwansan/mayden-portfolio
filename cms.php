@@ -2,6 +2,9 @@
 
 require_once 'profileFunctions.php';
 
+$db = new PDO('mysql:host=127.0.0.1;dbname=portfolio-kevin', 'root');
+$db->setAttribute(PDO::ATTR_DEFAULT_FETCH_MODE, PDO::FETCH_ASSOC);
+
 ?>
 
 <!DOCTYPE html>
@@ -24,40 +27,23 @@ require_once 'profileFunctions.php';
                 <label for="text">Profile text:</label><br>
                 <textarea rows="25" cols="50" name="profileText" id="text">
                     <?php
-                        $textArray = getProfileText();
+                        $textArray = getProfileText($db);
                         echo outputProfileText($textArray);
                     ?>
                 </textarea><br>
 
                 <label>Email:</label>
-                    <input type="email" name="email" value="<?php $emailArray = getEmail(); echo outputEmail($emailArray); ?>">
+                    <input type="email" name="email" value="<?php $emailArray = getEmail($db); echo outputEmail($emailArray); ?>">
                     <br>
 
                 <label>Photo:</label>
-                <input type="text" name="photoLink" value="<?php $photoArray = getPhoto(); echo outputPhoto($photoArray); ?>"><br>
+                <input type="text" name="photoLink" value="<?php $photoArray = getPhoto($db); echo outputPhoto($photoArray); ?>"><br>
 
                 <label>Alt-text:</label>
-                <input type="text" name="photoAltTxt" value="<?php $photoArray = getPhoto(); echo outputPhoto($photoArray); ?>"><br>
+                <input type="text" name="altText" value="<?php $altTxtArray = getAltText($db); echo outputAltTxt($altTxtArray); ?>"><br>
 
                 <input type="file" value="Change photo"><br>
                 <input type="submit">
-            </fieldset>
-        </form>
-
-        <form>
-            <fieldset>
-                <legend>Edit Projects</legend>
-                <select>
-                    <option>Mayden Academy Logo</option>
-                    <option>Pilot Shop Site Clone</option>
-                    <option>Project Placeholder</option>
-                    <option>Project Placeholder</option>
-                    <option>Project Placeholder</option>
-                    <option>Project Placeholder</option>
-                    <option>Project Placeholder</option>
-                    <option>Project Placeholder</option>
-                </select>
-
             </fieldset>
         </form>
     </div>

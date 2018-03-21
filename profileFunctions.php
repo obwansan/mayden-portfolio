@@ -7,10 +7,7 @@
  *
  * @return array
  */
-function getProfileText() {
-    $db = new PDO('mysql:host=127.0.0.1;dbname=portfolio-kevin', 'root');
-    $db->setAttribute(PDO::ATTR_DEFAULT_FETCH_MODE, PDO::FETCH_ASSOC);
-
+function getProfileText($db) {
     $textQuery = $db->prepare("SELECT `text` FROM `profile`;");
     $textQuery->execute();
     $textArray = $textQuery->fetchAll();
@@ -58,9 +55,6 @@ function outputParagraph(array $array): string{
  * @return array
  */
 function getEmail() {
-    $db = new PDO('mysql:host=127.0.0.1;dbname=portfolio-kevin', 'root');
-    $db->setAttribute(PDO::ATTR_DEFAULT_FETCH_MODE, PDO::FETCH_ASSOC);
-
     $emailQuery = $db->prepare("SELECT `email` FROM `contact`;");
     $emailQuery->execute();
     $email = $emailQuery->fetch();
@@ -86,9 +80,6 @@ function outputEmail($emailArray) {
  * @return array
  */
 function getPhoto() {
-    $db = new PDO('mysql:host=127.0.0.1;dbname=portfolio-kevin', 'root');
-    $db->setAttribute(PDO::ATTR_DEFAULT_FETCH_MODE, PDO::FETCH_ASSOC);
-
     $photoQuery = $db->prepare("SELECT image FROM images WHERE image LIKE '%profile%';");
     $photoQuery->execute();
     $photoArray = $photoQuery->fetch();
@@ -106,7 +97,30 @@ function outputPhoto($photoArray) {
     return $photoArray['image'];
 }
 
+/**
+ * Gets alt-text from Db
+ *
+ * @param $altTextArray Gets alt-text from Db
+ *
+ * @return array
+ */
+function getAltText() {
+    $altTxtQuery = $db->prepare("SELECT altText FROM images WHERE altText LIKE '%kevin%';");
+    $altTxtQuery->execute();
+    $altTxtArray = $altTxtQuery->fetch();
+    return $altTxtArray;
+}
 
+/**
+ * Outputs alt-text
+ *
+ * @param $altTxt string Outputs alt-text
+ *
+ * @return string
+ */
+function outputAltTxt($altTxtArray) {
+    return $altTxtArray['altText'];
+}
 
 
 
