@@ -2,14 +2,24 @@
 
 session_start();
 
-if ($_SESSION['loggedIn']) {
-    header('Location: account.php');
-    exit;  // terminate the current script
+require_once 'loginFunctions.php';
+
+$username = $_POST['username'];
+$password = $_POST['password'];
+
+if ($_SESSION['loggedIn'] != NULL && $_SESSION['loggedIn'] === true) {
+    header('Location: cms.php');
+    exit;
+} else {
+    if (checkCredentials($username, $correctUsername, $password, $correctPassword)) {
+        header('Location: cms.php');
+        exit;
+    }
 }
 
 ?>
 
-<form method="post" action="account.php">
+<form method="post" action="login.php">
     <label>Username:
         <input type="text" name="username">
     </label>
@@ -19,8 +29,3 @@ if ($_SESSION['loggedIn']) {
     <input type="submit">
 </form>
 
-<!-- How does the HTML work without the HTML and body tags etc? -->
-
-<!-- How do index.php and account.php interact if you're not redirected
-to account.php until you've logged in? Form data is sent to account.php by action="".
- Must be in same directory?-->

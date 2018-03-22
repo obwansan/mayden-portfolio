@@ -41,6 +41,9 @@ $db->setAttribute(PDO::ATTR_DEFAULT_FETCH_MODE, PDO::FETCH_ASSOC);
             <a href="index.php"><img class="page-link" src="images/home-icon-1.png"></a>
             <a href="portfolio.php"><img class="page-link" src="images/portfolio-icon-1.png"></a>
         </div>
+        <div>
+            <a href="login.php"><img src="images/padlock.png" class="loginBtn"></a>
+        </div>
     </div>
 </body>
 </html>
