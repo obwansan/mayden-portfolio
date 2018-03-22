@@ -11,6 +11,8 @@ if ($_SESSION['loggedIn'] == false || $_SESSION['loggedIn'] == NULL) {
     header('Location: login.php');
     exit;
 }
+$profileText = outputProfileText(getProfileText($db));
+$email = outputEmail(getEmail($db));
 
 ?>
 
@@ -30,11 +32,9 @@ if ($_SESSION['loggedIn'] == false || $_SESSION['loggedIn'] == NULL) {
             <fieldset>
                 <legend>Edit Profile Content</legend>
                 <label for="text">Profile text:</label><br>
-                    <textarea rows="20" cols="50" name="profileText" id="text"><?php $textArray = getProfileText($db); echo outputProfileText($textArray); ?>
-                </textarea><br>
+                    <textarea rows="20" cols="50" name="profileText" id="text"><?php echo $profileText ?></textarea><br>
                 <label for="email">Email:</label>
-                    <input type="email" name="email" id="email" value="<?php $emailArray = getEmail($db); echo outputEmail($emailArray); ?>">
-                    <br>
+                    <input type="email" name="email" id="email" value="<?php echo $email ?>"><br>
                 <input type="submit">
             </fieldset>
         </form>
