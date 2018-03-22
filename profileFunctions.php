@@ -12,9 +12,9 @@
  * @return array
  */
 function getProfileText($db) {
-    $textQuery = $db->prepare("SELECT `text` FROM `profile`;");
-    $textQuery->execute();
-    $textArray = $textQuery->fetch();
+    $query = $db->prepare("SELECT `text` FROM `profile`;");
+    $query->execute();
+    $textArray = $query->fetch();
     return $textArray;
 }
 
@@ -37,9 +37,9 @@ function outputProfileText($textArray) {
  * @return array
  */
 function getEmail($db) {
-    $emailQuery = $db->prepare("SELECT `email` FROM `contact`;");
-    $emailQuery->execute();
-    $emailArray = $emailQuery->fetch();
+    $query = $db->prepare("SELECT `email` FROM `contact`;");
+    $query->execute();
+    $emailArray = $query->fetch();
     return $emailArray;
 }
 
@@ -58,13 +58,26 @@ function outputEmail($emailArray) {
  * Functions to push modifed content from CMS to Db
  **************************************************/
 
-
+/**
+ * Updates text on profile page
+ *
+ * @param $profileText string Updates profile text
+ *
+ * @return string
+ */
 function updateProfileText($db, $profileText) {
     $query = $db->prepare("UPDATE `profile` SET `text` = :profileText WHERE `id` = 1;");
     $query->bindParam(':profileText', $profileText);
     $query->execute();
 }
 
+/**
+ * Updates email on profile page
+ *
+ * @param $email string Updates profile email
+ *
+ * @return string
+ */
 function updateEmail($db, $email) {
     $query = $db->prepare("UPDATE `contact` SET `email` = :email WHERE `id` = 1;");
     $query->bindParam(':email', $email);
@@ -84,24 +97,3 @@ if($profileText != NULL && $email != NULL) {
     header('Location: cms.php');
     exit;
 }
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
