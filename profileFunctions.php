@@ -25,7 +25,7 @@ function getProfileText($db) {
  *
  * @return string
  */
-function outputProfileText($textArray) {
+function outputProfileText(array $textArray) :string {
     return $textArray['text'];
 }
 
@@ -50,7 +50,7 @@ function getEmail($db) {
  *
  * @return string
  */
-function outputEmail($emailArray) {
+function outputEmail(array $emailArray) :string{
     return $emailArray['email'];
 }
 
