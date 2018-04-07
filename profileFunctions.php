@@ -80,17 +80,3 @@ function updateEmail(object $db, string $email) {
     $query->bindParam(':email', $email);
     $query->execute();
 }
-
-$profileText = $_POST['profileText'];
-$email = $_POST['email'];
-
-if($profileText != NULL && $email != NULL) {
-    $db = new PDO('mysql:host=127.0.0.1;dbname=portfolio-kevin', 'root');
-    $db->setAttribute(PDO::ATTR_DEFAULT_FETCH_MODE, PDO::FETCH_ASSOC);
-
-    updateProfileText($db, $profileText);
-    updateEmail($db, $email);
-
-    header('Location: cms.php');
-    exit;
-}

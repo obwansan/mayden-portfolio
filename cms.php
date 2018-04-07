@@ -1,18 +1,34 @@
 <?php
 
-session_start();
-
 require_once 'profileFunctions.php';
 
-$db = new PDO('mysql:host=127.0.0.1;dbname=portfolio-kevin', 'root');
-$db->setAttribute(PDO::ATTR_DEFAULT_FETCH_MODE, PDO::FETCH_ASSOC);
+session_start();
 
 if ($_SESSION['loggedIn'] == false || $_SESSION['loggedIn'] == NULL) {
     header('Location: login.php');
     exit;
 }
-$profileText = outputProfileText(getProfileText($db));
-$email = outputEmail(getEmail($db));
+
+$db = new PDO('mysql:host=127.0.0.1;dbname=portfolio-kevin', 'root');
+$db->setAttribute(PDO::ATTR_DEFAULT_FETCH_MODE, PDO::FETCH_ASSOC);
+
+$profileTextArray = getProfileText($db);
+$profileTextString = outputProfileText($profileTextArray);
+
+$emailArray = getEmail($db);
+$emailString = outputEmail($emailArray);
+
+$profileText = $_POST['profileText'];
+$email = $_POST['email'];
+
+if($profileText != NULL && $email != NULL) {
+
+    updateProfileText($db, $profileText);
+    updateEmail($db, $email);
+
+    header('Location: cms.php');
+    exit;
+}
 
 ?>
 
