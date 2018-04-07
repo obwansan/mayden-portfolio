@@ -16,28 +16,28 @@
         <h1>Portfolio</h1>
         <div class="gallery">
             <div class="grid-column">
-                <a href="#"><img src="images/project-icons/mayden-logo.png" class="portfolio-image"></a>
+                <a href="#"><img class="portfolio-image" src="images/mayden-logo.png"></a>
             </div>
             <div class="grid-column">
-                <a href="#"><img class="portfolio-image" src="images/project-icons/pilot-shop.png"></a>
+                <a href="#"><img class="portfolio-image" src="images/pilot-shop.png"></a>
             </div>
             <div class="grid-column">
-                <a href="#"><img class="portfolio-image" src="images/project-icons/project-placeholder.png"></a>
+                <a href="#"><img class="portfolio-image" src="images/project-placeholder.png"></a>
             </div>
             <div class="grid-column">
-                <a href="#"><img class="portfolio-image" src="images/project-icons/project-placeholder.png"></a>
+                <a href="#"><img class="portfolio-image" src="images/project-placeholder.png"></a>
             </div>
             <div class="grid-column">
-                <a href="#"><img class="portfolio-image" src="images/project-icons/project-placeholder.png"></a>
+                <a href="#"><img class="portfolio-image" src="images/project-placeholder.png"></a>
             </div>
             <div class="grid-column">
-                <a href="#"><img class="portfolio-image" src="images/project-icons/project-placeholder.png"></a>
+                <a href="#"><img class="portfolio-image" src="images/project-placeholder.png"></a>
             </div>
             <div class="grid-column">
-                <a href="#"><img class="portfolio-image" src="images/project-icons/project-placeholder.png"></a>
+                <a href="#"><img class="portfolio-image" src="images/project-placeholder.png"></a>
             </div>
             <div class="grid-column">
-                <a href="#"><img class="portfolio-image" src="images/project-icons/project-placeholder.png"></a>
+                <a href="#"><img class="portfolio-image" src="images/project-placeholder.png"></a>
             </div>
         </div>
         <div class="icons">

@@ -2,7 +2,6 @@
 
 session_start();
 
-
 $correctUsername = 'obwansan';
 $correctPassword = 'turnip100';
 
