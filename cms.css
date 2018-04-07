@@ -24,3 +24,13 @@ h1 {
 #logout {
     position: absolute;
 }
+
+label,
+input,
+textarea {
+    display: block;
+}
+
+input[type=email] {
+    width: 400px;
+}

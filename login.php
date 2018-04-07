@@ -24,7 +24,7 @@ if ($_SESSION['loggedIn'] != NULL && $_SESSION['loggedIn'] === true) {
         <input type="text" name="username">
     </label>
     <label>Password:
-        <input type="text" name="password">
+        <input type="password" name="password">
     </label>
     <input type="submit">
 </form>

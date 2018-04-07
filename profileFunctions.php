@@ -7,11 +7,11 @@
 /**
  * Gets profile text from Db
  *
- * @param $text string Gets profile text from Db
+ * @param $db object Gets profile text from Db
  *
  * @return array
  */
-function getProfileText($db) {
+function getProfileText(object $db): array {
     $query = $db->prepare("SELECT `text` FROM `profile`;");
     $query->execute();
     $textArray = $query->fetch();
@@ -21,22 +21,22 @@ function getProfileText($db) {
 /**
  * Outputs profile text
  *
- * @param $text string Outputs profile text
+ * @param $textArray array Outputs profile text
  *
  * @return string
  */
-function outputProfileText(array $textArray) :string {
+function outputProfileText(array $textArray): string {
     return $textArray['text'];
 }
 
 /**
  * Gets email from Db
  *
- * @param $email string Gets profile email from Db
+ * @param $db string Gets profile email from Db
  *
  * @return array
  */
-function getEmail($db) {
+function getEmail(object $db): array  {
     $query = $db->prepare("SELECT `email` FROM `contact`;");
     $query->execute();
     $emailArray = $query->fetch();
@@ -46,7 +46,7 @@ function getEmail($db) {
 /**
  * Outputs profile email
  *
- * @param $email string Outputs profile email
+ * @param $emailArray string Outputs profile email
  *
  * @return string
  */
@@ -59,13 +59,12 @@ function outputEmail(array $emailArray) :string{
  **************************************************/
 
 /**
- * Updates text on profile page
+ * Updates text on profile page by updating database
  *
  * @param $profileText string Updates profile text
- *
- * @return string
+ * @param $db object Gets profile text from Db
  */
-function updateProfileText($db, $profileText) {
+function updateProfileText(object $db, string $profileText) {
     $query = $db->prepare("UPDATE `profile` SET `text` = :profileText WHERE `id` = 1;");
     $query->bindParam(':profileText', $profileText);
     $query->execute();
@@ -75,10 +74,8 @@ function updateProfileText($db, $profileText) {
  * Updates email on profile page
  *
  * @param $email string Updates profile email
- *
- * @return string
  */
-function updateEmail($db, $email) {
+function updateEmail(object $db, string $email) {
     $query = $db->prepare("UPDATE `contact` SET `email` = :email WHERE `id` = 1;");
     $query->bindParam(':email', $email);
     $query->execute();

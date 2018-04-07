@@ -5,6 +5,12 @@ require_once 'profileFunctions.php';
 $db = new PDO('mysql:host=127.0.0.1;dbname=portfolio-kevin', 'root');
 $db->setAttribute(PDO::ATTR_DEFAULT_FETCH_MODE, PDO::FETCH_ASSOC);
 
+$textArray = getProfileText($db);
+$profileText = outputProfileText($textArray);
+
+$emailArray = getEmail($db);
+$email = outputEmail($emailArray);
+
 ?>
 
 <!DOCTYPE html>
@@ -25,16 +31,10 @@ $db->setAttribute(PDO::ATTR_DEFAULT_FETCH_MODE, PDO::FETCH_ASSOC);
         </div>
         <div class="col-8">
             <p>
-                <?php
-                $textArray = getProfileText($db);
-                echo outputProfileText($textArray);
-                ?>
+                <?php echo $profileText; ?>
             </p>
             <p class="contact">Email:
-                <?php
-                $emailArray = getEmail($db);
-                echo outputEmail($emailArray);
-                ?>
+                <?php echo $email ?>
             </p>
         </div>
         <div class="icons">
@@ -42,7 +42,7 @@ $db->setAttribute(PDO::ATTR_DEFAULT_FETCH_MODE, PDO::FETCH_ASSOC);
             <a href="portfolio.php"><img class="page-link" src="images/project-icons/portfolio-icon-1.png"></a>
         </div>
         <div>
-            <a href="login.php"><img src="images/padlock.png" class="loginBtn"></a>
+            <a href="login.php"><img src="images/project-icons/padlock.png" class="loginBtn"></a>
         </div>
     </div>
 </body>

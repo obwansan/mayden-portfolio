@@ -16,7 +16,7 @@ public function testoutputProfileTextSuccessArray()
 {
     $textArray = ['text' => 'Test text 1'];
     $case = outputProfileText($textArray);
-    $this->assertInternalType('string', $case, $message = 'Error: Not expected data type');
+    $this->assertInternalType('string', $case);
 }
 
 // success - check that outputProfileTextSuccess() contains word it should
@@ -45,7 +45,7 @@ public function testoutputProfileEmailSuccessArray()
     $emailArray = ['email' => 'testemail@test.com'];
 
     $case = outputEmail($emailArray);
-    $this->assertInternalType('string', $case, $message = 'Error: Not expected data type');
+    $this->assertInternalType('string', $case);
 }
 
 // success - check that outputProfileEmailSuccess() starts with correct prefix

@@ -1,5 +1,3 @@
-
-
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -16,7 +14,8 @@
         <h1>Portfolio</h1>
         <div class="gallery">
             <div class="grid-column">
-                <a href="#"><img class="portfolio-image" src="images/mayden-logo.png"></a>
+                <a href="https://obwansan.github.io/mayden-logo-challenge" target="_blank"><img class="portfolio-image" src="images/mayden-logo.png"></a>
+                <p>view code</p>
             </div>
             <div class="grid-column">
                 <a href="#"><img class="portfolio-image" src="images/pilot-shop.png"></a>
@@ -41,8 +40,8 @@
             </div>
         </div>
         <div class="icons">
-            <a href="index.php"><img class="page-link" src="images/home-icon-1.png"></a>
-            <a href="profile.php"><img class="page-link" src="images/profile-icon-1.png"></a>
+            <a href="index.php"><img class="page-link" src="images/project-icons/home-icon-1.png"></a>
+            <a href="profile.php"><img class="page-link" src="images/project-icons/profile-icon-1.png"></a>
         </div>
     </div>
 </body>

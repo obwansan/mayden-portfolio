@@ -31,10 +31,14 @@ $email = outputEmail(getEmail($db));
         <form method="post" action="profileFunctions.php">
             <fieldset>
                 <legend>Edit Profile Content</legend>
-                <label for="text">Profile text:</label><br>
-                    <textarea rows="20" cols="50" name="profileText" id="text"><?php echo $profileText ?></textarea><br>
-                <label for="email">Email:</label>
-                    <input type="email" name="email" id="email" value="<?php echo $email ?>"><br>
+                <label for="text">Profile text:
+                    <textarea rows="20" cols="50" name="profileText" id="text">
+                        <?php echo $profileText ?>
+                    </textarea><br>
+                </label>
+                <label for="email">Email:
+                    <input type="email" name="email" id="email" value="<?php echo $email ?>">
+                </label>
                 <input type="submit">
             </fieldset>
         </form>
