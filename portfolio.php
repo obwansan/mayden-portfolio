@@ -14,18 +14,24 @@
         <h1>Portfolio</h1>
         <div class="gallery">
             <div class="grid-column">
-                <a href="https://obwansan.github.io/mayden-logo-challenge" target="_blank"><img class="portfolio-image" src="images/mayden-logo.png" alt="Mayden Logo"></a>
-                <p class="projectDesc">Recreate Mayden logo with HTML & CSS</p>
-                <p class="viewCode">&lt;view code&gt;</p>
+                <a href="https://dev.maydenacademy.co.uk/students/2018/kevin/mayden-logo/" target="_blank"><img class="portfolio-image" src="images/mayden-logo.png" alt="Mayden logo"></a>
+                <p class="projectDesc">Mayden logo made with HTML & CSS</p>
+                <a href="https://github.com/obwansan/mayden-logo-challenge" target="_blank" class="viewCode">&lt;view code&gt;</a>
             </div>
             <div class="grid-column">
-                <a href="#"><img class="portfolio-image" src="images/pilot-shop.png"></a>
+                <a href="https://dev.maydenacademy.co.uk/students/2018/kevin/pilot-shop-build/" target="_blank"><img class="portfolio-image" src="images/pilot-shop.png" alt="Pilot Shop website logo"></a>
+                <p class="projectDesc">Clone of ecommerce website</p>
+                <a href="https://github.com/obwansan/pilot-shop-responsive-site" target="_blank" class="viewCode">&lt;view code&gt;</a>
             </div>
             <div class="grid-column">
                 <a href="#"><img class="portfolio-image" src="images/jsGame-mayrioKart.png"></a>
+                <p class="projectDesc">JavaScript game - team project</p>
+                <a href="https://github.com/Mayden-Academy/2018JSGame" target="_blank" class="viewCode">&lt;view code&gt;</a>
             </div>
             <div class="grid-column">
-                <a href="#"><img class="portfolio-image" src="images/project-placeholder.png"></a>
+                <a href="https://dev.maydenacademy.co.uk/students/2018/kevin/postsRailings/" target="_blank"><img class="portfolio-image" src="images/php-posts-railings.png"></a>
+                <p class="projectDesc">PHP posts & railings challenge</p>
+                <a href="https://github.com/obwansan/posts-and-railings-challenge" target="_blank" class="viewCode">&lt;view code&gt;</a>
             </div>
             <div class="grid-column">
                 <a href="#"><img class="portfolio-image" src="images/project-placeholder.png"></a>

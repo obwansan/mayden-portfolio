@@ -9,7 +9,8 @@ body {
     position: relative;
     float: left;
     width: 25%;
-    height: 350px;
+    height: 390px;
+    margin-bottom: 10px;
 }
 
 .gallery {
@@ -39,17 +40,19 @@ body {
 
 .projectDesc,
 .viewCode {
-    position: absolute;
     text-align: center;
 }
 
 .projectDesc {
-    top: 270px;
     padding: 10px 55px;
+    margin-top: 305px;
+    margin-bottom: 5px;
+    font-size: 1.2rem;
 }
 
 .viewCode {
-    top: 320px;
+    display: block;
+    height: 25px;
     padding: 5px 97px;
     font-family: courier, sans-serif;
 }
