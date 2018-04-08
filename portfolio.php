@@ -29,18 +29,24 @@
                 <a href="https://github.com/Mayden-Academy/2018JSGame" target="_blank" class="viewCode">&lt;view code&gt;</a>
             </div>
             <div class="grid-column">
-                <a href="https://dev.maydenacademy.co.uk/students/2018/kevin/postsRailings/" target="_blank"><img class="portfolio-image" src="images/php-posts-railings.png"></a>
+                <a href="https://dev.maydenacademy.co.uk/students/2018/kevin/postsRailings/" target="_blank"><img class="portfolio-image" src="images/posts-rails.png"></a>
                 <p class="projectDesc">PHP posts & railings challenge</p>
                 <a href="https://github.com/obwansan/posts-and-railings-challenge" target="_blank" class="viewCode">&lt;view code&gt;</a>
             </div>
             <div class="grid-column">
-                <a href="#"><img class="portfolio-image" src="images/project-placeholder.png"></a>
+                <a href="#"><img class="portfolio-image" src="images/portfolio-site.png"></a>
+                <p class="projectDesc">Portfolio and CMS</p>
+                <a href="https://github.com/obwansan/mayden-portfolio/tree/story-cms" target="_blank" class="viewCode">&lt;view code&gt;</a>
             </div>
             <div class="grid-column">
-                <a href="#"><img class="portfolio-image" src="images/project-placeholder.png"></a>
+                <a href="#"><img class="portfolio-image" src="images/ace-bet-blackjack.jpg"></a>
+                <p class="projectDesc">PHP blackjack game & function tests</p>
+                <a href="https://github.com/obwansan/blackjack-game" target="_blank" class="viewCode">&lt;view code&gt;</a>
             </div>
             <div class="grid-column">
-                <a href="#"><img class="portfolio-image" src="images/project-placeholder.png"></a>
+                <a href="https://dev.maydenacademy.co.uk/students/2018/kevin/formValidatorChallenge/"><img class="portfolio-image" src="images/form-validation.png"></a>
+                <p class="projectDesc">JavaScript Form validation challenge</p>
+                <a href="https://github.com/obwansan/form-validator-challenge/" target="_blank" class="viewCode">&lt;view code&gt;</a>
             </div>
             <div class="grid-column">
                 <a href="#"><img class="portfolio-image" src="images/project-placeholder.png"></a>
