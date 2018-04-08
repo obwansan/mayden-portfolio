@@ -5,12 +5,6 @@ require_once 'profileFunctions.php';
 $db = new PDO('mysql:host=127.0.0.1;dbname=portfolio-kevin', 'root');
 $db->setAttribute(PDO::ATTR_DEFAULT_FETCH_MODE, PDO::FETCH_ASSOC);
 
-$textArray = getProfileText($db);
-$profileText = outputProfileText($textArray);
-
-$emailArray = getEmail($db);
-$email = outputEmail($emailArray);
-
 ?>
 
 <!DOCTYPE html>
@@ -31,10 +25,10 @@ $email = outputEmail($emailArray);
         </div>
         <div class="col-8">
             <p>
-                <?php echo $profileText; ?>
+                <?php echo $profileTextString; ?>
             </p>
             <p class="contact">Email:
-                <?php echo $email ?>
+                <?php echo $emailString ?>
             </p>
         </div>
         <div class="icons">

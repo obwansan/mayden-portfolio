@@ -14,14 +14,15 @@
         <h1>Portfolio</h1>
         <div class="gallery">
             <div class="grid-column">
-                <a href="https://obwansan.github.io/mayden-logo-challenge" target="_blank"><img class="portfolio-image" src="images/mayden-logo.png"></a>
-                <p>view code</p>
+                <a href="https://obwansan.github.io/mayden-logo-challenge" target="_blank"><img class="portfolio-image" src="images/mayden-logo.png" alt="Mayden Logo"></a>
+                <p class="projectDesc">Recreate Mayden logo with HTML & CSS</p>
+                <p class="viewCode">&lt;view code&gt;</p>
             </div>
             <div class="grid-column">
                 <a href="#"><img class="portfolio-image" src="images/pilot-shop.png"></a>
             </div>
             <div class="grid-column">
-                <a href="#"><img class="portfolio-image" src="images/project-placeholder.png"></a>
+                <a href="#"><img class="portfolio-image" src="images/jsGame-mayrioKart.png"></a>
             </div>
             <div class="grid-column">
                 <a href="#"><img class="portfolio-image" src="images/project-placeholder.png"></a>

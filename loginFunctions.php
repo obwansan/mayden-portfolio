@@ -15,7 +15,7 @@ $correctPassword = 'turnip100';
  *
  * @return true if username & passwords match / session logged in, and false if not
  */
-function checkCredentials(string $username, $correctUsername, $password, $correctPassword): bool {
+function checkCredentials( $username, $correctUsername, $password, $correctPassword) {
 
     if ($username == $correctUsername && $password == $correctPassword) {
         $_SESSION['loggedIn'] = true;

@@ -1,5 +1,12 @@
 <?php
 
+// get profile text and email from db
+$profileTextArray = getProfileText($db);
+$profileTextString = outputProfileText($profileTextArray);
+$emailArray = getEmail($db);
+$emailString = outputEmail($emailArray);
+
+
 /***********************************************
  * Functions to pull content from Db to CMS page
  ***********************************************/
@@ -79,4 +86,21 @@ function updateEmail(object $db, string $email) {
     $query = $db->prepare("UPDATE `contact` SET `email` = :email WHERE `id` = 1;");
     $query->bindParam(':email', $email);
     $query->execute();
+}
+
+// get text from the post array
+$profileText = $_POST['profileText'];
+$email = $_POST['email'];
+
+// if there is profile text and an email, update the db and redirect to cms page
+if($profileText != NULL && $email != NULL) {
+
+    $db = new PDO('mysql:host=127.0.0.1;dbname=portfolio-kevin', 'root');
+    $db->setAttribute(PDO::ATTR_DEFAULT_FETCH_MODE, PDO::FETCH_ASSOC);
+
+    updateProfileText($db, $profileText);
+    updateEmail($db, $email);
+
+    header('Location: cms.php');
+    exit;
 }
