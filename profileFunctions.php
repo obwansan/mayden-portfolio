@@ -1,5 +1,8 @@
 <?php
 
+$db = new PDO('mysql:host=127.0.0.1;dbname=portfolio-kevin', 'root');
+$db->setAttribute(PDO::ATTR_DEFAULT_FETCH_MODE, PDO::FETCH_ASSOC);
+
 // get profile text and email from db
 $profileTextArray = getProfileText($db);
 $profileTextString = outputProfileText($profileTextArray);
@@ -18,7 +21,7 @@ $emailString = outputEmail($emailArray);
  *
  * @return array
  */
-function getProfileText(object $db): array {
+function getProfileText($db) {
     $query = $db->prepare("SELECT `text` FROM `profile`;");
     $query->execute();
     $textArray = $query->fetch();
@@ -32,7 +35,7 @@ function getProfileText(object $db): array {
  *
  * @return string
  */
-function outputProfileText(array $textArray): string {
+function outputProfileText($textArray) {
     return $textArray['text'];
 }
 
@@ -43,7 +46,7 @@ function outputProfileText(array $textArray): string {
  *
  * @return array
  */
-function getEmail(object $db): array  {
+function getEmail($db)  {
     $query = $db->prepare("SELECT `email` FROM `contact`;");
     $query->execute();
     $emailArray = $query->fetch();
@@ -53,12 +56,12 @@ function getEmail(object $db): array  {
 /**
  * Outputs profile email
  *
- * @param $emailArray string Outputs profile email
+ * @param $emailArray array Outputs profile email
  *
  * @return string
  */
-function outputEmail(array $emailArray) :string{
-    return $emailArray['email'];
+function outputEmail($emailArray) {
+   return $emailArray['email'];
 }
 
 /**************************************************
@@ -71,7 +74,7 @@ function outputEmail(array $emailArray) :string{
  * @param $profileText string Updates profile text
  * @param $db object Gets profile text from Db
  */
-function updateProfileText(object $db, string $profileText) {
+function updateProfileText($db, $profileText) {
     $query = $db->prepare("UPDATE `profile` SET `text` = :profileText WHERE `id` = 1;");
     $query->bindParam(':profileText', $profileText);
     $query->execute();
@@ -82,7 +85,7 @@ function updateProfileText(object $db, string $profileText) {
  *
  * @param $email string Updates profile email
  */
-function updateEmail(object $db, string $email) {
+function updateEmail($db, $email) {
     $query = $db->prepare("UPDATE `contact` SET `email` = :email WHERE `id` = 1;");
     $query->bindParam(':email', $email);
     $query->execute();

@@ -45,11 +45,13 @@
             </div>
             <div class="grid-column">
                 <a href="https://dev.maydenacademy.co.uk/students/2018/kevin/formValidatorChallenge/"><img class="portfolio-image" src="images/form-validation.png"></a>
-                <p class="projectDesc">JavaScript Form validation challenge</p>
+                <p class="projectDesc">JavaScript form validation challenge</p>
                 <a href="https://github.com/obwansan/form-validator-challenge/" target="_blank" class="viewCode">&lt;view code&gt;</a>
             </div>
             <div class="grid-column">
-                <a href="#"><img class="portfolio-image" src="images/project-placeholder.png"></a>
+                <a href="https://dev.maydenacademy.co.uk/students/2018/kevin/timerChallenge/"><img class="portfolio-image" src="images/project-placeholder.png"></a>
+                <p class="projectDesc">JS DOM - Timer challenge</p>
+                <a href="https://github.com/obwansan/timer-challenge" target="_blank" class="viewCode">&lt;view code&gt;</a>
             </div>
         </div>
         <div class="icons">
