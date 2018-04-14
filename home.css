@@ -15,10 +15,10 @@ body {
 
 .text {
     text-align: center;
+    margin-top: 500px;
 }
 
 .name {
-    margin-top: 300px;
     font-size: 3rem;
 }
 
