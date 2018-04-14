@@ -3,13 +3,20 @@
 <head>
     <meta charset="UTF-8">
     <title>Portfolio</title>
-    <link rel="stylesheet" type="text/css" href="tests/css/normalize.css">
-    <link rel="stylesheet" type="text/css" href="tests/css/styles.css">
-    <link rel="stylesheet" type="text/css" href="tests/css/portfolio.css">
+    <!--  Meta-data  -->
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <!--  CSS  -->
+    <link rel="stylesheet" type="text/css" href="css/normalize.css">
+    <link rel="stylesheet" type="text/css" href="css/styles.css">
+    <!--  Bootstrap  -->
+    <link rel="stylesheet" type="text/css" href="css/bootstrap-3.3.7-dist/css/bootstrap.css">
+    <!--  Fonts  -->
     <link href="https://fonts.googleapis.com/css?family=Josefin+Sans" rel="stylesheet">
+    <!--  JS  -->
+    <script type="text/javascript" src="js/animations.js" defer></script>
 </head>
 <!--[if IE]><body class="ie"><![endif]-->
-<body>
+<body class="portfolio-BG">
     <div class="container">
         <h1>Portfolio</h1>
         <div class="gallery">
