@@ -9,7 +9,8 @@ body {
     position: relative;
     float: left;
     width: 25%;
-    height: 300px;
+    height: 390px;
+    margin-bottom: 10px;
 }
 
 .gallery {
@@ -35,6 +36,25 @@ body {
 .icons {
     margin-top: 70px;
     text-align: center;
+}
+
+.projectDesc,
+.viewCode {
+    text-align: center;
+}
+
+.projectDesc {
+    padding: 10px 55px;
+    margin-top: 305px;
+    margin-bottom: 5px;
+    font-size: 1.2rem;
+}
+
+.viewCode {
+    display: block;
+    height: 25px;
+    padding: 5px 97px;
+    font-family: courier, sans-serif;
 }
 
 .ie .gallery img {

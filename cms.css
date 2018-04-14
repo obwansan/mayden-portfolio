@@ -5,7 +5,7 @@
 body {
     margin: 0;
     font-family: 'Josefin Sans', sans-serif;
-    color: #ffffff;
+    color: #000;
     position: relative;
 }
 
@@ -18,21 +18,19 @@ body {
 
 h1 {
     text-align: center;
-    margin: 100px 0 30px;
+    margin: 100px 0 50px;
 }
 
-.icons {
-    text-align: center;
-    margin: 70px 0 50px;
-}
-
-.page-link {
-    height: 60px;
-    width: 60px;
-    padding: 5px;
-}
-
-.loginBtn {
+#logout {
     position: absolute;
-    left: 100px;
+}
+
+label,
+input,
+textarea {
+    display: block;
+}
+
+input[type=email] {
+    width: 400px;
 }
