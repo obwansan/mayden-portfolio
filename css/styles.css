@@ -153,19 +153,21 @@ Portfolio page
     background: linear-gradient(to right, #89216b, #da4453) fixed; /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
 }
 
-.grid-column {
-    position: relative;
-    float: left;
-    width: 25%;
-    height: 390px;
-    margin-bottom: 10px;
-}
-
 .gallery {
     overflow: auto;
     width: 1200px;
     margin: 0 auto;
 }
+
+/*.grid-column {*/
+    /*position: relative;*/
+    /*float: left;*/
+    /*width: 25%;*/
+    /*height: 390px;*/
+    /*margin-bottom: 10px;*/
+/*}*/
+
+
 
 .portfolio-image {
     height: 200px;
@@ -214,11 +216,12 @@ Portfolio page
 Bootstrap Media Queries
 /****************************/
 
+/*col-xs-*/
 @media (min-width: 768px) {
 
 
 }
-
+/*col-sm-*/
 @media (max-width: 992px) and (min-width: 769px) {
     .container {
         width: 750px;
@@ -227,13 +230,13 @@ Bootstrap Media Queries
         padding: 0 20px;
     }
 }
-
+/*col-md-*/
 @media (max-width: 1200px) and (min-width: 993px) {
     .container {
         width: 970px;
     }
 }
-
+/*col-lg-*/
 @media (min-width: 1201px) {
     .container {
         width: 1170px;
