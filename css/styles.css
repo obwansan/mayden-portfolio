@@ -101,10 +101,15 @@ Profile page
     background: linear-gradient(to right, #11998e, #38ef7d); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
 }
 
+/*.profile-img-container {*/
+    /*width: 250px;*/
+/*}*/
+
 .profile-image {
     border-radius: 50%;
-    height: 100%;
-    width: 100%;
+    width: 250px;
+    display: block;
+    margin: 30px auto;
 }
 
 .icons {
@@ -209,30 +214,28 @@ Portfolio page
 Bootstrap Media Queries
 /****************************/
 
-@media (max-width: 640px) {
-    .container {
-        width: 320px;
-    }
+@media (min-width: 768px) {
+
+
 }
 
-@media (max-width: 1023px) and (min-width: 641px) {
+@media (max-width: 992px) and (min-width: 769px) {
     .container {
-        width: 640px;
+        width: 750px;
     }
     .profile-image {
-        height: 40%;
-        width: 40%;
+        padding: 0 20px;
     }
 }
 
-@media (max-width: 1399px) and (min-width: 1024px) {
+@media (max-width: 1200px) and (min-width: 993px) {
     .container {
-        width: 1024px;
+        width: 970px;
     }
 }
 
-@media (min-width: 1400px) {
+@media (min-width: 1201px) {
     .container {
-        width: 1398px;
+        width: 1170px;
     }
 }

@@ -28,7 +28,7 @@ $db->setAttribute(PDO::ATTR_DEFAULT_FETCH_MODE, PDO::FETCH_ASSOC);
     <div class="container">
         <h1>Profile</h1>
         <div class="row">
-            <div class="col-xs-12 col-sm-4">
+            <div class="col-xs-12 col-sm-4 imgContainer">
                 <img class="profile-image" src="images/profile-photo.png">
             </div>
 
