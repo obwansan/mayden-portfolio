@@ -13,13 +13,34 @@ body {
     background: linear-gradient(to right, #f2fcfe, #1c92d2) fixed; /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
 }
 
-.text {
+.homePageText {
     text-align: center;
-    margin-top: 500px;
+    margin-top: 350px;
+    font-size: 2rem;
 }
 
-.name {
-    font-size: 3rem;
+.overlay {
+    position: fixed;
+    display: none;
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-color: rgba(0,0,0,0.5);
+    z-index: 2;
+    cursor: pointer;
+}
+
+.text{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    font-size: 50px;
+    color: white;
+    transform: translate(-50%,-50%);
+    -ms-transform: translate(-50%,-50%);
 }
 
 .title {

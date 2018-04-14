@@ -12,9 +12,9 @@ $db->setAttribute(PDO::ATTR_DEFAULT_FETCH_MODE, PDO::FETCH_ASSOC);
 <head>
     <meta charset="UTF-8">
     <title>Profile</title>
-    <link rel="stylesheet" type="text/css" href="normalize.css">
-    <link rel="stylesheet" type="text/css" href="styles.css">
-    <link rel="stylesheet" type="text/css" href="profile.css">
+    <link rel="stylesheet" type="text/css" href="tests/css/normalize.css">
+    <link rel="stylesheet" type="text/css" href="tests/css/styles.css">
+    <link rel="stylesheet" type="text/css" href="tests/css/profile.css">
     <link href="https://fonts.googleapis.com/css?family=Josefin+Sans" rel="stylesheet">
 </head>
 <body>
@@ -36,7 +36,7 @@ $db->setAttribute(PDO::ATTR_DEFAULT_FETCH_MODE, PDO::FETCH_ASSOC);
             <a href="portfolio.php"><img class="page-link" src="images/project-icons/portfolio-icon-1.png"></a>
         </div>
         <div>
-            <a href="login.php"><img src="images/project-icons/padlock.png" class="loginBtn"></a>
+            <a href="cms/login.php"><img src="images/project-icons/padlock.png" class="loginBtn"></a>
         </div>
     </div>
 </body>
