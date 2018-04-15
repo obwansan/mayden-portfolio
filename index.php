@@ -45,6 +45,11 @@
                         <span class="glyphicon glyphicon-folder-open" aria-label="work portfolio link"></span>
                     </a>
                 </li>
+                <li>
+                    <a href="portfolio.php" data-toggle="tooltip" title="contact">
+                        <span class="glyphicon glyphicon-envelope" aria-label="contact link"></span>
+                    </a>
+                </li>
             </ul>
         </div>
     </div>
@@ -54,10 +59,22 @@
 <body class="home-BG">
     <div class="container">
         <div class="row">
-            <div class="col-lg-12 homePageText">Where am I?</div>
-            <div class="overlay">
-                <div class="text">Overlay Text</div>
+            <div class="col-xs-offset-4 col-xs-4 homePageIntroCont">
+                <div class="homePageIntro">Where am I?</div>
             </div>
+               <div class="col-xs-offset-4 col-xs-4">
+                   <button class="introBtn">
+                       <a href="#">Click</a>
+                   </button>
+               </div>
+<!--            <div class="overlay">-->
+<!--                <div class="text">Overlay Text</div>-->
+<!--            </div>-->
+
+            <div class="col-xs-offset-3 col-xs-6 homePageIntro">
+
+            </div>
+
         </div>
     </div>
 </body>
