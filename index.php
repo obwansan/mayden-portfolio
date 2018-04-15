@@ -59,22 +59,17 @@
 <body class="home-BG">
     <div class="container">
         <div class="row">
-            <div class="col-xs-offset-4 col-xs-4 homePageIntroCont">
+            <div class="col-xs-offset-3 col-xs-6 homePageIntroCont">
                 <div class="homePageIntro">Where am I?</div>
             </div>
-               <div class="col-xs-offset-4 col-xs-4">
-                   <button class="introBtn">
-                       <a href="#">Click</a>
-                   </button>
-               </div>
-<!--            <div class="overlay">-->
-<!--                <div class="text">Overlay Text</div>-->
-<!--            </div>-->
-
-            <div class="col-xs-offset-3 col-xs-6 homePageIntro">
-
+            <div class="col-xs-offset-4 col-xs-4">
+               <button class="introBtn">
+                   <a href="#">Click</a>
+               </button>
             </div>
-
+            <div class="htmlSymbol">
+                <img src="images/HTML5_logo.png">
+            </div>
         </div>
     </div>
 </body>
