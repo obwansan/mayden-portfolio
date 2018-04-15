@@ -30,9 +30,21 @@
         </div>
         <div class="collapse navbar-collapse" id="myNavbar">
             <ul class="nav navbar-nav navbar-right">
-                <li><a href="#"><span class="glyphicon glyphicon-home"></span> </a></li>
-                <li><a href="#"><span class="glyphicon glyphicon-user"></span></a></li>
-                <li><a href="#"><span class="glyphicon glyphicon-folder-open"></span></a></li>
+                <li>
+                    <a href="index.php" data-toggle="tooltip" title="home">
+                        <span class="glyphicon glyphicon-home" aria-label="home page link"></span>
+                    </a>
+                </li>
+                <li>
+                    <a href="profile.php" data-toggle="tooltip" title="profile">
+                        <span class="glyphicon glyphicon-user" aria-label="profile page link"></span>
+                    </a>
+                </li>
+                <li>
+                    <a href="portfolio.php" data-toggle="tooltip" title="portfolio">
+                        <span class="glyphicon glyphicon-folder-open" aria-label="work portfolio link"></span>
+                    </a>
+                </li>
             </ul>
         </div>
     </div>
@@ -46,10 +58,6 @@
             <div class="overlay">
                 <div class="text">Overlay Text</div>
             </div>
-        </div>
-        <div class="icons">
-            <a href="profile.php"><img class="page-link" src="images/project-icons/profile-icon-1.png"></a>
-            <a href="portfolio.php"><img class="page-link" src="images/project-icons/portfolio-icon-1.png"></a>
         </div>
     </div>
 </body>
