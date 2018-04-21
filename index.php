@@ -10,7 +10,7 @@
     <link rel="stylesheet" type="text/css" href="css/normalize.css">
     <link rel="stylesheet" type="text/css" href="css/styles.css">
     <!--  Fonts  -->
-    <link href="https://fonts.googleapis.com/css?family=Josefin+Sans" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Megrim|Rajdhani" rel="stylesheet">
     <!--  JS  -->
     <script type="text/javascript" src="js/animations.js" defer></script>
     <script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
@@ -43,7 +43,7 @@
                 </li>
                 <li>
                     <a href="portfolio.php" data-toggle="tooltip" title="portfolio">
-                        <span class="glyphicon glyphicon-folder-open" aria-label="work portfolio link"></span>
+                        <span class="glyphicon glyphicon-briefcase" aria-label="work portfolio link"></span>
                     </a>
                 </li>
                 <li>
@@ -59,19 +59,18 @@
 <!-- main -->
 
     <div class="container">
-<!--        <div class="row">-->
-<!--            <div class="col-xs-offset-4 col-xs-4 homePageIntroContainer">-->
-<!--                <div class="homePageIntro">Where am I?</div>-->
-<!--            </div>-->
-<!--            <div class="col-xs-offset-4 col-xs-4">-->
-<!--               <button class="introBtn">-->
-<!--                   <a href="#">Click</a>-->
-<!--               </button>-->
-<!--            </div>-->
-<!--            <div class="symbolContainer">-->
-<!--                <img src="images/HTML5_logo.png" class="htmlSymbol">-->
-<!--            </div>-->
-<!--        </div>-->
+        <div class="row">
+            <div class="col-xs-12 homePageIntroContainer">
+                <div class="homePageTitle">Kevin O'Brien</div>
+                <div class="homePageTitle bottomTitle">Full-Stack Web Developer</div>
+                <div class="homePageText">Hi. I enjoy creating elegant, innovative</div>
+                <div class="homePageText">websites and applications. Currently</div>
+                <div class="homePageText">training at Mayden Academy, UK</div>
+            </div>
+
+            </div>
+            </div>
+        </div>
     </div>
 </body>
 </html>

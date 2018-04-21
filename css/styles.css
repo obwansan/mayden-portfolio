@@ -56,24 +56,23 @@ Bootstrap classes
 }
 
 .navbar-default .navbar-toggle .icon-bar{
-    background-color: #0f0f0f;
+    background-color: #FFFFFF;
     width: 25px;
-    height: 3px;
-    /*padding: 2px 0;*/
+    height: 2px;
 }
 
 .navbar-collapse {
     border: none;
 }
 
-.glyphicon {
-    font-size: 20px;
-    color: #0f0f0f;
-    float: right;
+.navbar-default .navbar-toggle:hover, .navbar-default .navbar-toggle:focus {
+    background-color: transparent;
 }
 
-button {
-
+.glyphicon {
+    font-size: 20px;
+    color: #FFFFFF;
+    float: right;
 }
 
 /****************************
@@ -92,7 +91,7 @@ body {
     width: 100wh;
     height: 90vh;
     color: #fff;
-    background: linear-gradient(15deg, #004e92, #000428, #004e92, #000428);
+    background: linear-gradient(15deg, #008cff, #0000ff, #008cff, #0000ff);
     background-size: 400% 400%;
     -webkit-animation: Gradient 15s ease infinite;
     -moz-animation: Gradient 15s ease infinite;
@@ -147,12 +146,25 @@ body {
 /****************************/
 
 
-.homePageIntro {
-    text-align: center;
-    margin: 20px 0 25px;
-    font-size: 1.7rem;
+.homePageTitle {
+    text-align: left;
+    font-size: 3.8rem;
+    font-weight: 600;
+    font-family: 'Megrim', cursive;
     color: #FFFFFF;
-    cursor: pointer;
+    margin: 0;
+}
+
+.bottomTitle {
+    margin-bottom: 15px;
+}
+
+.homePageText {
+    text-align: left;
+    font-size: 2rem;
+    color: #FFFFFF;
+    font-family: 'Rajdhani', sans-serif;
+    font-weight: 400;
 }
 
 .homePageIntroContainer {
@@ -350,5 +362,20 @@ Bootstrap Media Queries
 @media (min-width: 1201px) {
     .container {
         width: 1170px;
+    }
+}
+
+/****************************/
+
+@media (max-width: 767px) {
+    .navbar-nav > li > a {
+        padding-top: 22px;
+        padding-bottom: 22px;
+        line-height: 20px;
+        padding-left: -13px;
+        margin-right: 14px;
+    }
+    .homePageIntroContainer {
+        margin-top: 100px;
     }
 }
