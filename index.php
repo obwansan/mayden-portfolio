@@ -4,11 +4,11 @@
     <title>Kevin O'Brien - Portfolio</title>
     <!--  Meta-data  -->
     <meta name="viewport" content="width=device-width, initial-scale=1">
+    <!--  Bootstrap  -->
+    <link rel="stylesheet" type="text/css" href="css/bootstrap-3.3.7-dist/css/bootstrap.css">
     <!--  CSS  -->
     <link rel="stylesheet" type="text/css" href="css/normalize.css">
     <link rel="stylesheet" type="text/css" href="css/styles.css">
-    <!--  Bootstrap  -->
-    <link rel="stylesheet" type="text/css" href="css/bootstrap-3.3.7-dist/css/bootstrap.css">
     <!--  Fonts  -->
     <link href="https://fonts.googleapis.com/css?family=Josefin+Sans" rel="stylesheet">
     <!--  JS  -->
@@ -17,6 +17,7 @@
     <script type="text/javascript" src="css/bootstrap-3.3.7-dist/js/bootstrap.min.js"></script>
 </head>
 <!--[if IE]><body class="ie"><![endif]-->
+<body class="home-BG">
 
 <!-- nav bar -->
 <nav class="navbar transparent navbar-default">
@@ -56,21 +57,21 @@
 </nav>
 
 <!-- main -->
-<body class="home-BG">
+
     <div class="container">
-        <div class="row">
-            <div class="col-xs-offset-4 col-xs-4 homePageIntroContainer">
-                <div class="homePageIntro">Where am I?</div>
-            </div>
-            <div class="col-xs-offset-4 col-xs-4">
-               <button class="introBtn">
-                   <a href="#">Click</a>
-               </button>
-            </div>
-            <div class="symbolContainer">
-                <img src="images/HTML5_logo.png" class="htmlSymbol">
-            </div>
-        </div>
+<!--        <div class="row">-->
+<!--            <div class="col-xs-offset-4 col-xs-4 homePageIntroContainer">-->
+<!--                <div class="homePageIntro">Where am I?</div>-->
+<!--            </div>-->
+<!--            <div class="col-xs-offset-4 col-xs-4">-->
+<!--               <button class="introBtn">-->
+<!--                   <a href="#">Click</a>-->
+<!--               </button>-->
+<!--            </div>-->
+<!--            <div class="symbolContainer">-->
+<!--                <img src="images/HTML5_logo.png" class="htmlSymbol">-->
+<!--            </div>-->
+<!--        </div>-->
     </div>
 </body>
 </html>
