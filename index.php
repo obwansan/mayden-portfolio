@@ -59,7 +59,7 @@
 <body class="home-BG">
     <div class="container">
         <div class="row">
-            <div class="col-xs-offset-3 col-xs-6 homePageIntroCont">
+            <div class="col-xs-offset-4 col-xs-4 homePageIntroContainer">
                 <div class="homePageIntro">Where am I?</div>
             </div>
             <div class="col-xs-offset-4 col-xs-4">
@@ -67,8 +67,8 @@
                    <a href="#">Click</a>
                </button>
             </div>
-            <div class="htmlSymbol">
-                <img src="images/HTML5_logo.png">
+            <div class="symbolContainer">
+                <img src="images/HTML5_logo.png" class="htmlSymbol">
             </div>
         </div>
     </div>
