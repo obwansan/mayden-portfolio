@@ -61,14 +61,13 @@
     <div class="container">
         <div class="row">
             <div class="col-xs-12 homePageIntroContainer">
-                <div class="homePageTitle">Kevin O'Brien</div>
-                <div class="homePageTitle bottomTitle">Full-Stack Web Developer</div>
-                <div class="homePageText">Hi. I enjoy creating elegant, innovative</div>
-                <div class="homePageText">websites and applications. Currently</div>
-                <div class="homePageText">training at Mayden Academy, UK</div>
-            </div>
-
-            </div>
+                <h1 class="homeTitle">Kevin O'Brien,</h1>
+                <h1 class="homeTitle">Full-Stack Web Developer</h1>
+                <p class="homeTxt">Hi. I enjoy creating elegant, innovative websites and applications. Currently training at Mayden Academy, UK</p>
+                <div class="homeBtns">
+                   <a class="homeBtn" href="#">Explore work</a>
+                   <a class="homeBtn" href="#">View profile</a>
+               </div>
             </div>
         </div>
     </div>
