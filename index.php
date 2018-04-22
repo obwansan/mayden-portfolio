@@ -17,7 +17,7 @@
     <script type="text/javascript" src="css/bootstrap-3.3.7-dist/js/bootstrap.min.js"></script>
 </head>
 <!--[if IE]><body class="ie"><![endif]-->
-<body class="home-BG">
+<body>
 
 <!-- nav bar -->
 <nav class="navbar transparent navbar-default">

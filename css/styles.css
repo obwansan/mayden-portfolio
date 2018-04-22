@@ -14,8 +14,7 @@ body {
 }
 
 h1 {
-    text-align: center;
-    margin: 200px 0 30px;
+    margin: 100px 0 30px;
 }
 
 a, a:hover, a:visited, a:active, a:link {
@@ -39,7 +38,8 @@ Bootstrap classes
 /****************************/
 
 .container {
-    margin-top: 40px;
+    margin-top: 80px;
+    margin-bottom: 80px;
 }
 
 .row {
@@ -143,7 +143,6 @@ body {
     }
 }
 
-
 .ie {
     /* uiGradient - Telegram (works with IE, unlike 'Visions of grandeur')*/
     background: #1c92d2;  /* fallback for old browsers */
@@ -151,9 +150,7 @@ body {
     background: linear-gradient(to right, #f2fcfe, #1c92d2) fixed; /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
 }
 
-
 /****************************/
-
 
 .homeTitle {
     text-align: left;
@@ -170,7 +167,7 @@ body {
 }
 
 .homePageIntroContainer {
-    margin-top: 200px;
+    margin-top: 190px;
 }
 
 .homeTxt {
@@ -183,7 +180,8 @@ body {
     margin: 20px 0;
 }
 
-.homeTxt:hover {
+.homeTxt:hover,
+.profileTxt:hover{
     text-shadow: 2px 2px 4px #000000;
 }
 
@@ -213,9 +211,9 @@ body {
     background-color: #dff0d8;
 }
 
-    /****************************
-    Profile page
-    /****************************/
+/****************************
+Profile page
+/****************************/
 
 .profile-BG {
     /* uiGradient - Quepal */
@@ -224,15 +222,17 @@ body {
     background: linear-gradient(to right, #11998e, #38ef7d); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
 }
 
-/*.profile-img-container {*/
-/*width: 250px;*/
-/*}*/
+.profilePageIntroContainer {
+    margin-top: 0;
+}
 
-.profile-image {
-    border-radius: 50%;
-    width: 250px;
-    display: block;
-    margin: 30px auto;
+.profileTxt {
+    text-align: left;
+    font-size: 1.8rem;
+    color: #FFFFFF;
+    font-family: 'Rajdhani', sans-serif;
+    width: 50%;
+    margin: 20px 0;
 }
 
 .icons {
@@ -276,34 +276,70 @@ Portfolio page
     background: linear-gradient(to right, #89216b, #da4453) fixed; /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
 }
 
+.projectsRow {
+    margin-top: 180px;
+}
+
 .gallery {
     overflow: auto;
     width: 1200px;
     margin: 0 auto;
 }
 
-/*.grid-column {*/
-/*position: relative;*/
-/*float: left;*/
-/*width: 25%;*/
-/*height: 390px;*/
-/*margin-bottom: 10px;*/
-/*}*/
-
-
+.img-container {
+    position: relative;
+    margin-bottom: 240px;
+}
 
 .portfolio-image {
-    height: 200px;
-    width: 200px;
-    border-radius: 20%;
+    display: block;
+    height: 150px;
+    width: 150px;
+    border-radius: 10%;
     margin: 0 auto;
     background-size: contain;
+    box-shadow: 2px 2px black;
 
     /* Vertically and horizontally centre div */
     position: absolute;
     top: 50%;
     left: 50%;
     transform: translate(-50%, -50%);
+}
+
+.overlay {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    height: 150px;
+    width: 150px;
+    border-radius: 10%;
+    opacity: 0;
+    transition: .5s ease;
+    background-color: #008CBA;
+}
+
+.img-container:hover .overlay {
+    opacity: 1;
+}
+
+.zoom {
+    transition: transform .2s;
+}
+
+.zoom:hover {
+    transform: scale(1.5);
+}
+
+.text {
+    color: white;
+    font-size: 1.5rem;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
 }
 
 .icons {
@@ -326,8 +362,10 @@ Portfolio page
 .viewCode {
     display: block;
     height: 25px;
-    padding: 5px 97px;
+    padding: 10px 87px;
     font-family: courier, sans-serif;
+    position: absolute;
+    top: 85px;
 }
 
 .ie .gallery img {
