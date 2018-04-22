@@ -84,6 +84,14 @@ Bootstrap classes
     color: #0f0f0f;
 }
 
+.cms-icon-container {
+    position: relative;
+}
+
+.glyphicon-lock {
+    position: absolute;
+}
+
 /****************************
 Home page
 /****************************/
@@ -170,14 +178,22 @@ body {
     margin-top: 190px;
 }
 
-.homeTxt {
-    text-align: left;
-    font-size: 2rem;
+.homeTxt,
+.portfolioText {
     color: #FFFFFF;
     font-family: 'Rajdhani', sans-serif;
     font-weight: 400;
+}
+
+.homeTxt {
+    text-align: left;
+    font-size: 2rem;
     width: 30%;
     margin: 20px 0;
+}
+
+.portfolioText {
+    font-size: 1.7rem;
 }
 
 .homeTxt:hover,
@@ -295,10 +311,10 @@ Portfolio page
     display: block;
     height: 150px;
     width: 150px;
-    border-radius: 10%;
+    border-radius: 5%;
     margin: 0 auto;
     background-size: contain;
-    box-shadow: 2px 2px black;
+    box-shadow: 4px 7px black;
 
     /* Vertically and horizontally centre div */
     position: absolute;
@@ -314,10 +330,14 @@ Portfolio page
     transform: translate(-50%, -50%);
     height: 150px;
     width: 150px;
-    border-radius: 10%;
+    border-radius: 5%;
     opacity: 0;
     transition: .5s ease;
-    background-color: #008CBA;
+    background: #4568DC;  /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, #B06AB3, #4568DC);  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, #B06AB3, #4568DC); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+
+    padding: 32px;
 }
 
 .img-container:hover .overlay {
@@ -366,6 +386,10 @@ Portfolio page
     font-family: courier, sans-serif;
     position: absolute;
     top: 85px;
+}
+
+.viewCode:hover {
+    color: #0000FF;
 }
 
 .ie .gallery img {

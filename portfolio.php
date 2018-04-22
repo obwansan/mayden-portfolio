@@ -63,28 +63,28 @@
             <div class="col-xs-12 col-sm-6 col-md-4 col-lg-3 img-container">
                 <img class="portfolio-image" src="images/mayden-logo.png" alt="Mayden logo">
                 <div class="overlay">
-                    <a class="text" href="https://dev.maydenacademy.co.uk/students/2018/kevin/mayden-logo/" target="_blank">Mayden logo made with HTML & CSS</a>
+                    <a class="portfolioText" href="https://dev.maydenacademy.co.uk/students/2018/kevin/mayden-logo/" target="_blank">Mayden logo made with HTML & CSS</a>
                 </div>
                 <a href="https://github.com/obwansan/mayden-logo-challenge" target="_blank" class="viewCode">&lt;view code&gt;</a>
             </div>
             <div class="col-xs-12 col-sm-6 col-md-4 col-lg-3 img-container">
                 <a href="https://dev.maydenacademy.co.uk/students/2018/kevin/pilot-shop-build/" target="_blank"><img class="portfolio-image" src="images/pilot-shop.png" alt="Pilot Shop website logo"></a>
                 <div class="overlay">
-                    <div class="text">Clone of ecommerce website</div>
+                    <div class="portfolioText">Clone of ecommerce website</div>
                 </div>
                 <a href="https://github.com/obwansan/pilot-shop-responsive-site" target="_blank" class="viewCode">&lt;view code&gt;</a>
             </div>
             <div class="col-xs-12 col-sm-6 col-md-4 col-lg-3 img-container">
                 <a href="#"><img class="portfolio-image" src="images/jsGame-mayrioKart.png"></a>
                 <div class="overlay">
-                    <div class="text">JavaScript game - team project</div>
+                    <div class="portfolioText">JavaScript game - team project</div>
                 </div>
                 <a href="https://github.com/Mayden-Academy/2018JSGame" target="_blank" class="viewCode">&lt;view code&gt;</a>
             </div>
             <div class="col-xs-12 col-sm-6 col-md-4 col-lg-3 img-container">
                 <a href="https://dev.maydenacademy.co.uk/students/2018/kevin/postsRailings/" target="_blank"><img class="portfolio-image" src="images/posts-rails.png"></a>
                 <div class="overlay">
-                    <div class="text">PHP posts & railings challenge</div>
+                    <div class="portfolioText">PHP posts & railings challenge</div>
                 </div>
                 <a href="https://github.com/obwansan/posts-and-railings-challenge" target="_blank" class="viewCode">&lt;view code&gt;</a>
             </div>
@@ -95,28 +95,28 @@
             <div class="col-xs-12 col-sm-6 col-md-4 col-lg-3 img-container">
                 <a href="#"><img class="portfolio-image" src="images/portfolio-site.png"></a>
                 <div class="overlay">
-                    <div class="text">Portfolio and CMS</div>
+                    <div class="portfolioText">Portfolio and CMS</div>
                 </div>
                 <a href="https://github.com/obwansan/mayden-portfolio/tree/story-cms" target="_blank" class="viewCode">&lt;view code&gt;</a>
             </div>
             <div class="col-xs-12 col-sm-6 col-md-4 col-lg-3 img-container">
                 <a href="#"><img class="portfolio-image" src="images/ace-bet-blackjack.jpg"></a>
                 <div class="overlay">
-                    <div class="text">PHP blackjack game & function tests</div>
+                    <div class="portfolioText">PHP blackjack game & tests</div>
                 </div>
                 <a href="https://github.com/obwansan/blackjack-game" target="_blank" class="viewCode">&lt;view code&gt;</a>
             </div>
             <div class="col-xs-12 col-sm-6 col-md-4 col-lg-3 img-container">
                 <a href="https://dev.maydenacademy.co.uk/students/2018/kevin/formValidatorChallenge/"><img class="portfolio-image" src="images/form-validation.png"></a>
                 <div class="overlay">
-                    <div class="text">JavaScript form validation challenge</div>
+                    <div class="portfolioText">JavaScript form validation challenge</div>
                 </div>
                 <a href="https://github.com/obwansan/form-validator-challenge/" target="_blank" class="viewCode">&lt;view code&gt;</a>
             </div>
             <div class="col-xs-12 col-sm-6 col-md-4 col-lg-3 img-container">
                 <a href="https://dev.maydenacademy.co.uk/students/2018/kevin/timerChallenge/"><img class="portfolio-image" src="images/project-placeholder.png"></a>
                 <div class="overlay">
-                    <div class="text">JS DOM - Timer challenge</div>
+                    <div class="portfolioText">JS DOM - Timer challenge</div>
                 </div>
                 <a href="https://github.com/obwansan/timer-challenge" target="_blank" class="viewCode">&lt;view code&gt;</a>
             </div>

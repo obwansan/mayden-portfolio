@@ -76,8 +76,8 @@ $db->setAttribute(PDO::ATTR_DEFAULT_FETCH_MODE, PDO::FETCH_ASSOC);
                     <?php echo $profileTextString; ?>
                 </p>
 
-        <div>
-            <a href="cms/login.php"><img src="images/project-icons/padlock.png" class="loginBtn"></a>
+        <div class="cms-icon-container">
+            <a href="cms/login.php" class="glyphicon glyphicon-lock" data-toggle="tooltip" title="cms"></a>
         </div>
     </div>
 </body>
