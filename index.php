@@ -65,8 +65,8 @@
                 <h1 class="homeTitle">Full-Stack Web Developer</h1>
                 <p class="homeTxt">Hi. I enjoy creating elegant, innovative websites and applications. Currently training at Mayden Academy, UK</p>
                 <div class="homeBtns">
-                   <a class="homeBtn" href="#">Explore work</a>
-                   <a class="homeBtn" href="#">View profile</a>
+                   <a class="homeBtn" href="portfolio.php">Explore work</a>
+                   <a class="homeBtn" href="profile.php">View profile</a>
                </div>
             </div>
         </div>
