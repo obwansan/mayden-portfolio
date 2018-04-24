@@ -61,8 +61,8 @@
     <div class="container">
         <div class="row">
             <div class="col-xs-12 homePageIntroContainer">
-                <h1 class="homeTitle">Kevin O'Brien,</h1>
-                <h1 class="homeTitle">Full-Stack Web Developer</h1>
+                <div class="homeTitle">Kevin O'Brien,</div>
+                <div class="homeTitle">Full-Stack Web Developer</div>
                 <p class="homeTxt">Hi. I enjoy creating elegant, innovative websites and applications. Currently training at Mayden Academy, UK</p>
                 <div class="homeBtns">
                    <a class="homeBtn" href="portfolio.php">Explore work</a>
