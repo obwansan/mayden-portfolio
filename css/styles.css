@@ -1,0 +1,480 @@
+/****************************
+Generic
+/****************************/
+
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+    font-family: 'Josefin Sans', sans-serif;
+    color: #ffffff;
+    position: relative;
+}
+
+h1 {
+    margin: 100px 0 30px;
+}
+
+a, a:hover, a:visited, a:active, a:link {
+    color:inherit;
+    text-decoration: none;
+}
+
+.icons {
+    text-align: center;
+    margin: 70px 0 50px;
+}
+
+.page-link {
+    height: 60px;
+    width: 60px;
+    padding: 5px;
+}
+
+/****************************
+Bootstrap classes
+/****************************/
+
+.container {
+    margin-top: 80px;
+    margin-bottom: 80px;
+}
+
+.row {
+    position: relative;
+}
+
+.nav {
+    margin-top: 10px;
+}
+
+.transparent.navbar-default {
+    border-width: 0px;
+    -webkit-box-shadow: 0px 0px;
+    box-shadow: 0px 0px;
+    background-color: rgba(0,0,0,0.0);
+    background-image: -webkit-gradient(linear, 50.00% 0.00%, 50.00% 100.00%, color-stop( 0% , rgba(0,0,0,0.00)),color-stop( 100% , rgba(0,0,0,0.00)));
+    background-image: -webkit-linear-gradient(270deg,rgba(0,0,0,0.00) 0%,rgba(0,0,0,0.00) 100%);
+    background-image: linear-gradient(180deg,rgba(0,0,0,0.00) 0%,rgba(0,0,0,0.00) 100%);
+}
+
+.navbar-default .navbar-toggle {
+    border: none;
+}
+
+.navbar-default .navbar-toggle .icon-bar{
+    background-color: #FFFFFF;
+    width: 25px;
+    height: 2px;
+}
+
+.navbar-collapse {
+    border: none;
+}
+
+.navbar-default .navbar-toggle:hover, .navbar-default .navbar-toggle:focus {
+    background-color: transparent;
+}
+
+.glyphicon {
+    font-size: 20px;
+    color: #FFFFFF;
+    float: right;
+}
+
+.glyphicon:hover {
+    color: #0f0f0f;
+}
+
+.cms-icon-container {
+    position: relative;
+}
+
+.glyphicon-lock {
+    position: absolute;
+}
+
+/****************************
+Home page
+/****************************/
+
+/*.home-BG {*/
+    /*!*uiGradient - Visions of grandeur*!*/
+    /*background: #000046;  !*fallback for old browsers*!*/
+    /*background: -webkit-linear-gradient(to top, #0575e6, #021b79) fixed;  !* Chrome 10-25, Safari 5.1-6 *!*/
+    /*background: linear-gradient(to top, #000046, #1CB5E0) fixed; !* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ *!*/
+    /*!*Have to put 'fixed' on end of linear-gradient for it to work / fill entire screen*!*/
+/*}*/
+
+body {
+    width: 100wh;
+    height: 90vh;
+    color: #fff;
+    background: linear-gradient(45deg, #0bd519, #1127d5, #a918e7, #ee1523);
+    background-size: 400% 400%;
+    -webkit-animation: Gradient 15s ease infinite;
+    -moz-animation: Gradient 15s ease infinite;
+    animation: Gradient 20s infinite;
+}
+
+@-webkit-keyframes Gradient {
+    0% {
+        background-position: 0 50%
+    }
+    50% {
+        background-position: 100% 50%
+    }
+    100% {
+        background-position: 0 50%
+    }
+}
+
+@-moz-keyframes Gradient {
+    0% {
+        background-position: 0% 50%
+    }
+    50% {
+        background-position: 100% 50%
+    }
+    100% {
+        background-position: 0% 50%
+    }
+}
+
+@keyframes Gradient {
+    0% {
+        background-position: 0% 50%
+    }
+    50% {
+        background-position: 100% 50%
+    }
+    100% {
+        background-position: 0% 50%
+    }
+}
+
+.ie {
+    /* uiGradient - Telegram (works with IE, unlike 'Visions of grandeur')*/
+    background: #1c92d2;  /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, #f2fcfe, #1c92d2) fixed;  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, #f2fcfe, #1c92d2) fixed; /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+}
+
+/****************************/
+
+.homeTitle {
+    text-align: left;
+    font-size: 3.8rem;
+    font-weight: 600;
+    font-family: 'Megrim', cursive;
+    color: #FFFFFF;
+    margin: 10px 0;
+
+}
+
+.homeTitle:hover {
+    text-shadow: 2px 2px 4px #000000;
+}
+
+.homePageIntroContainer {
+    margin-top: 190px;
+}
+
+.homeTxt,
+.portfolioText {
+    color: #FFFFFF;
+    font-family: 'Rajdhani', sans-serif;
+    font-weight: 400;
+}
+
+.homeTxt {
+    text-align: left;
+    font-size: 2rem;
+    width: 35%;
+    margin: 20px 0;
+}
+
+.portfolioText {
+    font-size: 1.7rem;
+}
+
+.homeTxt:hover,
+.profileTxt:hover{
+    text-shadow: 2px 2px 4px #000000;
+}
+
+.homeBtns {
+    margin-top: 30px;
+}
+
+.homeBtn {
+    width: 20px;
+    height: 10px;
+    border: 1px solid white;
+    border-radius: 3px;
+    color: #FFFFFF;
+    padding: 12px 23px;
+    margin-right: 25px;
+    text-transform: uppercase;
+}
+
+.homeBtn:hover {
+    color: #000;
+    background-color: #FFFFFF;
+    text-decoration: none;
+    box-shadow: 1px 1px;
+}
+
+.homeBtn:active {
+    background-color: #dff0d8;
+}
+
+/****************************
+Profile page
+/****************************/
+
+.profile-BG {
+    /* uiGradient - Quepal */
+    background: #11998e;  /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, #11998e, #38ef7d);  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, #11998e, #38ef7d); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+}
+
+.profilePageIntroContainer {
+    margin-top: 0;
+}
+
+.profileTxt {
+    text-align: left;
+    font-size: 1.8rem;
+    color: #FFFFFF;
+    font-family: 'Rajdhani', sans-serif;
+    width: 50%;
+    margin: 20px 0;
+}
+
+.icons {
+    clear: both;
+    text-align: center;
+    padding-top: 70px;
+}
+
+.page-link {
+    margin-top: 75px;
+}
+
+h2 {
+    margin-bottom: 7px;
+}
+
+p {
+    font-size: 1.3rem;
+}
+
+.contact{
+    margin: 0;
+}
+
+.loginBtn {
+    position: absolute;
+    top: -80px;
+    left: 1180px;
+    width: 30px;
+    height: 30px;
+}
+
+/****************************
+Portfolio page
+/****************************/
+
+.portfolio-BG {
+    /* uiGradient - Vanusa */
+    background: #da4453; /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, #89216b, #da4453) fixed; /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, #89216b, #da4453) fixed; /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+}
+
+.projectsRow {
+    margin-top: 180px;
+}
+
+.gallery {
+    overflow: auto;
+    width: 1200px;
+    margin: 0 auto;
+}
+
+.img-container {
+    position: relative;
+    margin-bottom: 240px;
+}
+
+.portfolio-image {
+    display: block;
+    height: 150px;
+    width: 150px;
+    border-radius: 5%;
+    margin: 0 auto;
+    background-size: contain;
+    box-shadow: 4px 7px black;
+
+    /* Vertically and horizontally centre div */
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.overlay {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    height: 150px;
+    width: 150px;
+    border-radius: 5%;
+    opacity: 0;
+    transition: .5s ease;
+    background: #4568DC;  /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, #B06AB3, #4568DC);  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, #B06AB3, #4568DC); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+
+    padding: 32px;
+}
+
+.img-container:hover .overlay {
+    opacity: 1;
+}
+
+.zoom {
+    transition: transform .2s;
+}
+
+.zoom:hover {
+    transform: scale(1.5);
+}
+
+.text {
+    color: white;
+    font-size: 1.5rem;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+}
+
+.icons {
+    margin-top: 70px;
+    text-align: center;
+}
+
+.projectDesc,
+.viewCode {
+    text-align: center;
+}
+
+.projectDesc {
+    padding: 10px 55px;
+    margin-top: 305px;
+    margin-bottom: 5px;
+    font-size: 1.2rem;
+}
+
+.codeLinkContainer {
+
+}
+
+.viewCode {
+    display: block;
+    height: 25px;
+    padding: 10px 87px;
+    font-family: courier, sans-serif;
+    position: absolute;
+    top: 85px;
+}
+
+.viewCode:hover {
+    color: #0000FF;
+}
+
+.ie .gallery img {
+    top: 0;
+    left: 0;
+}
+
+/****************************
+Bootstrap Media Queries
+/****************************/
+
+@media (max-width: 467px) {
+    p.homeTxt {
+        width: 70%;
+    }
+    .viewCode {
+        padding: 5% 33%;
+    }
+}
+
+@media (max-width: 645px) and (min-width: 468px) {
+    p.homeTxt {
+        width: 50%;
+    }
+    .viewCode {
+        padding: 5% 33%;
+    }
+}
+
+/*col-xs-*/
+@media (max-width: 768px) and (min-width: 646px) {
+    p.homeTxt {
+        width: 50%;
+    }
+    .viewCode {
+        padding: 12px 314px;
+    }
+}
+
+/*col-sm-*/
+@media (max-width: 992px) and (min-width: 769px) {
+    .container {
+        width: 750px;
+    }
+    .viewCode {
+        padding: 12px 125px;
+    }
+}
+
+/*col-md-*/
+@media (max-width: 1200px) and (min-width: 993px) {
+    .container {
+        width: 970px;
+    }
+    .viewCode {
+        padding: 12px 100px;
+    }
+}
+
+/*col-lg-*/
+@media (min-width: 1201px) {
+    .container {
+        width: 1170px;
+    }
+}
+
+/****************************/
+
+@media (max-width: 767px) {
+    .navbar-nav > li > a {
+        padding-top: 22px;
+        padding-bottom: 22px;
+        line-height: 20px;
+        padding-left: -13px;
+        margin-right: 14px;
+    }
+    .homePageIntroContainer {
+        margin-top: 100px;
+    }
+}

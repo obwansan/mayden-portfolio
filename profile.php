@@ -1,6 +1,6 @@
 <?php
 
-require_once 'profileFunctions.php';
+require_once 'cms/profileFunctions.php';
 
 $db = new PDO('mysql:host=127.0.0.1;dbname=portfolio-kevin', 'root');
 $db->setAttribute(PDO::ATTR_DEFAULT_FETCH_MODE, PDO::FETCH_ASSOC);
@@ -12,31 +12,72 @@ $db->setAttribute(PDO::ATTR_DEFAULT_FETCH_MODE, PDO::FETCH_ASSOC);
 <head>
     <meta charset="UTF-8">
     <title>Profile</title>
-    <link rel="stylesheet" type="text/css" href="normalize.css">
-    <link rel="stylesheet" type="text/css" href="styles.css">
-    <link rel="stylesheet" type="text/css" href="profile.css">
-    <link href="https://fonts.googleapis.com/css?family=Josefin+Sans" rel="stylesheet">
+    <!--  Meta-data  -->
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <!--  Bootstrap  -->
+    <link rel="stylesheet" type="text/css" href="css/bootstrap-3.3.7-dist/css/bootstrap.css">
+    <!--  CSS  -->
+    <link rel="stylesheet" type="text/css" href="css/normalize.css">
+    <link rel="stylesheet" type="text/css" href="css/styles.css">
+    <!--  Fonts  -->
+    <link href="https://fonts.googleapis.com/css?family=Megrim|Rajdhani" rel="stylesheet">
+    <!--  JS  -->
+    <script type="text/javascript" src="js/animations.js" defer></script>
+    <script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <script type="text/javascript" src="css/bootstrap-3.3.7-dist/js/bootstrap.min.js"></script>
 </head>
+<!--[if IE]><body class="ie"><![endif]-->
 <body>
+
+<!-- nav bar -->
+<nav class="navbar transparent navbar-default">
+    <div class="container-fluid">
+        <div class="navbar-header">
+            <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+            </button>
+        </div>
+        <div class="collapse navbar-collapse" id="myNavbar">
+            <ul class="nav navbar-nav navbar-right">
+                <li>
+                    <a href="index.php" data-toggle="tooltip" title="home">
+                        <span class="glyphicon glyphicon-home" aria-label="home page link"></span>
+                    </a>
+                </li>
+                <li>
+                    <a href="profile.php" data-toggle="tooltip" title="profile">
+                        <span class="glyphicon glyphicon-user" aria-label="profile page link"></span>
+                    </a>
+                </li>
+                <li>
+                    <a href="portfolio.php" data-toggle="tooltip" title="portfolio">
+                        <span class="glyphicon glyphicon-briefcase" aria-label="work portfolio link"></span>
+                    </a>
+                </li>
+                <li>
+                    <a href="portfolio.php" data-toggle="tooltip" title="contact">
+                        <span class="glyphicon glyphicon-envelope" aria-label="contact link"></span>
+                    </a>
+                </li>
+            </ul>
+        </div>
+    </div>
+</nav>
+
+<!-- main -->
+
     <div class="container">
-        <h1>Profile</h1>
-        <div class="col-4">
-            <img class="profile-image" src="images/profile-photo.png">
-        </div>
-        <div class="col-8">
-            <p>
-                <?php echo $profileTextString; ?>
-            </p>
-            <p class="contact">Email:
-                <?php echo $emailString ?>
-            </p>
-        </div>
-        <div class="icons">
-            <a href="index.php"><img class="page-link" src="images/project-icons/home-icon-1.png"></a>
-            <a href="portfolio.php"><img class="page-link" src="images/project-icons/portfolio-icon-1.png"></a>
-        </div>
-        <div>
-            <a href="login.php"><img src="images/project-icons/padlock.png" class="loginBtn"></a>
+        <div class="row">
+            <div class="col-xs-12 col-sm-12 profilePageIntroContainer">
+                <h1 class="homeTitle">Profile</h1>
+                <p class="profileTxt">
+                    <?php echo $profileTextString; ?>
+                </p>
+
+        <div class="cms-icon-container">
+            <a href="cms/login.php" class="glyphicon glyphicon-lock" data-toggle="tooltip" title="cms"></a>
         </div>
     </div>
 </body>
