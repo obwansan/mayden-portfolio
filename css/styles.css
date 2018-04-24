@@ -383,6 +383,10 @@ Portfolio page
     font-size: 1.2rem;
 }
 
+.codeLinkContainer {
+
+}
+
 .viewCode {
     display: block;
     height: 25px;
@@ -409,11 +413,17 @@ Bootstrap Media Queries
     p.homeTxt {
         width: 70%;
     }
+    .viewCode {
+        padding: 5% 33%;
+    }
 }
 
 @media (max-width: 645px) and (min-width: 468px) {
     p.homeTxt {
         width: 50%;
+    }
+    .viewCode {
+        padding: 5% 33%;
     }
 }
 
@@ -422,6 +432,9 @@ Bootstrap Media Queries
     p.homeTxt {
         width: 50%;
     }
+    .viewCode {
+        padding: 12px 314px;
+    }
 }
 
 /*col-sm-*/
@@ -429,18 +442,18 @@ Bootstrap Media Queries
     .container {
         width: 750px;
     }
-    .profile-image {
-        padding: 0 20px;
+    .viewCode {
+        padding: 12px 125px;
     }
-    /*p.homeTxt {*/
-        /*width: 50%;*/
-    /*}*/
 }
 
 /*col-md-*/
 @media (max-width: 1200px) and (min-width: 993px) {
     .container {
         width: 970px;
+    }
+    .viewCode {
+        padding: 12px 100px;
     }
 }
 

@@ -60,12 +60,15 @@
     <div class="container">
         <h1 class="homeTitle">Selected Work</h1>
         <div class="row projectsRow">
+
             <div class="col-xs-12 col-sm-6 col-md-4 col-lg-3 img-container">
                 <img class="portfolio-image" src="images/mayden-logo.png" alt="Mayden logo">
                 <div class="overlay">
                     <a class="portfolioText" href="https://dev.maydenacademy.co.uk/students/2018/kevin/mayden-logo/" target="_blank">Mayden logo made with HTML & CSS</a>
                 </div>
-                <a href="https://github.com/obwansan/mayden-logo-challenge" target="_blank" class="viewCode">&lt;view code&gt;</a>
+                <div class="codeLinkContainer">
+                    <a href="https://github.com/obwansan/mayden-logo-challenge" target="_blank" class="viewCode">&lt;view code&gt;</a>
+                </div>
             </div>
             <div class="col-xs-12 col-sm-6 col-md-4 col-lg-3 img-container">
                 <a href="https://dev.maydenacademy.co.uk/students/2018/kevin/pilot-shop-build/" target="_blank"><img class="portfolio-image" src="images/pilot-shop.png" alt="Pilot Shop website logo"></a>
@@ -88,10 +91,6 @@
                 </div>
                 <a href="https://github.com/obwansan/posts-and-railings-challenge" target="_blank" class="viewCode">&lt;view code&gt;</a>
             </div>
-
-<!--        </div>-->
-<!--        <div class="row">-->
-
             <div class="col-xs-12 col-sm-6 col-md-4 col-lg-3 img-container">
                 <a href="#"><img class="portfolio-image" src="images/portfolio-site.png"></a>
                 <div class="overlay">
