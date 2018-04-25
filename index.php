@@ -59,17 +59,20 @@
 <!-- main -->
 
     <div class="container">
-        <div class="row">
-            <div class="col-xs-12 homePageIntroContainer">
-                <div class="homeTitle">Kevin O'Brien,</div>
-                <div class="homeTitle">Full-Stack Web Developer</div>
-                <p class="homeTxt">Hi. I enjoy creating elegant, innovative websites and applications. Currently training at Mayden Academy, UK</p>
-                <div class="homeBtns">
-                   <a class="homeBtn" href="portfolio.php">Explore work</a>
-                   <a class="homeBtn" href="profile.php">View profile</a>
-               </div>
+        <div class="row rowTitle">
+            <div class="homeTitle">Kevin O'Brien,</div>
+            <div class="homeTitle">Full-Stack Web Developer</div>
+        </div>
+        <div class="row rowTxt">
+            <p class="homeTxt">Hi. I enjoy creating elegant, innovative websites and applications. Currently training at Mayden Academy, UK</p>
+            <div class="homeBtn">
+               <a href="portfolio.php">Explore work</a>
+            </div>
+            <div class="homeBtn" >
+               <a href="profile.php">View profile</a>
             </div>
         </div>
     </div>
+
 </body>
 </html>

@@ -33,13 +33,20 @@ Bootstrap classes
 /****************************/
 
 .container {
-    /*margin-top: 80px;*/
-    /*margin-bottom: 80px;*/
-    margin: 0 auto;
+    margin-top: 50%;
+    margin-bottom: 50%;
 }
 
 .row {
-    height: 175px;
+
+}
+
+.rowTitle {
+    margin-bottom: 12px;
+}
+
+.rowTxt {
+
 }
 
 .nav {
@@ -96,14 +103,6 @@ Bootstrap classes
 Home page
 /****************************/
 
-/*.home-BG {*/
-    /*!*uiGradient - Visions of grandeur*!*/
-    /*background: #000046;  !*fallback for old browsers*!*/
-    /*background: -webkit-linear-gradient(to top, #0575e6, #021b79) fixed;  !* Chrome 10-25, Safari 5.1-6 *!*/
-    /*background: linear-gradient(to top, #000046, #1CB5E0) fixed; !* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ *!*/
-    /*!*Have to put 'fixed' on end of linear-gradient for it to work / fill entire screen*!*/
-/*}*/
-
 body {
     /*width: 100wh;*/
     /*height: 90vh;*/
@@ -125,22 +124,15 @@ body {
     }
 }
 
-.ie {
-    /* uiGradient - Telegram (works with IE, unlike 'Visions of grandeur')*/
-    background: #1c92d2;  /* fallback for old browsers */
-    background: -webkit-linear-gradient(to right, #f2fcfe, #1c92d2) fixed;  /* Chrome 10-25, Safari 5.1-6 */
-    background: linear-gradient(to right, #f2fcfe, #1c92d2) fixed; /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
-}
-
 /****************************/
 
 .homeTitle {
     text-align: left;
-    font-size: 3.8rem;
+    font-size: 3rem;
     font-weight: 600;
     font-family: 'Megrim', cursive;
     color: #FFFFFF;
-    padding-top: 40px;
+    /*padding-top: 40px;*/
 }
 
 .homeTitle:hover {
@@ -148,7 +140,7 @@ body {
 }
 
 .homePageIntroContainer {
-    margin-top: 190px;
+    /*margin-top: 190px;*/
 }
 
 .homeTxt,
@@ -161,8 +153,7 @@ body {
 .homeTxt {
     text-align: left;
     font-size: 2rem;
-    width: 35%;
-    margin: 20px 0;
+    margin-bottom: 20px;
 }
 
 .portfolioText {
@@ -174,19 +165,13 @@ body {
     text-shadow: 2px 2px 4px #000000;
 }
 
-.homeBtns {
-    margin-top: 30px;
-}
-
 .homeBtn {
-    width: 20px;
-    height: 10px;
     border: 1px solid white;
     border-radius: 3px;
     color: #FFFFFF;
     padding: 12px 23px;
-    margin-right: 25px;
     text-transform: uppercase;
+    margin-bottom: 10px;
 }
 
 .homeBtn:hover {
@@ -364,44 +349,44 @@ Portfolio page
 Bootstrap Media Queries
 /****************************/
 
-@media (max-width: 467px) {
-    p.homeTxt {
-        width: 70%;
-    }
-}
+/*@media (max-width: 467px) {*/
+    /*!*p.homeTxt {*!*/
+        /*!*width: 70%;*!*/
+    /*!*}*!*/
+/*}*/
 
-@media (max-width: 645px) and (min-width: 468px) {
-    p.homeTxt {
-        width: 50%;
-    }
-}
+/*@media (max-width: 645px) and (min-width: 468px) {*/
+    /*!*p.homeTxt {*!*/
+        /*!*width: 50%;*!*/
+    /*!*}*!*/
+/*}*/
 
 /*col-xs-*/
-@media (max-width: 768px) and (min-width: 646px) {
-    p.homeTxt {
-        width: 50%;
+@media (max-width: 768px) {
+    .container {
+        width: 80%;
     }
 }
 
 /*col-sm-*/
 @media (max-width: 992px) and (min-width: 769px) {
-    .container {
-        width: 750px;
-    }
+    /*.container {*/
+        /*width: 750px;*/
+    /*}*/
 }
 
 /*col-md-*/
 @media (max-width: 1200px) and (min-width: 993px) {
-    .container {
-        width: 970px;
-    }
+    /*.container {*/
+        /*width: 970px;*/
+    /*}*/
 }
 
 /*col-lg-*/
 @media (min-width: 1201px) {
-    .container {
-        width: 1170px;
-    }
+    /*.container {*/
+        /*width: 1170px;*/
+    /*}*/
 }
 
 /****************************/
