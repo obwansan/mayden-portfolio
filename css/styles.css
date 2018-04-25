@@ -34,13 +34,7 @@ Bootstrap classes
 /****************************/
 
 .container {
-    /*margin-top: 50%;*/
-    /*margin-bottom: 50%;*/
-    position: absolute;
-    left: 100px;
-    top: 34%;
-    width: 45%;
-    min-width: 500px;
+
 }
 
 .row {
@@ -130,7 +124,13 @@ body {
     }
 }
 
-/****************************/
+.welcome {
+    position: absolute;
+    left: 100px;
+    top: 50%;
+    width: 45%;
+    min-width: 500px;
+}
 
 .homeTitle {
     text-align: left;
@@ -213,7 +213,7 @@ Profile page
     font-size: 1.8rem;
     color: #FFFFFF;
     font-family: 'Rajdhani', sans-serif;
-    width: 50%;
+    /*width: 50%;*/
     margin: 20px 0;
 }
 
@@ -258,23 +258,13 @@ Portfolio page
     background: linear-gradient(to right, #89216b, #da4453) fixed; /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
 }
 
-/*.projectsRow {*/
-    /*margin-top: 180px;*/
-/*}*/
-
-/*.gallery {*/
-    /*overflow: auto;*/
-    /*width: 1200px;*/
-    /*margin: 0 auto;*/
-/*}*/
-
-/*.img-container {*/
-    /*position: relative;*/
-    /*margin-bottom: 240px;*/
-/*}*/
-
 .image-row {
-    margin-bottom: 20px;
+    /*margin-bottom: 20px;*/
+}
+
+.titleRow {
+    margin-bottom: 60px;
+    margin-top: 60px;
 }
 
 .portfolio-image {
@@ -302,7 +292,6 @@ Portfolio page
     background: #4568DC;  /* fallback for old browsers */
     background: -webkit-linear-gradient(to right, #B06AB3, #4568DC);  /* Chrome 10-25, Safari 5.1-6 */
     background: linear-gradient(to right, #B06AB3, #4568DC); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
-
     padding: 32px;
 }
 
@@ -371,7 +360,7 @@ Bootstrap Media Queries
 
 /*col-xs-*/
 @media (max-width: 768px) {
-    .container {
+    .welcome {
         left: 0;
         top: 26%;
         width: 100%;

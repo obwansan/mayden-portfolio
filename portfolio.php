@@ -59,10 +59,10 @@
 
 <!-- project images -->
 <div class="container">
-    <div class="row">
-        <div class="col-xs-12">
+    <div class="row titleRow">
+
             <div class="homeTitle">Selected Work</div>
-        </div>
+
     </div>
     <div class="row image-row">
         <div class="col-xs-12 col-sm-6 col-md-4 col-lg-3 img-box-outer">
@@ -89,8 +89,7 @@
             </a>
             <a href="https://github.com/obwansan/posts-and-railings-challenge" target="_blank" class="viewCode">&ltview code&gt</a>
         </div>
-    </div>
-    <div class="row image-row">
+
         <div class="col-xs-12 col-sm-6 col-md-4 col-lg-3 img-box-outer">
             <a class="img-box-inner" href="#" target="_blank" >
                 <img class="portfolio-image" src="images/portfolio-site.png">
@@ -115,7 +114,7 @@
             </a>
             <a href="https://github.com/obwansan/timer-challenge" target="_blank" class="viewCode">&ltview code&gt</a>
         </div>
-    </div>
+
 </div>
 
 </body>

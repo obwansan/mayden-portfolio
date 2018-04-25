@@ -58,7 +58,7 @@
 
 <!-- main -->
 
-    <div class="container">
+    <div class="container welcome">
         <div class="row rowTitle">
             <div class="homeTitle">Kevin O'Brien,</div>
             <div class="homeTitle">Full-Stack Web Developer</div>
