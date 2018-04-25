@@ -65,12 +65,8 @@
         </div>
         <div class="row rowTxt">
             <p class="homeTxt">Hi. I enjoy creating elegant, innovative websites and applications. Currently training at Mayden Academy, UK</p>
-            <div class="homeBtn">
-               <a href="portfolio.php">Explore work</a>
-            </div>
-            <div class="homeBtn" >
-               <a href="profile.php">View profile</a>
-            </div>
+            <a class="homeBtn href="portfolio.php">Explore work</a>
+            <a class="homeBtn href="profile.php">View profile</a>
         </div>
     </div>
 
