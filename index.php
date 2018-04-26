@@ -60,13 +60,13 @@
 
     <div class="container welcome">
         <div class="row rowTitle">
-            <div class="homeTitle">Kevin O'Brien,</div>
+            <div class="homeTitle">Kevin O'Brien</div>
             <div class="homeTitle">Full-Stack Web Developer</div>
         </div>
-        <div class="row rowTxt">
+        <div class="row rowTxtAndBtns">
             <p class="homeTxt">Hi. I enjoy creating elegant, innovative websites and applications. Currently training at Mayden Academy, UK</p>
-            <a class="homeBtn href="portfolio.php">Explore work</a>
-            <a class="homeBtn href="profile.php">View profile</a>
+            <a class="homeBtn" href="portfolio.php">Explore work</a>
+            <a class="homeBtn" href="profile.php">View profile</a>
         </div>
     </div>
 
