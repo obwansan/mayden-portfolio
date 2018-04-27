@@ -59,11 +59,11 @@
 
 <!-- project images -->
 <div class="container">
+
     <div class="row titleRow">
-
             <div class="homeTitle">Selected Work</div>
-
     </div>
+
     <div class="row image-row">
         <div class="col-xs-12 col-sm-6 col-md-4 col-lg-3 img-box-outer">
             <a class="img-box-inner" href="https://dev.maydenacademy.co.uk/students/2018/kevin/mayden-logo/" target="_blank">
@@ -114,8 +114,13 @@
             </a>
             <a href="https://github.com/obwansan/timer-challenge" target="_blank" class="viewCode">&ltview code&gt</a>
         </div>
+    </div>
 
-</div>
+    <div class="row">
+        <div class="lock-container">
+            <a href="cms/login.php" class="glyphicon glyphicon-lock" data-toggle="tooltip" title="cms"></a>
+        </div>
+    </div>
 
 </body>
 </html>

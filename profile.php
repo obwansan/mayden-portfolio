@@ -68,16 +68,14 @@ $db->setAttribute(PDO::ATTR_DEFAULT_FETCH_MODE, PDO::FETCH_ASSOC);
 
 <!-- main -->
 
-    <div class="container">
+    <div class="container profileContainer">
         <div class="row">
-            <div class="col-xs-12 col-sm-12 profilePageIntroContainer">
-                <h1 class="homeTitle">Profile</h1>
+            <div class="profilePageIntro">
+                <div class="profileTitle">Profile</div>
                 <p class="profileTxt">
                     <?php echo $profileTextString; ?>
                 </p>
-
-        <div class="cms-icon-container">
-            <a href="cms/login.php" class="glyphicon glyphicon-lock" data-toggle="tooltip" title="cms"></a>
+            </div>
         </div>
     </div>
 </body>

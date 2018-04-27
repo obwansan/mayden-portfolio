@@ -90,10 +90,17 @@ function updateEmail($db, $email) {
     $query->bindParam(':email', $email);
     $query->execute();
 }
+// to prevent 'undefined variable' notice
+$profileText = '';
+$email = '';
 
 // get text from the post array
-$profileText = $_POST['profileText'];
-$email = $_POST['email'];
+if (isset($_POST['profileText'])) {
+    $profileText = $_POST['profileText'];
+}
+if (isset($_POST['email'])) {
+    $email = $_POST['email'];
+}
 
 // if there is profile text and an email, update the db and redirect to cms page
 if($profileText != NULL && $email != NULL) {
