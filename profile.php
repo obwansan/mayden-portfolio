@@ -68,13 +68,28 @@ $db->setAttribute(PDO::ATTR_DEFAULT_FETCH_MODE, PDO::FETCH_ASSOC);
 
 <!-- main -->
 
-    <div class="profileContainer">
+    <div class="container profileContainer">
 
-        <div class="profileTitle">Profile</div>
+        <div class="row">
 
-        <div class="profileTxt">
-            <img class="profileImage" src="images/me-photo.jpg" alt="photo-of-kevin-obrien">
-            <?php echo $profileTextString; ?>
+            <div class="profileTitle">Profile</div>
+
+            <div class="profileTxt">
+                <img class="profileImage" src="images/me-photo.jpg" alt="photo-of-kevin-obrien">
+                <?php echo $profileTextString; ?>
+            </div>
+
+        </div>
+
+        <div class="row">
+            <div class="socMedBtnContainer">
+                <img class="socMedBtn" src="images/linkedIn-logo.png">
+
+                <img class="socMedBtn" src="images/facebook-logo.png">
+
+                <img class="socMedBtn" src="images/twitter-logo.png">
+            </div>
+
         </div>
 
     </div>

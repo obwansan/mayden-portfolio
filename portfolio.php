@@ -66,50 +66,50 @@
 
     <div class="row image-row">
         <div class="col-xs-12 col-sm-6 col-md-4 col-lg-3 img-box-outer">
-            <a class="img-box-inner" href="https://dev.maydenacademy.co.uk/students/2018/kevin/mayden-logo/" target="_blank">
+            <a href="https://dev.maydenacademy.co.uk/students/2018/kevin/mayden-logo/" target="_blank">
                 <img class="portfolio-image" src="images/mayden-logo.png" alt="Mayden logo">
             </a>
             <a href="https://github.com/obwansan/mayden-logo-challenge img-container" target="_blank" class="viewCode">&ltview code&gt</a>
         </div>
         <div class="col-xs-12 col-sm-6 col-md-4 col-lg-3 img-box-outer">
-            <a class="img-box-inner" href="https://dev.maydenacademy.co.uk/students/2018/kevin/pilot-shop-build/" target="_blank">
+            <a href="https://dev.maydenacademy.co.uk/students/2018/kevin/pilot-shop-build/" target="_blank">
                 <img class="portfolio-image" src="images/pilot-shop.png" alt="Pilot Shop website logo">
             </a>
             <a href="https://github.com/obwansan/pilot-shop-responsive-site" target="_blank" class="viewCode">&ltview code&gt</a>
         </div>
         <div class="col-xs-12 col-sm-6 col-md-4 col-lg-3 img-box-outer">
-            <a class="img-box-inner" href="#">
+            <a href="#">
                 <img class="portfolio-image" src="images/jsGame-mayrioKart.png">
             </a>
             <a href="https://github.com/Mayden-Academy/2018JSGame" target="_blank" class="viewCode">&ltview code&gt</a>
         </div>
         <div class="col-xs-12 col-sm-6 col-md-4 col-lg-3 img-box-outer">
-            <a class="img-box-inner" href="https://dev.maydenacademy.co.uk/students/2018/kevin/postsRailings/" target="_blank">
+            <a href="https://dev.maydenacademy.co.uk/students/2018/kevin/postsRailings/" target="_blank">
                 <img class="portfolio-image" src="images/posts-rails.png">
             </a>
             <a href="https://github.com/obwansan/posts-and-railings-challenge" target="_blank" class="viewCode">&ltview code&gt</a>
         </div>
 
         <div class="col-xs-12 col-sm-6 col-md-4 col-lg-3 img-box-outer">
-            <a class="img-box-inner" href="#" target="_blank" >
+            <a href="#" target="_blank" >
                 <img class="portfolio-image" src="images/portfolio-site.png">
             </a>
             <a href="https://github.com/obwansan/mayden-portfolio/tree/story-cms" target="_blank" class="viewCode">&ltview code&gt</a>
         </div>
         <div class="col-xs-12 col-sm-6 col-md-4 col-lg-3 img-box-outer">
-            <a class="img-box-inner" href="#" target="_blank" >
+            <a href="#" target="_blank" >
                 <img class="portfolio-image" src="images/ace-bet-blackjack.jpg">
             </a>
             <a href="https://github.com/obwansan/blackjack-game" target="_blank" class="viewCode">&ltview code&gt</a>
         </div>
         <div class="col-xs-12 col-sm-6 col-md-4 col-lg-3 img-box-outer">
-            <a class="img-box-inner" href="https://dev.maydenacademy.co.uk/students/2018/kevin/formValidatorChallenge/" target="_blank" >
+            <a href="https://dev.maydenacademy.co.uk/students/2018/kevin/formValidatorChallenge/" target="_blank" >
                 <img class="portfolio-image" src="images/form-validation.png">
             </a>
             <a href="https://github.com/obwansan/form-validator-challenge/" target="_blank" class="viewCode">&ltview code&gt</a>
         </div>
         <div class="col-xs-12 col-sm-6 col-md-4 col-lg-3 img-box-outer">
-            <a class="img-box-inner" href="https://dev.maydenacademy.co.uk/students/2018/kevin/timerChallenge/" target="_blank" >
+            <a href="https://dev.maydenacademy.co.uk/students/2018/kevin/timerChallenge/" target="_blank" >
                 <img class="portfolio-image" src="images/project-placeholder.png">
             </a>
             <a href="https://github.com/obwansan/timer-challenge" target="_blank" class="viewCode">&ltview code&gt</a>
