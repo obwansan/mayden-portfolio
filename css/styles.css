@@ -205,10 +205,7 @@ Profile page
 }
 
 .profileContainer {
-    margin-left: 30px;
-    margin-top: 75px;
-    margin-bottom: 100px;
-    width: 530px;
+    margin: 75px 30px 100px;
 }
 
 .profilePageIntro {
@@ -217,6 +214,15 @@ Profile page
 
 .profileTitle {
     margin-bottom: 15px;
+}
+
+.profileImage {
+    width: 200px;
+    border-radius: 8px;
+    border: 5px solid black;
+    margin-right: 20px;
+    margin-bottom: 20px;
+    float: left;
 }
 
 .icons {
@@ -247,10 +253,6 @@ p {
     left: 1180px;
     width: 30px;
     height: 30px;
-}
-
-.cms-icon-container {
-
 }
 
 /****************************
@@ -358,11 +360,11 @@ Bootstrap Media Queries
     }
 }
 
-/*@media (max-width: 645px) and (min-width: 468px) {*/
-    /*!*p.homeTxt {*!*/
-        /*!*width: 50%;*!*/
-    /*!*}*!*/
-/*}*/
+@media (max-width: 600px) {
+    .profileImageContainer {
+        display: inline-block;
+    }
+}
 
 /*col-xs-*/
 @media (max-width: 768px) {
@@ -391,30 +393,29 @@ Bootstrap Media Queries
     .rowTxtAndBtns {
         width: 100%;
     }
-    .profileContainer {
-        width: 50%;
-    }
 }
 
 /*col-sm-*/
 @media (max-width: 992px) and (min-width: 769px) {
-    /*.container {*/
-        /*width: 750px;*/
-    /*}*/
+
+}
+
+@media (min-width: 992px) {
+
+    .profileContainer {
+        width: 930px;
+    }
+
 }
 
 /*col-md-*/
 @media (max-width: 1200px) and (min-width: 993px) {
-    /*.container {*/
-        /*width: 970px;*/
-    /*}*/
+
 }
 
 /*col-lg-*/
 @media (min-width: 1201px) {
-    /*.container {*/
-        /*width: 1170px;*/
-    /*}*/
+
 }
 
 /****************************/
