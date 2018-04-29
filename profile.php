@@ -11,7 +11,7 @@ $db->setAttribute(PDO::ATTR_DEFAULT_FETCH_MODE, PDO::FETCH_ASSOC);
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <title>Profile</title>
+    <title>Kevin O'Brien - Web Developer</title>
     <!--  Meta-data  -->
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <!--  Bootstrap  -->
