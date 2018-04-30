@@ -136,7 +136,7 @@ body {
 .homeTitle,
 .profileTitle {
     text-align: left;
-    font-size: 4.1rem;
+    font-size: 4.3rem;
     font-weight: 600;
     font-family: 'Megrim', cursive;
     color: #FFFFFF;
@@ -207,8 +207,11 @@ Profile page
 }
 
 .profileContainer {
-    margin: 75px 30px 100px;
+    /*margin: 75px 30px 100px;*/
     position: absolute;
+    left: 90px;
+    top: 150px;
+    width: 865px;
 }
 
 .profilePageIntro {
@@ -216,7 +219,7 @@ Profile page
 }
 
 .profileTitle {
-    margin-bottom: 15px;
+    margin-bottom: 35px;
 }
 
 .profileImage {
@@ -251,7 +254,7 @@ p {
 }
 
 .socMedBtnContainer {
-    margin: 70px auto;
+    margin: 40px auto;
     width: fit-content;
     border: 1px solid #FFFFFF;
     border-radius: 5px;
@@ -289,6 +292,10 @@ Portfolio page
     margin-top: 60px;
 }
 
+/****************************
+Project images
+/****************************/
+
 .portfolio-image {
     position: relative;
     display: block;
@@ -303,27 +310,51 @@ Portfolio page
     height: 275px;
 }
 
-/****************************
-Project images
-/****************************/
-
 .mayden-logo {
     background-image: url("http://192.168.20.20/portfolio-and-cms/images/mayden-logo.png");
     background-repeat: no-repeat;
+    background-position: center;
     background-size: cover;
 }
 
 .pilot-shop {
     background-image: url("http://192.168.20.20/portfolio-and-cms/images/pilot-shop.png");
     background-repeat: no-repeat;
-    background-size: cover;
+    background-position: center;
+    background-size: contain;
 }
 
-.pilot-shop {
-    background-image: url("http://192.168.20.20/portfolio-and-cms/images/pilot-shop.png");
+.js-game {
+    background-image: url("http://192.168.20.20/portfolio-and-cms/images/jsGame-mayrioKart.png");
     background-repeat: no-repeat;
     background-size: cover;
 }
+
+.posts-railings {
+    background-image: url("http://192.168.20.20/portfolio-and-cms/images/php-posts-railings.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.portfolio-cms {
+    background-image: url("http://192.168.20.20/portfolio-and-cms/images/portfolio-site.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.form-validation {
+    background-image: url("http://192.168.20.20/portfolio-and-cms/images/form-validation.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.js-timer {
+    background-image: url("http://192.168.20.20/portfolio-and-cms/images/js-timer.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+/****************************/
 
 .overlay {
     margin: 0 auto;
@@ -393,7 +424,7 @@ Project images
 }
 
 /****************************
-Bootstrap Media Queries
+Bootstrap Beakpoint Media Queries
 /****************************/
 
 @media (max-width: 440px) {
@@ -403,9 +434,9 @@ Bootstrap Media Queries
 }
 
 @media (max-width: 600px) {
-    .profileImageContainer {
-        display: inline-block;
-    }
+    /*.profileImageContainer {*/
+        /*display: inline-block;*/
+    /*}*/
 }
 
 /*col-xs-*/
@@ -419,7 +450,7 @@ Bootstrap Media Queries
     }
     .homeTitle,
     .profileTitle {
-        font-size: 2.8rem;
+        font-size: 3.2rem;
         font-weight: 600;
     }
     .homeTxt,
@@ -436,10 +467,10 @@ Bootstrap Media Queries
         width: 100%;
     }
     .profileContainer {
-        left: 0;
-        top: 17%;
+        left: 5%;
+        top: 30%;
         width: 100%;
-        min-width: 100%;
+        min-width: 90%;
         padding: 0 40px;
     }
 
@@ -452,11 +483,18 @@ Bootstrap Media Queries
 
 @media (min-width: 992px) {
 
-    .profileContainer {
-        width: 930px;
-    }
-
+    /*.profileContainer {*/
+        /*width: 930px;*/
+    /*}*/
 }
+
+@media (max-width: 1060px) {
+
+    .profileContainer {
+        width: 80%;
+    }
+}
+
 
 /*col-md-*/
 @media (max-width: 1200px) and (min-width: 993px) {

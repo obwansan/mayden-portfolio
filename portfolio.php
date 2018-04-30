@@ -67,7 +67,6 @@
         <!-- Mayden logo -->
         <div class="col-xs-12 col-sm-6 col-md-4 col-lg-3 img-box-outer">
             <div class="portfolio-image mayden-logo">
-<!--                <img class="portfolio-image" src="images/mayden-logo.png" alt="Mayden logo">-->
                 <div class="overlay">
                     <a class="portfolioText" href="https://dev.maydenacademy.co.uk/students/2018/kevin/mayden-logo/" target="_blank">Mayden logo made with HTML & CSS</a>
                 </div>
@@ -77,9 +76,10 @@
 
         <!-- Pilot Shop -->
         <div class="col-xs-12 col-sm-6 col-md-4 col-lg-3 img-box-outer">
-            <img class="portfolio-image" src="images/pilot-shop.png" alt="Pilot Shop website logo">
-            <div class="overlay">
-                <a class="portfolioText" href="https://dev.maydenacademy.co.uk/students/2018/kevin/pilot-shop-build/" target="_blank">Clone of ecommerce template website</a>
+            <div class="portfolio-image pilot-shop">
+                <div class="overlay">
+                    <a class="portfolioText" href="https://dev.maydenacademy.co.uk/students/2018/kevin/pilot-shop-build/" target="_blank">Clone of ecommerce template website</a>
+                </div>
             </div>
             <a href="https://github.com/obwansan/pilot-shop-responsive-site" target="_blank" class="viewCode">&ltview code&gt</a>
         </div>
