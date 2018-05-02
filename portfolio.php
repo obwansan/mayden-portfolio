@@ -94,7 +94,7 @@
 </div>
 
 <!-- projects -->
-<div class="container">
+<div class="container projectsContainer">
     <div class="row titleRow">
         <div class="homeTitle">Selected Work</div>
     </div>

@@ -105,11 +105,10 @@ Home page
 /****************************/
 
 body {
-    /*width: 100wh;*/
     height: 90vh;
     color: #fff;
     background: linear-gradient(45deg, #0bd519, #1127d5, #a918e7, #ee1523);
-    background-size: 400% 400%;
+    background-size: 1000% 1000%;
     animation: Gradient 20s infinite;
 }
 
@@ -135,12 +134,10 @@ body {
 
 .homeTitle,
 .profileTitle {
-    text-align: left;
     font-size: 4.5rem;
     font-weight: 600;
     font-family: 'Megrim', cursive;
     color: #FFFFFF;
-    letter-spacing: 0;
 }
 
 .homeTitle:hover {
@@ -279,6 +276,11 @@ Portfolio page
     background: #da4453; /* fallback for old browsers */
     background: -webkit-linear-gradient(to right, #89216b, #da4453) fixed; /* Chrome 10-25, Safari 5.1-6 */
     background: linear-gradient(to right, #89216b, #da4453) fixed; /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+}
+
+.projectsContainer {
+    position: absolute;
+    left: 40px;
 }
 
 .image-row {
