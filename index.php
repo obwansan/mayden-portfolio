@@ -9,6 +9,7 @@
     <!--  CSS  -->
     <link rel="stylesheet" type="text/css" href="css/normalize.css">
     <link rel="stylesheet" type="text/css" href="css/styles.css">
+    <link rel="stylesheet" type="text/css" href="css/particles.css">
     <!--  Fonts  -->
     <link href="https://fonts.googleapis.com/css?family=Megrim|Rajdhani" rel="stylesheet">
     <!--  JS  -->
@@ -69,6 +70,41 @@
             <a class="homeBtn" href="profile.php">View profile</a>
         </div>
     </div>
+
+<!-- Particles animation -->
+<!-- Inspired by: https://codepen.io/natewiley/pen/Ciwyn -->
+<div id="particle-container">
+    <div class="particle"></div>
+    <div class="particle"></div>
+    <div class="particle"></div>
+    <div class="particle"></div>
+    <div class="particle"></div>
+    <div class="particle"></div>
+    <div class="particle"></div>
+    <div class="particle"></div>
+    <div class="particle"></div>
+    <div class="particle"></div>
+    <div class="particle"></div>
+    <div class="particle"></div>
+    <div class="particle"></div>
+    <div class="particle"></div>
+    <div class="particle"></div>
+    <div class="particle"></div>
+    <div class="particle"></div>
+    <div class="particle"></div>
+    <div class="particle"></div>
+    <div class="particle"></div>
+    <div class="particle"></div>
+    <div class="particle"></div>
+    <div class="particle"></div>
+    <div class="particle"></div>
+    <div class="particle"></div>
+    <div class="particle"></div>
+    <div class="particle"></div>
+    <div class="particle"></div>
+    <div class="particle"></div>
+    <div class="particle"></div>
+</div>
 
 </body>
 </html>

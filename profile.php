@@ -18,6 +18,7 @@ $db->setAttribute(PDO::ATTR_DEFAULT_FETCH_MODE, PDO::FETCH_ASSOC);
     <link rel="stylesheet" type="text/css" href="css/bootstrap-3.3.7-dist/css/bootstrap.css">
     <!--  CSS  -->
     <link rel="stylesheet" type="text/css" href="css/normalize.css">
+    <link rel="stylesheet" type="text/css" href="css/particles.css">
     <link rel="stylesheet" type="text/css" href="css/styles.css">
     <!--  Fonts  -->
     <link href="https://fonts.googleapis.com/css?family=Megrim|Rajdhani" rel="stylesheet">
@@ -67,32 +68,57 @@ $db->setAttribute(PDO::ATTR_DEFAULT_FETCH_MODE, PDO::FETCH_ASSOC);
 </nav>
 
 <!-- main -->
-
     <div class="container profileContainer">
-
         <div class="row">
-
             <div class="profileTitle">Profile</div>
-
             <div class="profileTxt">
                 <img class="profileImage" src="images/me-photo.jpg" alt="photo-of-kevin-obrien">
                 <?php echo $profileTextString; ?>
             </div>
-
         </div>
-
         <div class="row">
             <div class="socMedBtnContainer">
-                <img class="socMedBtn" src="images/linkedIn-logo.png">
-
-                <img class="socMedBtn" src="images/facebook-logo.png">
-
-                <img class="socMedBtn" src="images/twitter-logo.png">
+                <a href="#"><img class="socMedBtn" src="images/linkedIn-logo.png"></a>
+                <a href="#"><img class="socMedBtn" src="images/facebook-logo.png"></a>
+                <a href="#"><img class="socMedBtn" src="images/twitter-logo.svg"></a>
             </div>
-
         </div>
-
     </div>
+
+<!-- Particles animation -->
+<!-- Inspired by: https://codepen.io/natewiley/pen/Ciwyn -->
+<div id="particle-container">
+    <div class="particle"></div>
+    <div class="particle"></div>
+    <div class="particle"></div>
+    <div class="particle"></div>
+    <div class="particle"></div>
+    <div class="particle"></div>
+    <div class="particle"></div>
+    <div class="particle"></div>
+    <div class="particle"></div>
+    <div class="particle"></div>
+    <div class="particle"></div>
+    <div class="particle"></div>
+    <div class="particle"></div>
+    <div class="particle"></div>
+    <div class="particle"></div>
+    <div class="particle"></div>
+    <div class="particle"></div>
+    <div class="particle"></div>
+    <div class="particle"></div>
+    <div class="particle"></div>
+    <div class="particle"></div>
+    <div class="particle"></div>
+    <div class="particle"></div>
+    <div class="particle"></div>
+    <div class="particle"></div>
+    <div class="particle"></div>
+    <div class="particle"></div>
+    <div class="particle"></div>
+    <div class="particle"></div>
+    <div class="particle"></div>
+</div>
 
 </body>
 </html>

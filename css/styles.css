@@ -88,7 +88,7 @@ Bootstrap classes
      font-size: 22px;
      color: #FFFFFF;
      float: right;
-     box-shadow: 2px 4px 10px black;
+     box-shadow: 1px 2px 5px black;
 }
 
 .glyphicon-lock {
@@ -136,7 +136,7 @@ body {
 .homeTitle,
 .profileTitle {
     text-align: left;
-    font-size: 4.3rem;
+    font-size: 4.5rem;
     font-weight: 600;
     font-family: 'Megrim', cursive;
     color: #FFFFFF;
@@ -181,7 +181,7 @@ body {
     margin-right: 15px;
     transition: background-color 0.3s ease, color 0.3s ease;
     letter-spacing: 1px;
-    box-shadow: 2px 2px 6px black;
+    box-shadow: 1px 1px 3px black;
 }
 
 .homeBtn:hover {
@@ -254,22 +254,20 @@ p {
 }
 
 .socMedBtnContainer {
-    margin: 40px auto;
+    margin: 40px auto 80px;
     width: fit-content;
-    border: 1px solid #FFFFFF;
-    border-radius: 5px;
+    /*border: 1px solid #FFFFFF;*/
+    /*border-radius: 5px;*/
     padding: 20px 5px;
-    box-shadow: 2px 2px 6px black;
+    /*box-shadow: 2px 2px 6px black;*/
 }
 
 .socMedBtn {
-    height: 50px;
-    width: 50px;
-    margin-right: 15px;
-    margin-left: 15px;
+    height: 40px;
+    width: 40px;
+    margin-right: 8px;
+    margin-left: 8px;
     box-shadow: 2px 2px 6px black;
-    /*border: 2px solid white;*/
-    /*border-radius: 4px;*/
 }
 
 /****************************
@@ -292,9 +290,7 @@ Portfolio page
     margin-top: 60px;
 }
 
-/****************************
-Project images
-/****************************/
+/*** Project images ***/
 
 .portfolio-image {
     position: relative;
@@ -327,30 +323,49 @@ Project images
 .js-game {
     background-image: url("http://192.168.20.20/portfolio-and-cms/images/jsGame-mayrioKart.png");
     background-repeat: no-repeat;
-    background-size: cover;
-}
-
-.posts-railings {
-    background-image: url("http://192.168.20.20/portfolio-and-cms/images/php-posts-railings.png");
-    background-repeat: no-repeat;
+    background-position: center;
     background-size: cover;
 }
 
 .portfolio-cms {
-    background-image: url("http://192.168.20.20/portfolio-and-cms/images/portfolio-site.png");
+    background-image: url("http://192.168.20.20/portfolio-and-cms/images/portfolio-cms.png");
     background-repeat: no-repeat;
+    background-position: center;
+    background-size: contain;
+}
+
+.posts-railings {
+    background-image: url("http://192.168.20.20/portfolio-and-cms/images/posts-rails.png");
+    background-repeat: no-repeat;
+    background-position: center;
     background-size: cover;
 }
+
+/*.blackjack {*/
+    /*background-image: url("http://192.168.20.20/portfolio-and-cms/images/ace-bet-blackjack.jpg");*/
+    /*background-repeat: no-repeat;*/
+    /*background-position: center;*/
+    /*background-size: contain;*/
+/*}*/
 
 .form-validation {
     background-image: url("http://192.168.20.20/portfolio-and-cms/images/form-validation.png");
     background-repeat: no-repeat;
-    background-size: cover;
+    background-position: center;
+    background-size: contain;
 }
 
 .js-timer {
-    background-image: url("http://192.168.20.20/portfolio-and-cms/images/js-timer.png");
+    background-image: url("http://192.168.20.20/portfolio-and-cms/images/hourglass.png");
     background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+
+.carousel {
+    background-image: url("http://192.168.20.20/portfolio-and-cms/images/carousel.png");
+    background-repeat: no-repeat;
+    background-position: center;
     background-size: cover;
 }
 
