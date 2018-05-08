@@ -1,16 +1,32 @@
-/****************************
-Generic
-/****************************/
-
 * {
     box-sizing: border-box;
 }
 
 body {
+    position: relative;
     margin: 0;
     font-family: 'Josefin Sans', sans-serif;
     color: #ffffff;
-    position: relative;
+    height: 100vh;
+
+    /* 4 colours. 45deg angle of colours gives illusion of colours moving from bottom left corner to
+    top right corner as background moves across browser on x-axis */
+    background: linear-gradient(45deg, #0bd519, #1127d5, #a918e7, #ee1523);
+
+    /* Background position moves across browser so background-size needs to be bigger */
+    background-size: 400% 400%;
+    animation: BackgroundGradient 20s ease infinite;
+}
+
+@keyframes BackgroundGradient {
+    /* background-position: x-axis y-axis */
+
+    /* animation starts with background aligned with left side of browser and half-way up */
+    0% {background-position: 0% 50%}
+    /* at 10s background is aligned with right side of browser and halfway up */
+    50% {background-position: 100% 50%}
+    /* at 20s we're back to start position (animation reverses from 10s to 20s) */
+    100% {background-position: 0% 50%}
 }
 
 a, a:hover, a:visited, a:active, a:link {
@@ -32,14 +48,6 @@ a, a:hover, a:visited, a:active, a:link {
 /****************************
 Bootstrap classes
 /****************************/
-
-.container {
-
-}
-
-.row {
-
-}
 
 .rowTitle {
     margin-bottom: 12px;
@@ -88,7 +96,7 @@ Bootstrap classes
      font-size: 22px;
      color: #FFFFFF;
      float: right;
-     box-shadow: 1px 2px 5px black;
+     /*box-shadow: 1px 2px 5px black;*/
 }
 
 .glyphicon-lock {
@@ -103,26 +111,6 @@ Bootstrap classes
 /****************************
 Home page
 /****************************/
-
-body {
-    height: 90vh;
-    color: #fff;
-    background: linear-gradient(45deg, #0bd519, #1127d5, #a918e7, #ee1523);
-    background-size: 1000% 1000%;
-    animation: Gradient 20s infinite;
-}
-
-@keyframes Gradient {
-    0% {
-        background-position: 0% 50%
-    }
-    50% {
-        background-position: 100% 50%
-    }
-    100% {
-        background-position: 0% 50%
-    }
-}
 
 .welcome {
     position: absolute;
@@ -178,7 +166,7 @@ body {
     margin-right: 15px;
     transition: background-color 0.3s ease, color 0.3s ease;
     letter-spacing: 1px;
-    box-shadow: 1px 1px 3px black;
+    /*box-shadow: 1px 1px 3px black;*/
 }
 
 .homeBtn:hover {
@@ -264,7 +252,7 @@ p {
     width: 40px;
     margin-right: 8px;
     margin-left: 8px;
-    box-shadow: 2px 2px 6px black;
+    /*box-shadow: 2px 2px 6px black;*/
 }
 
 /****************************
@@ -279,8 +267,8 @@ Portfolio page
 }
 
 .projectsContainer {
-    position: absolute;
-    left: 40px;
+    /*position: absolute;*/
+    /*left: 40px;*/
 }
 
 .image-row {
@@ -288,7 +276,7 @@ Portfolio page
 }
 
 .titleRow {
-    margin-bottom: 60px;
+    margin-bottom: 80px;
     margin-top: 60px;
 }
 
@@ -316,56 +304,49 @@ Portfolio page
 }
 
 .pilot-shop {
-    background-image: url("http://192.168.20.20/portfolio-and-cms/images/pilot-shop.png");
+    background-image: url("http://192.168.20.20/portfolio-and-cms/images/pilot-shop-logo.png");
     background-repeat: no-repeat;
-    background-position: center;
-    background-size: contain;
-}
-
-.js-game {
-    background-image: url("http://192.168.20.20/portfolio-and-cms/images/jsGame-mayrioKart.png");
-    background-repeat: no-repeat;
-    background-position: center;
+    background-position: -40px;
     background-size: cover;
 }
-
-.portfolio-cms {
-    background-image: url("http://192.168.20.20/portfolio-and-cms/images/portfolio-cms.png");
-    background-repeat: no-repeat;
-    background-position: center;
-    background-size: contain;
-}
-
-.posts-railings {
-    background-image: url("http://192.168.20.20/portfolio-and-cms/images/posts-rails.png");
-    background-repeat: no-repeat;
-    background-position: center;
-    background-size: cover;
-}
-
-/*.blackjack {*/
-    /*background-image: url("http://192.168.20.20/portfolio-and-cms/images/ace-bet-blackjack.jpg");*/
-    /*background-repeat: no-repeat;*/
-    /*background-position: center;*/
-    /*background-size: contain;*/
-/*}*/
 
 .form-validation {
-    background-image: url("http://192.168.20.20/portfolio-and-cms/images/form-validation.png");
+    background-image: url("http://192.168.20.20/portfolio-and-cms/images/form-validation.jpg");
     background-repeat: no-repeat;
     background-position: center;
     background-size: contain;
-}
-
-.js-timer {
-    background-image: url("http://192.168.20.20/portfolio-and-cms/images/hourglass.png");
-    background-repeat: no-repeat;
-    background-position: center;
-    background-size: cover;
 }
 
 .carousel {
-    background-image: url("http://192.168.20.20/portfolio-and-cms/images/carousel.png");
+    background-image: url("http://192.168.20.20/portfolio-and-cms/images/carousel.jpg");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+
+.bootstrap-grid {
+    background-image: url("http://192.168.20.20/portfolio-and-cms/images/boostrap_logo.jpg");
+    background-repeat: no-repeat;
+    background-position: -38px;
+    background-size: cover;
+}
+
+.solar-svg {
+    background-image: url("http://192.168.20.20/portfolio-and-cms/images/solar-svg.jpg");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+
+.aptitude-test {
+    background-image: url("http://192.168.20.20/portfolio-and-cms/images/aptitude-test.jpg");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+
+.totally-pawesome {
+    background-image: url("http://192.168.20.20/portfolio-and-cms/images/totally-pawesome.png");
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
@@ -440,8 +421,12 @@ Portfolio page
     height: 30px;
 }
 
+.lock-container {
+    margin-top: 80px;
+}
+
 /****************************
-Bootstrap Beakpoint Media Queries
+Bootstrap Breakpoint Media Queries
 /****************************/
 
 @media (max-width: 440px) {
@@ -489,8 +474,11 @@ Bootstrap Beakpoint Media Queries
         width: 100%;
         min-width: 90%;
         padding: 0 40px;
+        width: 740px;
     }
-
+    .titleRow {
+        margin-left: 20px;
+    }
 }
 
 /*col-sm-*/
@@ -500,9 +488,6 @@ Bootstrap Beakpoint Media Queries
 
 @media (min-width: 992px) {
 
-    /*.profileContainer {*/
-        /*width: 930px;*/
-    /*}*/
 }
 
 @media (max-width: 1060px) {
@@ -510,12 +495,17 @@ Bootstrap Beakpoint Media Queries
     .profileContainer {
         width: 80%;
     }
+    .lock-container {
+        margin-bottom: 50px;
+    }
 }
 
 
 /*col-md-*/
-@media (max-width: 1200px) and (min-width: 993px) {
-
+@media (max-width: 1200px) {
+    .lock-container {
+        margin-bottom: 50px;
+    }
 }
 
 /*col-lg-*/

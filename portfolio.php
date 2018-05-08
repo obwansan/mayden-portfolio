@@ -110,66 +110,6 @@
             <a href="https://github.com/obwansan/mayden-logo-challenge img-container" target="_blank" class="viewCode">&ltview code&gt</a>
         </div>
 
-        <!-- jQuery Carousel -->
-        <div class="col-xs-12 col-sm-6 col-md-4 col-lg-3 img-box-outer">
-            <div class="portfolio-image carousel">
-                <div class="overlay">
-                    <a class="portfolioText" href="https://dev.maydenacademy.co.uk/students/2018/kevin/jQueryCarousel/" target="_blank">jQuery sliding carousel</a>
-                </div>
-            </div>
-            <a href="https://github.com/obwansan/timer-challenge" target="_blank" class="viewCode">&ltview code&gt</a>
-        </div>
-
-        <!-- JS Game -->
-        <div class="col-xs-12 col-sm-6 col-md-4 col-lg-3 img-box-outer">
-            <div class="portfolio-image js-game">
-                <div class="overlay">
-                    <a class="portfolioText" target="_blank">JavaScript game - team project</a>
-                </div>
-            </div>
-                <a href="https://github.com/Mayden-Academy/2018JSGame" target="_blank" class="viewCode">&ltview code&gt</a>
-        </div>
-
-        <!-- PHP Posts & Railings -->
-        <div class="col-xs-12 col-sm-6 col-md-4 col-lg-3 img-box-outer">
-            <div class="portfolio-image posts-railings">
-                <div class="overlay">
-                    <a class="portfolioText" href="https://dev.maydenacademy.co.uk/students/2018/kevin/postsRailings/" target="_blank">PHP posts & railings challenge</a>
-                </div>
-            </div>
-            <a href="https://github.com/obwansan/posts-and-railings-challenge" target="_blank" class="viewCode">&ltview code&gt</a>
-        </div>
-
-        <!-- Portfolio & CMS -->
-        <div class="col-xs-12 col-sm-6 col-md-4 col-lg-3 img-box-outer">
-            <div class="portfolio-image portfolio-cms">
-                <div class="overlay">
-                    <div class="portfolioText">Portfolio with CMS</div>
-                </div>
-            </div>
-            <a href="https://github.com/obwansan/mayden-portfolio/tree/story-cms-pf-v4-projectsPageLayout" target="_blank" class="viewCode">&ltview code&gt</a>
-        </div>
-
-        <!-- PHP Blackjack Game -->
-<!--        <div class="col-xs-12 col-sm-6 col-md-4 col-lg-3 img-box-outer">-->
-<!--            <div class="portfolio-image blackjack">-->
-<!--                <div class="overlay">-->
-<!--                    <a class="portfolioText"   target="_blank">PHP blackjack game & tests</a>-->
-<!--                </div>-->
-<!--            </div>-->
-<!--            <a href="https://github.com/obwansan/blackjack-game" target="_blank" class="viewCode">&ltview code&gt</a>-->
-<!--        </div>-->
-
-        <!-- Form Validation Challenge -->
-        <div class="col-xs-12 col-sm-6 col-md-4 col-lg-3 img-box-outer">
-            <div class="portfolio-image form-validation">
-                <div class="overlay">
-                    <a class="portfolioText" href="https://dev.maydenacademy.co.uk/students/2018/kevin/formValidatorChallenge/" target="_blank">JavaScript form validation challenge</a>
-                </div>
-            </div>
-            <a href="https://github.com/obwansan/form-validator-challenge/" target="_blank" class="viewCode">&ltview code&gt</a>
-        </div>
-
         <!-- Pilot Shop -->
         <div class="col-xs-12 col-sm-6 col-md-4 col-lg-3 img-box-outer">
             <div class="portfolio-image pilot-shop">
@@ -180,26 +120,73 @@
             <a href="https://github.com/obwansan/pilot-shop-responsive-site" target="_blank" class="viewCode">&ltview code&gt</a>
         </div>
 
-        <!-- JS Timer Challenge -->
+        <!-- Form Validation Challenge -->
         <div class="col-xs-12 col-sm-6 col-md-4 col-lg-3 img-box-outer">
-            <div class="portfolio-image js-timer">
+            <div class="portfolio-image form-validation">
                 <div class="overlay">
-                    <a class="portfolioText" href="https://dev.maydenacademy.co.uk/students/2018/kevin/timerChallenge/" target="_blank">JS DOM - Timer challenge</a>
+                    <a class="portfolioText" href="https://dev.maydenacademy.co.uk/students/2018/kevin/formValidatorChallenge/" target="_blank">JavaScript form validation</a>
+                </div>
+            </div>
+            <a href="https://github.com/obwansan/form-validator-challenge/" target="_blank" class="viewCode">&ltview code&gt</a>
+        </div>
+
+        <!-- jQuery Carousel -->
+        <div class="col-xs-12 col-sm-6 col-md-4 col-lg-3 img-box-outer">
+            <div class="portfolio-image carousel">
+                <div class="overlay">
+                    <a class="portfolioText" href="https://dev.maydenacademy.co.uk/students/2018/kevin/jQueryCarousel/" target="_blank">jQuery sliding carousel</a>
                 </div>
             </div>
             <a href="https://github.com/obwansan/timer-challenge" target="_blank" class="viewCode">&ltview code&gt</a>
         </div>
 
+        <!-- Bootstrap Grid - Website Clone -->
+        <div class="col-xs-12 col-sm-6 col-md-4 col-lg-3 img-box-outer">
+            <div class="portfolio-image bootstrap-grid">
+                <div class="overlay">
+                    <a class="portfolioText" href="https://dev.maydenacademy.co.uk/students/2018/kevin/bsSiteLayout/" target="_blank">Bootstrap grid exercise</a>
+                </div>
+            </div>
+            <a href="https://github.com/obwansan/bootstrapGridExercise" target="_blank" class="viewCode">&ltview code&gt</a>
+        </div>
+
+        <!-- SVG Solar System -->
+        <div class="col-xs-12 col-sm-6 col-md-4 col-lg-3 img-box-outer">
+            <div class="portfolio-image solar-svg">
+                <div class="overlay">
+                    <a href="https://dev.maydenacademy.co.uk/students/2018/kevin/solarSVG/" class="portfolioText" target="_blank">Solar system made with SVGs & CSS</a>
+                </div>
+            </div>
+            <a href="https://github.com/obwansan/solarSVG" target="_blank" class="viewCode">&ltview code&gt</a>
+        </div>
+
+        <!-- Aptitude Test -->
+        <div class="col-xs-12 col-sm-6 col-md-4 col-lg-3 img-box-outer">
+            <div class="portfolio-image aptitude-test">
+                <div class="overlay">
+                    <a class="portfolioText" href="https://dev.maydenacademy.co.uk/projects/2018Feb/aptitude/app" target="_blank">Aptitude test app using OOP PHP</a>
+                </div>
+            </div>
+            <a href="https://github.com/Mayden-Academy/aptitude-test" target="_blank" class="viewCode">&ltview code&gt</a>
+        </div>
+
+        <!-- Totally Pawesome -->
+        <div class="col-xs-12 col-sm-6 col-md-4 col-lg-3 img-box-outer">
+            <div class="portfolio-image totally-pawesome">
+                <div class="overlay">
+                    <a class="portfolioText" href="https://dev.maydenacademy.co.uk/projects/2018Feb/totallyPawsome" target="_blank">Ecommerce shop-front using OOP PHP</a>
+                </div>
+            </div>
+            <a href="https://github.com/Mayden-Academy/EcommerceStoreFeb2018" target="_blank" class="viewCode">&ltview code&gt</a>
+        </div>
     </div>
 
-    <div class="row">
-        <div class="lock-container">
+    <div class="row lock-container">
+        <div>
             <a href="cms/login.php" class="glyphicon glyphicon-lock" data-toggle="tooltip" title="cms"></a>
         </div>
     </div>
 </div>
-
-
 
 </body>
 </html>

@@ -58,7 +58,6 @@
 </nav>
 
 <!-- main -->
-
     <div class="container welcome">
         <div class="row rowTitle">
             <div class="homeTitle">Kevin O'Brien</div>

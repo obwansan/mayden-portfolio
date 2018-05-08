@@ -1,8 +1,11 @@
 <?php
 
+error_reporting(E_ALL);
+ini_set('display_errors', 'On');
+
 require_once 'cms/profileFunctions.php';
 
-$db = new PDO('mysql:host=127.0.0.1;dbname=portfolio-kevin', 'root', 'LxM7<{9d1AMR');
+$db = new PDO('mysql:host=127.0.0.1;dbname=portfolio-kevin', 'root');
 $db->setAttribute(PDO::ATTR_DEFAULT_FETCH_MODE, PDO::FETCH_ASSOC);
 
 ?>
@@ -72,7 +75,7 @@ $db->setAttribute(PDO::ATTR_DEFAULT_FETCH_MODE, PDO::FETCH_ASSOC);
         <div class="row">
             <div class="profileTitle">Profile</div>
             <div class="profileTxt">
-                <img class="profileImage" src="images/me-photo.jpg" alt="photo-of-kevin-obrien">
+<!--                <img class="profileImage" src="images/me-photo.jpg" alt="photo-of-kevin-obrien">-->
                 <?php echo $profileTextString; ?>
             </div>
         </div>
