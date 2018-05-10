@@ -49,7 +49,7 @@
                     </a>
                 </li>
                 <li>
-                    <a href="portfolio.php" data-toggle="tooltip" title="contact">
+                    <a href="mailto:kob123@hotmail.co.uk?subject=Contact via Portfolio Site" data-toggle="tooltip" title="contact">
                         <span class="glyphicon glyphicon-envelope" aria-label="contact link"></span>
                     </a>
                 </li>
@@ -91,6 +91,26 @@
     <div class="particle"></div>
     <div class="particle"></div>
     <div class="particle"></div>
+    <div class="particle"></div>
+    <div class="particle"></div>
+    <div class="particle"></div>
+    <div class="particle"></div>
+    <div class="particle"></div>
+    <div class="particle"></div>
+    <div class="particle"></div>
+    <div class="particle"></div>
+    <div class="particle"></div>
+    <div class="particle"></div>
+    <div class="particle"></div>
+    <div class="particle"></div>
+    <div class="particle"></div>
+    <div class="particle"></div>
+    <div class="particle"></div>
+    <div class="particle"></div>
+    <div class="particle"></div>
+    <div class="particle"></div>
+    <div class="particle"></div>
+    <div class="particle"></div>
 </div>
 
 <!-- projects -->
@@ -98,7 +118,7 @@
     <div class="row titleRow">
         <div class="homeTitle">Selected Work</div>
     </div>
-    <div class="row image-row">
+    <div class="row">
 
         <!-- Mayden logo -->
         <div class="col-xs-12 col-sm-6 col-md-4 col-lg-3 img-box-outer">
@@ -107,7 +127,7 @@
                     <a class="portfolioText" href="https://dev.maydenacademy.co.uk/students/2018/kevin/mayden-logo/" target="_blank">Mayden logo made with HTML & CSS</a>
                 </div>
             </div>
-            <a href="https://github.com/obwansan/mayden-logo-challenge img-container" target="_blank" class="viewCode">&ltview code&gt</a>
+            <a href="https://github.com/obwansan/mayden-logo-challenge" target="_blank" class="viewCode">&ltview code&gt</a>
         </div>
 
         <!-- Pilot Shop -->
@@ -137,7 +157,7 @@
                     <a class="portfolioText" href="https://dev.maydenacademy.co.uk/students/2018/kevin/jQueryCarousel/" target="_blank">jQuery sliding carousel</a>
                 </div>
             </div>
-            <a href="https://github.com/obwansan/timer-challenge" target="_blank" class="viewCode">&ltview code&gt</a>
+            <a href="https://github.com/obwansan/jQuery-Carousel" target="_blank" class="viewCode">&ltview code&gt</a>
         </div>
 
         <!-- Bootstrap Grid - Website Clone -->
@@ -154,7 +174,7 @@
         <div class="col-xs-12 col-sm-6 col-md-4 col-lg-3 img-box-outer">
             <div class="portfolio-image solar-svg">
                 <div class="overlay">
-                    <a href="https://dev.maydenacademy.co.uk/students/2018/kevin/solarSVG/" class="portfolioText" target="_blank">Solar system made with SVGs & CSS</a>
+                    <a href="https://dev.maydenacademy.co.uk/students/2018/kevin/solarSVG" class="portfolioText" target="_blank">Solar system made with SVGs & CSS</a>
                 </div>
             </div>
             <a href="https://github.com/obwansan/solarSVG" target="_blank" class="viewCode">&ltview code&gt</a>
@@ -164,7 +184,7 @@
         <div class="col-xs-12 col-sm-6 col-md-4 col-lg-3 img-box-outer">
             <div class="portfolio-image aptitude-test">
                 <div class="overlay">
-                    <a class="portfolioText" href="https://dev.maydenacademy.co.uk/projects/2018Feb/aptitude/app" target="_blank">Aptitude test app using OOP PHP</a>
+                    <a class="portfolioText" href="https://dev.maydenacademy.co.uk/projects/2018Feb/aptitude/app" target="_blank">Aptitude test app - JS and Handlebars</a>
                 </div>
             </div>
             <a href="https://github.com/Mayden-Academy/aptitude-test" target="_blank" class="viewCode">&ltview code&gt</a>
@@ -174,11 +194,32 @@
         <div class="col-xs-12 col-sm-6 col-md-4 col-lg-3 img-box-outer">
             <div class="portfolio-image totally-pawesome">
                 <div class="overlay">
-                    <a class="portfolioText" href="https://dev.maydenacademy.co.uk/projects/2018Feb/totallyPawsome" target="_blank">Ecommerce shop-front using OOP PHP</a>
+                    <a class="portfolioText" href="https://dev.maydenacademy.co.uk/projects/2018Feb/totallyPawsome" target="_blank">Ecommerce shop-front - OOP PHP</a>
                 </div>
             </div>
             <a href="https://github.com/Mayden-Academy/EcommerceStoreFeb2018" target="_blank" class="viewCode">&ltview code&gt</a>
         </div>
+
+        <!-- JS Game -->
+        <div class="col-xs-12 col-sm-6 col-md-4 col-lg-3 img-box-outer">
+            <div class="portfolio-image js-game">
+                <div class="overlay">
+                    <a class="portfolioText" href="https://dev.maydenacademy.co.uk/projects/2018Feb/JSGame" target="_blank">Simple game made with JavaScript</a>
+                </div>
+            </div>
+            <a href="https://github.com/Mayden-Academy/2018JSGame" target="_blank" class="viewCode">&ltview code&gt</a>
+        </div>
+
+        <!-- Pre-Mayden portfolio  -->
+        <div class="col-xs-12 col-sm-6 col-md-4 col-lg-3  img-box-outer">
+            <div class="portfolio-image pre-mayden-portfolio">
+                <div class="overlay">
+                    <a class="portfolioText" href="https://obwansan.github.io/Portfolio/" target="_blank">Portfolio of pre-MA coding projects</a>
+                </div>
+            </div>
+            <a href="https://github.com/obwansan/Portfolio" target="_blank" class="viewCode">&ltview code&gt</a>
+        </div>
+
     </div>
 
     <div class="row lock-container">

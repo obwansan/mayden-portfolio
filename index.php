@@ -48,7 +48,7 @@
                     </a>
                 </li>
                 <li>
-                    <a href="portfolio.php" data-toggle="tooltip" title="contact">
+                    <a href="mailto:kob123@hotmail.co.uk?subject=Contact via Portfolio Site" data-toggle="tooltip" title="contact">
                         <span class="glyphicon glyphicon-envelope" aria-label="contact link"></span>
                     </a>
                 </li>
@@ -73,6 +73,26 @@
 <!-- Particles animation -->
 <!-- Inspired by: https://codepen.io/natewiley/pen/Ciwyn -->
 <div id="particle-container">
+    <div class="particle"></div>
+    <div class="particle"></div>
+    <div class="particle"></div>
+    <div class="particle"></div>
+    <div class="particle"></div>
+    <div class="particle"></div>
+    <div class="particle"></div>
+    <div class="particle"></div>
+    <div class="particle"></div>
+    <div class="particle"></div>
+    <div class="particle"></div>
+    <div class="particle"></div>
+    <div class="particle"></div>
+    <div class="particle"></div>
+    <div class="particle"></div>
+    <div class="particle"></div>
+    <div class="particle"></div>
+    <div class="particle"></div>
+    <div class="particle"></div>
+    <div class="particle"></div>
     <div class="particle"></div>
     <div class="particle"></div>
     <div class="particle"></div>

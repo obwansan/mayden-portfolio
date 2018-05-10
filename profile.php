@@ -61,7 +61,7 @@ $db->setAttribute(PDO::ATTR_DEFAULT_FETCH_MODE, PDO::FETCH_ASSOC);
                     </a>
                 </li>
                 <li>
-                    <a href="portfolio.php" data-toggle="tooltip" title="contact">
+                    <a href="mailto:kob123@hotmail.co.uk?subject=Contact via Portfolio Site" data-toggle="tooltip" title="contact">
                         <span class="glyphicon glyphicon-envelope" aria-label="contact link"></span>
                     </a>
                 </li>
@@ -79,18 +79,38 @@ $db->setAttribute(PDO::ATTR_DEFAULT_FETCH_MODE, PDO::FETCH_ASSOC);
                 <?php echo $profileTextString; ?>
             </div>
         </div>
-        <div class="row">
-            <div class="socMedBtnContainer">
-                <a href="#"><img class="socMedBtn" src="images/linkedIn-logo.png"></a>
-                <a href="#"><img class="socMedBtn" src="images/facebook-logo.png"></a>
-                <a href="#"><img class="socMedBtn" src="images/twitter-logo.svg"></a>
-            </div>
-        </div>
+<!--        <div class="row">-->
+<!--            <div class="socMedBtnContainer">-->
+<!--                <a href="#"><img class="socMedBtn" src="images/linkedIn-logo.png"></a>-->
+<!--                <a href="#"><img class="socMedBtn" src="images/facebook-logo.png"></a>-->
+<!--                <a href="#"><img class="socMedBtn" src="images/twitter-logo.svg"></a>-->
+<!--            </div>-->
+<!--        </div>-->
     </div>
 
 <!-- Particles animation -->
 <!-- Inspired by: https://codepen.io/natewiley/pen/Ciwyn -->
 <div id="particle-container">
+    <div class="particle"></div>
+    <div class="particle"></div>
+    <div class="particle"></div>
+    <div class="particle"></div>
+    <div class="particle"></div>
+    <div class="particle"></div>
+    <div class="particle"></div>
+    <div class="particle"></div>
+    <div class="particle"></div>
+    <div class="particle"></div>
+    <div class="particle"></div>
+    <div class="particle"></div>
+    <div class="particle"></div>
+    <div class="particle"></div>
+    <div class="particle"></div>
+    <div class="particle"></div>
+    <div class="particle"></div>
+    <div class="particle"></div>
+    <div class="particle"></div>
+    <div class="particle"></div>
     <div class="particle"></div>
     <div class="particle"></div>
     <div class="particle"></div>
