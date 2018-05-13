@@ -167,7 +167,6 @@ Home page
     margin-right: 15px;
     transition: background-color 0.3s ease, color 0.3s ease;
     letter-spacing: 1px;
-    /*box-shadow: 1px 1px 3px black;*/
 }
 
 .homeBtn:hover {
@@ -214,6 +213,11 @@ Profile page
     margin-right: 20px;
     margin-bottom: 20px;
     float: left;
+}
+
+.profileBigLinkBtns {
+    margin-top: 30px;
+    margin-bottom: 40px;
 }
 
 .icons {
