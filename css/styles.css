@@ -288,70 +288,83 @@ Portfolio page
 }
 
 .mayden-logo {
-    background-image: url("http://192.168.20.20/portfolio-and-cms/images/mayden-logo.png");
+    background-image: url("../images/mayden-logo.png");
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
 }
 
 .pilot-shop {
-    background-image: url("http://192.168.20.20/portfolio-and-cms/images/pilot-shop-logo.png");
+    background-image: url("../images/pilot-shop-logo.png");
     background-repeat: no-repeat;
     background-position: -40px;
     background-size: cover;
 }
 
 .form-validation {
-    background-image: url("http://192.168.20.20/portfolio-and-cms/images/form-validation.jpg");
+    background-image: url("../images/form-validation.jpg");
     background-repeat: no-repeat;
     background-position: center;
     background-size: contain;
 }
 
 .carousel {
-    background-image: url("http://192.168.20.20/portfolio-and-cms/images/carousel.jpg");
+    background-image: url("../images/carousel.jpg");
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
 }
 
 .bootstrap-grid {
-    background-image: url("http://192.168.20.20/portfolio-and-cms/images/boostrap_logo.jpg");
+    background-image: url("../images/boostrap_logo.jpg");
     background-repeat: no-repeat;
     background-position: -38px;
     background-size: cover;
 }
 
 .solar-svg {
-    background-image: url("http://192.168.20.20/portfolio-and-cms/images/solar-svg.jpg");
+    background-image: url("../images/solar-svg.jpg");
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
 }
 
 .aptitude-test {
-    background-image: url("http://192.168.20.20/portfolio-and-cms/images/aptitude-test.jpg");
+    background-image: url("../images/aptitude-test.jpg");
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
 }
 
 .totally-pawesome {
-    background-image: url("http://192.168.20.20/portfolio-and-cms/images/totally-pawesome.png");
+    background-image: url("../images/totally-pawesome.png");
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
 }
 
+.application-portal {
+    background-image: url("../images/portal.jpeg");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+
+.express-todo-app {
+    background-image: url("../images/node-express.png");
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+}
+
 .js-game {
-    background-image: url("http://192.168.20.20/portfolio-and-cms/images/jsGame-mayrioKart.png");
+    background-image: url("../images/jsGame-mayrioKart.png");
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
 }
 
 .pre-mayden-portfolio {
-    background-image: url("http://192.168.20.20/portfolio-and-cms/images/octobiwan.jpg");
+    background-image: url("../images/octobiwan.jpg");
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;

@@ -58,7 +58,7 @@
     </div>
 </nav>
 
-<!-- Particles animation -->
+<!-- Particles animation (divs need to be here to be centered on screen -->
 <!-- Inspired by: https://codepen.io/natewiley/pen/Ciwyn -->
 <div id="particle-container">
     <div class="particle"></div>
@@ -200,11 +200,31 @@
             <a href="https://github.com/Mayden-Academy/EcommerceStoreFeb2018" target="_blank" class="viewCode">&ltview code&gt</a>
         </div>
 
+        <!-- Mayden Academy Application Portal -->
+        <div class="col-xs-12 col-sm-6 col-md-4 col-lg-3 img-box-outer">
+            <div class="portfolio-image application-portal">
+                <div class="overlay">
+                    <a class="portfolioText" href="https://dev.maydenacademy.co.uk/projects/AcademyPortal/" target="_blank">Academy Application Portal - PHP MVC framework</a>
+                </div>
+            </div>
+            <a href="https://github.com/Mayden-Academy/AcademyPortal" target="_blank" class="viewCode">&ltview code&gt</a>
+        </div>
+
+        <!-- Node.js & Express _todo app -->
+        <div class="col-xs-12 col-sm-6 col-md-4 col-lg-3 img-box-outer">
+            <div class="portfolio-image express-todo-app">
+                <div class="overlay">
+                    <a class="portfolioText"  target="_blank">Node.js & Express backend of todo app</a>
+                </div>
+            </div>
+            <a href="https://github.com/obwansan/TodoList_App-Express-React" target="_blank" class="viewCode">&ltview code&gt</a>
+        </div>
+
         <!-- JS Game -->
         <div class="col-xs-12 col-sm-6 col-md-4 col-lg-3 img-box-outer">
             <div class="portfolio-image js-game">
                 <div class="overlay">
-                    <a class="portfolioText" href="https://dev.maydenacademy.co.uk/projects/2018Feb/JSGame" target="_blank">Simple game made with JavaScript</a>
+                    <a class="portfolioText"  target="_blank">Simple game made with JavaScript</a>
                 </div>
             </div>
             <a href="https://github.com/Mayden-Academy/2018JSGame" target="_blank" class="viewCode">&ltview code&gt</a>

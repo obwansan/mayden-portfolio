@@ -1,11 +1,11 @@
 <?php
 
-error_reporting(E_ALL);
-ini_set('display_errors', 'On');
+//error_reporting(E_ALL);
+//ini_set('display_errors', 'On');
 
 require_once 'cms/profileFunctions.php';
 
-$db = new PDO('mysql:host=127.0.0.1;dbname=portfolio-kevin', 'root');
+$db = new PDO('mysql:host=127.0.0.1;dbname=portfolio-kevin', 'root', 'LxM7<{9d1AMR');
 $db->setAttribute(PDO::ATTR_DEFAULT_FETCH_MODE, PDO::FETCH_ASSOC);
 
 ?>
